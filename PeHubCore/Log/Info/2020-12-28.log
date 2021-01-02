@@ -1,0 +1,54 @@
+﻿
+2020-12-28 15:30:33,347 [14 INFO ] 
+ -- ASK-0HM5B08UQGHEB:0000000F输入数据
+ QueryData:/api/CodeItemComb/CodeItemCombAdd
+ BodyData:{"combCode":"c000001","combName":"组合1","clsCode":"000001","price":100,"deptCode":"d000001","hospitalCode":"h000001"}
+
+2020-12-28 15:30:47,975 [5 INFO ] 
+ -- ASK-0HM5B08UQGHEB:0000000F输出数据
+{"success":false,"returnMsg":"添加组合失败","returnData":null,"pageSum":0,"countSum":0}
+
+2020-12-28 15:31:05,204 [14 INFO ] 
+ -- ASK-0HM5B08UQGHEB:00000011输入数据
+ QueryData:/api/CodeItemComb/CodeItemCombAdd
+ BodyData:{"combCode":"001","combName":"组合1","clsCode":"001","price":100,"deptCode":"001","hospitalCode":"001"}
+
+2020-12-28 15:31:05,471 [8 INFO ] 
+ -- ASK-0HM5B08UQGHEB:00000011输出数据
+{"success":true,"returnMsg":"成功添加组合","returnData":null,"pageSum":0,"countSum":0}
+
+2020-12-28 15:58:29,523 [13 INFO ] 
+ -- ASK-0HM5B0OGHT2PT:0000000F输入数据
+ QueryData:/api/CodeItemComb/GetCodeItemCombList
+ BodyData:vZxBtlTAFy/RLfJT7w9+iQ==
+
+2020-12-28 15:58:31,557 [5 INFO ] 
+ -- ASK-0HM5B0OGHT2PT:0000000F输出数据
+{"success":true,"returnMsg":"","returnData":[{"combCode":"001   ","combName":"组合1","clsCode":"001   ","price":100.00,"deptCode":"001   ","hospitalCode":"001"},{"combCode":"1     ","combName":"2","clsCode":"3     ","price":4.00,"deptCode":"5     ","hospitalCode":"6"}],"pageSum":0,"countSum":0}
+
+2020-12-28 15:58:55,834 [14 INFO ] 
+ -- ASK-0HM5B0OGHT2PT:00000011输入数据
+ QueryData:/api/CodeItemComb/GetCodeItemCombList
+ BodyData:vZxBtlTAFy/RLfJT7w9+iQ==
+
+2020-12-28 15:58:56,105 [13 INFO ] 
+ -- ASK-0HM5B0OGHT2PT:00000011输出数据
+{"success":true,"returnMsg":"","returnData":[{"combCode":"001   ","combName":"组合1","clsCode":"001   ","price":100.00,"deptCode":"001   ","hospitalCode":"001"},{"combCode":"1     ","combName":"2","clsCode":"3     ","price":4.00,"deptCode":"5     ","hospitalCode":"6"}],"pageSum":0,"countSum":0}
+
+2020-12-28 15:59:02,833 [13 INFO ] 
+ -- ASK-0HM5B0OGHT2PT:00000013输入数据
+ QueryData:/api/CodeItemComb/CodeItemCombAdd
+ BodyData:3EvrDuHsS3YLy5nwHcs8m4EvX4yon1dDvZ72kyhotIm1mKyD5Wc5L53ARa62MIw3
+
+2020-12-28 15:59:02,995 [13 INFO ] 
+ -- ASK-0HM5B0OGHT2PT:00000013输出数据
+{"errors":{"":["Unexpected character encountered while parsing number: v. Path '', line 1, position 2."]},"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"|8b8355a4-43c43dcb4cbf981a."}
+
+2020-12-28 16:20:29,738 [4 INFO ] 
+ -- ASK-0HM5B0OGHT2PV:0000000D输入数据
+ QueryData:/api/CodeItemComb/CodeItemCombDel?combCode=001
+ BodyData:
+
+2020-12-28 16:20:30,406 [23 INFO ] 
+ -- ASK-0HM5B0OGHT2PV:0000000D输出数据
+{"success":true,"returnMsg":"","returnData":null,"pageSum":0,"countSum":0}

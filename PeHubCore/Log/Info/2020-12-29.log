@@ -1,0 +1,1062 @@
+﻿
+2020-12-29 09:15:20,882 [5 INFO ] 
+ -- ASK-0HM5BISLV5I77:00000007输入数据
+ QueryData:/api/CodeItemComb/GetCodeItemCombList
+ BodyData:
+
+2020-12-29 09:15:23,040 [8 INFO ] 
+ -- ASK-0HM5BISLV5I77:00000007输出数据
+{"success":true,"returnMsg":"","returnData":[{"combCode":"1     ","combName":"2","clsCode":"3     ","price":4.00,"deptCode":"5     ","hospitalCode":"6"},{"combCode":"3     ","combName":"组合3","clsCode":"3     ","price":0.00,"deptCode":"3     ","hospitalCode":"3"}],"pageSum":0,"countSum":0}
+
+2020-12-29 11:30:35,654 [19 INFO ] 
+ -- ASK-0HM5BL6KLAK1U:00000001输入数据
+ QueryData:/api/SystemSetting/Login
+ BodyData:{"encryStr":"2SbheYRuYcnp7wQV0FLCgY7B0M5VwVi0Fclz05B1ZkdvIfbUlEZ3pzBC3tVJTkFj"}
+
+2020-12-29 11:30:42,437 [16 INFO ] 
+ -- ASK-0HM5BL6KLAK1U:00000001输出数据
+{"success":true,"returnMsg":"","returnData":{"id":1,"adminCode":"admin","adminName":"admin","adminPwd":null,"adminType":1,"createDate":"2020-03-10T09:03:55.717","createID":"1","updateDate":"2020-05-18T14:58:28.49","updateID":"12","loginDate":"2020-12-29T11:30:39.6954136+08:00","openId":null,"state":1,"token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IlhxSFVvcW9hdV9NNnB1TERqaTRHQWciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2MDkyMTI2MzksImV4cCI6MTYwOTIxOTgzOSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMSIsImF1ZCI6ImFwaTEiLCJjbGllbnRfaWQiOiJjbGllbnRhbmR1c2VyIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYwOTIxMjYzOCwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJhcGkxIl0sImFtciI6WyJwd2QiXX0.j4uWx5YxlTvIqOSxxJfBwqgBnUbYi2siqNtQT98aK5ixZ2s-bTYLwA0Uac3df-8nA4fobHzoIjUaurFj3ZnMYDnpBmTBliYpelDXrdlCEaVYCVbybqV_UsaMTZmWfSlqxQt3YndPvhuhKhWSAdIAACSfmrQT0b7KG2l4MF3SWfHJeJDtqBushZ3jMnQKaAhezGXvxH3DL4MFCGzsWLm0h3S87m_H2s7e89b0FtTrOPZwYmsetjzxmkgCqOiQrPxVafVfrVp-3nYR8uII6KYNKVLsoJV_AhUfhlTqNLV2uMX9HsmPLx4JLHpmP90Dvq-6O5uuPeC7cWoMBOFsSxpOyQ","menudata":[{"id":5,"name":"hospitalManger","path":"hospitalManger","metaTitle":"医院管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":6,"name":"hospital","path":"hospitalManger/hospital","metaTitle":"医院列表","metaTicon":null,"sortIndex":1,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":7,"name":"tag","path":"hospitalManger/tag","metaTitle":"医院标签","metaTicon":null,"sortIndex":2,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":8,"name":"memberManger","path":"memberManger","metaTitle":"会员管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":9,"name":"member","path":"memberManger/member","metaTitle":"会员列表","metaTicon":null,"sortIndex":1,"parentId":8,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":10,"name":"itemClusterManagement","path":"itemClusterManagement","metaTitle":"项目套餐管理","metaTicon":"el-icon-office-building","sortIndex":4,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":11,"name":"itemManagement","path":"itemClusterManagement/itemManagement","metaTitle":"项目管理","metaTicon":"el-icon-office-building","sortIndex":1,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":12,"name":"combManagement","path":"itemClusterManagement/combManagement","metaTitle":"组合管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":13,"name":"clusterManagement","path":"itemClusterManagement/clusterManagement","metaTitle":"套餐管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null}]},"pageSum":0,"countSum":0}
+
+2020-12-29 11:41:47,386 [11 INFO ] 
+ -- ASK-0HM5BLDDQ7VL6:00000005输入数据
+ QueryData:/api/SystemSetting/Login
+ BodyData:{"encryStr":"string"}
+
+2020-12-29 11:41:59,634 [11 INFO ] 
+ -- ASK-0HM5BLDDQ7VL6:00000005输出数据
+{"errors":{"encryStr":["Error setting value to 'encryStr' on 'DataModel.Other.encryData'."]},"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"|59db9fad-418df731736619ab."}
+
+2020-12-29 11:42:32,545 [5 INFO ] 
+ -- ASK-0HM5BLDDQ7VL6:00000007输入数据
+ QueryData:/api/SystemSetting/Login
+ BodyData:{"encryStr":"2SbheYRuYcnp7wQV0FLCgY7B0M5VwVi0Fclz05B1ZkdvIfbUlEZ3pzBC3tVJTkFj"}
+
+2020-12-29 11:42:41,967 [14 INFO ] 
+ -- ASK-0HM5BLDDQ7VL6:00000007输出数据
+{"success":true,"returnMsg":"","returnData":{"id":1,"adminCode":"admin","adminName":"admin","adminPwd":null,"adminType":1,"createDate":"2020-03-10T09:03:55.717","createID":"1","updateDate":"2020-05-18T14:58:28.49","updateID":"12","loginDate":"2020-12-29T11:42:39.4618108+08:00","openId":null,"state":1,"token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IlhxSFVvcW9hdV9NNnB1TERqaTRHQWciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2MDkyMTMzNTksImV4cCI6MTYwOTIyMDU1OSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMSIsImF1ZCI6ImFwaTEiLCJjbGllbnRfaWQiOiJjbGllbnRhbmR1c2VyIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYwOTIxMzM1OSwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJhcGkxIl0sImFtciI6WyJwd2QiXX0.pd4u49Cx8VYA3HoPOFYtqSXdgj5VFnb7mVkoCZWiAbUlz6xDgq5iD62c-v_-afR98LkmaoOHC6qt2VhYrr9ZYaHpd9G8nqtaoDHwW14LHdwRi_nkf8IvaZoPdu3xGb2Hr43cutg1mWpqPqVc-KzPzKNIS5EvD-zKPJT1Nezf3O5804BGr0czjTcqhnGrzWCryT5eWAEqg0opsO-67hxMqapfbjcwNaWODxdRPHqci1w7d20LWIqNt7WrZBhq7kyCdZAfhhxQGhWI2oo91F-Mh1V6Y7q5gHz5qP7TivBjw-zVoupQcCijhP9Oyg2gwu9K1yzMnw68b0Zhke2War3LcQ","menudata":[{"id":5,"name":"hospitalManger","path":"hospitalManger","metaTitle":"医院管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":6,"name":"hospital","path":"hospitalManger/hospital","metaTitle":"医院列表","metaTicon":null,"sortIndex":1,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":7,"name":"tag","path":"hospitalManger/tag","metaTitle":"医院标签","metaTicon":null,"sortIndex":2,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":8,"name":"memberManger","path":"memberManger","metaTitle":"会员管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":9,"name":"member","path":"memberManger/member","metaTitle":"会员列表","metaTicon":null,"sortIndex":1,"parentId":8,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":10,"name":"itemClusterManagement","path":"itemClusterManagement","metaTitle":"项目套餐管理","metaTicon":"el-icon-office-building","sortIndex":4,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":11,"name":"itemManagement","path":"itemClusterManagement/itemManagement","metaTitle":"项目管理","metaTicon":"el-icon-office-building","sortIndex":1,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":12,"name":"combManagement","path":"itemClusterManagement/combManagement","metaTitle":"组合管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":13,"name":"clusterManagement","path":"itemClusterManagement/clusterManagement","metaTitle":"套餐管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null}]},"pageSum":0,"countSum":0}
+
+2020-12-29 11:43:36,988 [5 INFO ] 
+ -- ASK-0HM5BLDDQ7VLA:00000001输入数据
+ QueryData:/api/SystemSetting/Login
+ BodyData:{"encryStr":"2SbheYRuYcnp7wQV0FLCgY7B0M5VwVi0Fclz05B1ZkdvIfbUlEZ3pzBC3tVJTkFj"}
+
+2020-12-29 11:43:46,644 [14 INFO ] 
+ -- ASK-0HM5BLDDQ7VLA:00000001输出数据
+{"success":true,"returnMsg":"","returnData":{"id":1,"adminCode":"admin","adminName":"admin","adminPwd":null,"adminType":1,"createDate":"2020-03-10T09:03:55.717","createID":"1","updateDate":"2020-05-18T14:58:28.49","updateID":"12","loginDate":"2020-12-29T11:43:44.7219281+08:00","openId":null,"state":1,"token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IlhxSFVvcW9hdV9NNnB1TERqaTRHQWciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2MDkyMTM0MjQsImV4cCI6MTYwOTIyMDYyNCwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMSIsImF1ZCI6ImFwaTEiLCJjbGllbnRfaWQiOiJjbGllbnRhbmR1c2VyIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYwOTIxMzQyNCwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJhcGkxIl0sImFtciI6WyJwd2QiXX0.dRIFijRVPvTDMaBYf-Qgck5TWO5ac8CXkCIIwuKW-FO9KGTi7J_t0yGqznh-OcJdpiTnH2y623T6bBT_RylVnUVfOomXLTJEZ03_XBuHGXYQqT1TarNCAL4N1J5UT7d7ut0OjrkigGoQTV3EP33pDtZd-E7qjQNYo20M8gzKjuutxb_EtduehNIvoqdwBAVkyHDO8iDnxQk0EodZSV3XBfj-TQWfi-b8aWVzWAxV2rRMciHpOCjPkFBWAs-U0EJ0gjU2cybOuI2bErZowYPnhJDv60m-1hSjHl5dz4mk5eKUzGBUCZxeiC_aPjERT68vkTIgSCcDGY3YFNqlbIDrug","menudata":[{"id":5,"name":"hospitalManger","path":"hospitalManger","metaTitle":"医院管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":6,"name":"hospital","path":"hospitalManger/hospital","metaTitle":"医院列表","metaTicon":null,"sortIndex":1,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":7,"name":"tag","path":"hospitalManger/tag","metaTitle":"医院标签","metaTicon":null,"sortIndex":2,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":8,"name":"memberManger","path":"memberManger","metaTitle":"会员管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":9,"name":"member","path":"memberManger/member","metaTitle":"会员列表","metaTicon":null,"sortIndex":1,"parentId":8,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":10,"name":"itemClusterManagement","path":"itemClusterManagement","metaTitle":"项目套餐管理","metaTicon":"el-icon-office-building","sortIndex":4,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":11,"name":"itemManagement","path":"itemClusterManagement/itemManagement","metaTitle":"项目管理","metaTicon":"el-icon-office-building","sortIndex":1,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":12,"name":"combManagement","path":"itemClusterManagement/combManagement","metaTitle":"组合管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":13,"name":"clusterManagement","path":"itemClusterManagement/clusterManagement","metaTitle":"套餐管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null}]},"pageSum":0,"countSum":0}
+
+2020-12-29 11:43:48,918 [4 INFO ] 
+ -- ASK-0HM5BLDDQ7VLA:00000003输入数据
+ QueryData:/api/hospital/getHospitalLevelList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 11:43:48,926 [5 INFO ] 
+ -- ASK-0HM5BLDDQ7VLA:00000005输入数据
+ QueryData:/api/tag/getTagList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 11:43:49,222 [4 INFO ] 
+ -- ASK-0HM5BLDDQ7VLA:00000003输出数据
+{"success":true,"returnMsg":"","returnData":[{"key":0,"label":"公立三甲"},{"key":1,"label":"专业机构"},{"key":2,"label":"公立医院"},{"key":3,"label":"民营医院"}],"pageSum":0,"countSum":0}
+
+2020-12-29 11:43:49,531 [4 INFO ] 
+ -- ASK-0HM5BLDDQ7VLA:00000007输入数据
+ QueryData:/api/hospital/getHospitalList
+ BodyData:{"encryStr":"APGVztW+2uJWIX/s0Tx+/eGCm0zmdKOBgN6QByR9XFCjrZkIDPxgtH3evpAtUBLIJF9EyreF9RKvMW1F3Zx5UGjPn6cUdy4yq63Ij28rX14="}
+
+2020-12-29 11:43:50,036 [5 INFO ] 
+ -- ASK-0HM5BLDDQ7VLA:00000005输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":1,"name":"报告权威","hospitalCode":null},{"id":2,"name":"专家团队","hospitalCode":null},{"id":6,"name":"技术精湛","hospitalCode":null},{"id":17,"name":"设备先进","hospitalCode":null}],"pageSum":0,"countSum":0}
+
+2020-12-29 11:43:51,088 [4 INFO ] 
+ -- ASK-0HM5BLDDQ7VLA:00000007输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":4,"name":"广东省职业病防治院","imageUrls":["/ImgHub/1325333452899930685ad77c8892238.jpg"],"level":0,"appointmentTime":"周一至周五8:00-12:00，14:00-17:00（体检当天如需取消项目退费（抽血项目不予退费），需到接待室登记。如体检结束后7天内无反馈信息，后续将不处理退款事宜）","notification":"请提前1天预约，温馨提醒：本机构暂不支持社保报销，包含胃肠镜的项目均不包含药费，需到院自费，耳鼻喉科是打包项目不可退费，望悉知。","details":"广东省职业病防治院成立于1960年，是广东省卫生健康委员会直属公益一类事业单位，主要承担实施政府部门制定的职业病防治计划，承担职业病及职业相关疾病的防治、诊疗、康复、科研、培训、健康教育和基层指导工作，承担职业中毒、核辐射、化学物相关的评价、监测、检验、健康监护以及事故的应急救治和调查处理等工作。","province":"无","city":"无","district":"无","detailAddress":"广州市海珠区新港西路海康街68号","longitude":null,"dimensionality":null,"code":"0001","tags":[{"id":1,"name":"报告权威","hospitalCode":"0001"},{"id":2,"name":"专家团队","hospitalCode":"0001"},{"id":6,"name":"技术精湛","hospitalCode":"0001"},{"id":17,"name":"设备先进","hospitalCode":"0001"}]}],"pageSum":0,"countSum":1}
+
+2020-12-29 11:43:59,831 [5 INFO ] 
+ -- ASK-0HM5BLDDQ7VLA:00000009输入数据
+ QueryData:/api/CodeItem/GetCodeItemList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 11:44:00,203 [5 INFO ] 
+ -- ASK-0HM5BLDDQ7VLA:00000009输出数据
+{"success":true,"returnMsg":"","returnData":[{"itemCode":"3     ","itemName":"张三                                                                                                                                                                                                    ","clsCode":"3     ","unit":"string","refLower":"string","refUpper":"string","sex":"1","price":110.0}],"pageSum":0,"countSum":0}
+
+2020-12-29 11:44:29,233 [16 INFO ] 
+ -- ASK-0HM5BLDDQ7VLA:0000000B输入数据
+ QueryData:/api/CodeItem/CodeItemAdd
+ BodyData:{"encryStr":"4yr6nJbHjYGkn2955/4rPZc1lcKKWJN5H2Nsexqwz/V/1TalMl9QQahCVutxPKRn9FMhC6r8oTP7NXK4bWl9/jzMTKXhCC7qtrjl61GYFqRZck4xlCsJ1sdWZRzjxrBlUAdmiEu4XsFpBNR9vAui6r0kjjeCx05M2jMG0RCxsxU="}
+
+2020-12-29 13:51:56,819 [16 INFO ] 
+ -- ASK-0HM5BLDDQ7VLA:0000000B输出数据
+{"success":false,"returnMsg":"系统繁忙！请稍后在试","returnData":null,"pageSum":0,"countSum":0}
+
+2020-12-29 13:53:04,955 [4 INFO ] 
+ -- ASK-0HM5BLDDQ7VLD:00000001输入数据
+ QueryData:/api/CodeItem/CodeItemAdd
+ BodyData:{"encryStr":"4yr6nJbHjYGkn2955/4rPZc1lcKKWJN5H2Nsexqwz/V/1TalMl9QQahCVutxPKRn9FMhC6r8oTP7NXK4bWl9/jzMTKXhCC7qtrjl61GYFqRZck4xlCsJ1sdWZRzjxrBlUAdmiEu4XsFpBNR9vAui6r0kjjeCx05M2jMG0RCxsxU="}
+
+2020-12-29 13:54:11,594 [4 INFO ] 
+ -- ASK-0HM5BLDDQ7VLD:00000001输出数据
+{"success":false,"returnMsg":"系统繁忙！请稍后在试","returnData":null,"pageSum":0,"countSum":0}
+
+2020-12-29 14:01:52,553 [25 INFO ] 
+ -- ASK-0HM5BLDDQ7VLD:00000003输入数据
+ QueryData:/api/tag/getTagList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 14:01:53,405 [25 INFO ] 
+ -- ASK-0HM5BLDDQ7VLD:00000003输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":1,"name":"报告权威","hospitalCode":null},{"id":2,"name":"专家团队","hospitalCode":null},{"id":6,"name":"技术精湛","hospitalCode":null},{"id":17,"name":"设备先进","hospitalCode":null}],"pageSum":0,"countSum":0}
+
+2020-12-29 14:02:18,066 [24 INFO ] 
+ -- ASK-0HM5BLDDQ7VLD:00000005输入数据
+ QueryData:/api/tag/createTag
+ BodyData:{"encryStr":"ox2mVMM700CrB404fHd5DA=="}
+
+2020-12-29 14:02:32,289 [24 INFO ] 
+ -- ASK-0HM5BLDDQ7VLD:00000005输出数据
+{"success":true,"returnMsg":"创建标签成功!","returnData":{"id":18,"name":"100","hospitalCode":null},"pageSum":0,"countSum":0}
+
+2020-12-29 14:02:39,970 [25 INFO ] 
+ -- ASK-0HM5BLDDQ7VLD:00000007输入数据
+ QueryData:/api/tag/deleteTag
+ BodyData:{"encryStr":"+VGMFTUbm2LHSs7NkyOg1766gF110LFJKUOJ0p7y6vBy81VfSVeVj/zAOwVkNvVD"}
+
+2020-12-29 14:02:40,647 [25 INFO ] 
+ -- ASK-0HM5BLDDQ7VLD:00000007输出数据
+{"success":true,"returnMsg":"删除标签成功!","returnData":null,"pageSum":0,"countSum":0}
+
+2020-12-29 14:02:44,497 [28 INFO ] 
+ -- ASK-0HM5BLDDQ7VLD:00000009输入数据
+ QueryData:/api/CodeItem/GetCodeItemList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 14:02:44,845 [28 INFO ] 
+ -- ASK-0HM5BLDDQ7VLD:00000009输出数据
+{"success":true,"returnMsg":"","returnData":[{"itemCode":"3     ","itemName":"张三                                                                                                                                                                                                    ","clsCode":"3     ","unit":"string","refLower":"string","refUpper":"string","sex":"1","price":110.0}],"pageSum":0,"countSum":0}
+
+2020-12-29 14:10:59,585 [13 INFO ] 
+ -- ASK-0HM5BO1PCABO8:00000001输入数据
+ QueryData:/api/CodeItem/CodeItemAdd
+ BodyData:{"encryStr":"m5DJTg02R7QAi3LekuO5ZHFt8iVp/1BkxL9G+Z9BCzn15/7IPut2zyP4toDpRZyBpB1KNG8sOJnxehdeZCdZvgU3weRD0dHzKuTTgT6WE2Y2DieyZKGTAURH0G6MppGJC6MXhEiNVuMClUN5c1alBDTLQw4P3i/JJ6L85ZID4Kk="}
+
+2020-12-29 14:11:43,629 [13 INFO ] 
+ -- ASK-0HM5BO1PCABO8:00000001输出数据
+{"success":false,"returnMsg":"操作失败！","returnData":null,"pageSum":0,"countSum":0}
+
+2020-12-29 14:19:49,951 [13 INFO ] 
+ -- ASK-0HM5BO6HRGOFC:00000001输入数据
+ QueryData:/api/CodeItem/CodeItemAdd
+ BodyData:{"encryStr":"m5DJTg02R7QAi3LekuO5ZHFt8iVp/1BkxL9G+Z9BCzn15/7IPut2zyP4toDpRZyBpB1KNG8sOJnxehdeZCdZvgU3weRD0dHzKuTTgT6WE2Y2DieyZKGTAURH0G6MppGJC6MXhEiNVuMClUN5c1alBDTLQw4P3i/JJ6L85ZID4Kk="}
+
+2020-12-29 14:21:59,767 [12 INFO ] 
+ -- ASK-0HM5BO6HRGOFC:00000003输入数据
+ QueryData:/api/CodeItem/CodeItemAdd
+ BodyData:{"encryStr":"t8fzsbWgRN/mG4I0BcTYJi68ntr0tljAzR34pTV067eJHCjwcrvcRZ3eG506OPHRT/L9FSEHSNXp63W/YX4tjsLEvf7XJD4Qhxv9GCV/65gq7PC718/wQ6yfwniiUeHh3A9zW/fVTScAorpJnvyUiw=="}
+
+2020-12-29 14:23:00,899 [12 INFO ] 
+ -- ASK-0HM5BO6HRGOFC:00000003输出数据
+{"success":true,"returnMsg":"项目添加成功!","returnData":{"itemCode":"0","itemName":"0","clsCode":"0","unit":"0","refLower":"0","refUpper":"0","sex":"0","price":0.0},"pageSum":0,"countSum":0}
+
+2020-12-29 14:58:20,221 [15 INFO ] 
+ -- ASK-0HM5BOSAVSS0I:00000001输入数据
+ QueryData:/api/CodeItem/GetCodeItemList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 14:58:21,717 [15 INFO ] 
+ -- ASK-0HM5BOSAVSS0I:00000001输出数据
+{"success":true,"returnMsg":"","returnData":[{"itemCode":"0     ","itemName":"0                                                                                                                                                                                                       ","clsCode":"0     ","unit":"0","refLower":"0","refUpper":"0","sex":"0","price":0.0},{"itemCode":"3     ","itemName":"张三                                                                                                                                                                                                    ","clsCode":"3     ","unit":"string","refLower":"string","refUpper":"string","sex":"1","price":110.0}],"pageSum":0,"countSum":0}
+
+2020-12-29 14:59:22,445 [21 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000001输入数据
+ QueryData:/api/SystemSetting/Login
+ BodyData:{"encryStr":"2SbheYRuYcnp7wQV0FLCgY7B0M5VwVi0Fclz05B1ZkdvIfbUlEZ3pzBC3tVJTkFj"}
+
+2020-12-29 14:59:25,684 [4 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000003输入数据
+ QueryData:/api/SystemSetting/Login
+ BodyData:{"encryStr":"2SbheYRuYcnp7wQV0FLCgY7B0M5VwVi0Fclz05B1ZkdvIfbUlEZ3pzBC3tVJTkFj"}
+
+2020-12-29 14:59:27,110 [18 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000005输入数据
+ QueryData:/api/SystemSetting/Login
+ BodyData:{"encryStr":"2SbheYRuYcnp7wQV0FLCgY7B0M5VwVi0Fclz05B1ZkdvIfbUlEZ3pzBC3tVJTkFj"}
+
+2020-12-29 14:59:28,633 [6 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000001输出数据
+{"success":true,"returnMsg":"","returnData":{"id":1,"adminCode":"admin","adminName":"admin","adminPwd":null,"adminType":1,"createDate":"2020-03-10T09:03:55.717","createID":"1","updateDate":"2020-05-18T14:58:28.49","updateID":"12","loginDate":"2020-12-29T14:59:24.250239+08:00","openId":null,"state":1,"token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IlhxSFVvcW9hdV9NNnB1TERqaTRHQWciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2MDkyMjUxNjMsImV4cCI6MTYwOTIzMjM2MywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMSIsImF1ZCI6ImFwaTEiLCJjbGllbnRfaWQiOiJjbGllbnRhbmR1c2VyIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYwOTIyNTE2MywiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJhcGkxIl0sImFtciI6WyJwd2QiXX0.OAeh6gk3zbg1JhgSBOIUB3He-l2WcDtdKMiVfCFGqzW9WvIbZ_DNnVXMm-Fp-KSYptB2WEkebaz7yolNsK1BpElW3V6CUkzFnIzKW7YI9DWLBzj9Uh9z_mL32VTg-PDy8u5Zh6FkYMlhTDHf4oren9yy5CJgy45ucUjfawD4EuBbyZffzjJwJqUaMIRgQLeold9sSvHiAiXr5vHyZGC3X3sjTZEf9w08-xBqjS7hWTXBxJP7GkW6DkMzwUa-iL1zNC9w2sKs2zHxAiI4kwz2P8VE_8iO9skm3Is9kBCaxc7F5RJVHdyaetRmSCFT0H4S6awH1DqlGkuAP2RVfpa0-Q","menudata":[{"id":5,"name":"hospitalManger","path":"hospitalManger","metaTitle":"医院管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":6,"name":"hospital","path":"hospitalManger/hospital","metaTitle":"医院列表","metaTicon":null,"sortIndex":1,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":7,"name":"tag","path":"hospitalManger/tag","metaTitle":"医院标签","metaTicon":null,"sortIndex":2,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":8,"name":"memberManger","path":"memberManger","metaTitle":"会员管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":9,"name":"member","path":"memberManger/member","metaTitle":"会员列表","metaTicon":null,"sortIndex":1,"parentId":8,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":10,"name":"itemClusterManagement","path":"itemClusterManagement","metaTitle":"项目套餐管理","metaTicon":"el-icon-office-building","sortIndex":4,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":11,"name":"itemManagement","path":"itemClusterManagement/itemManagement","metaTitle":"项目管理","metaTicon":"el-icon-office-building","sortIndex":1,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":12,"name":"combManagement","path":"itemClusterManagement/combManagement","metaTitle":"组合管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":13,"name":"clusterManagement","path":"itemClusterManagement/clusterManagement","metaTitle":"套餐管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null}]},"pageSum":0,"countSum":0}
+
+2020-12-29 14:59:29,850 [16 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000007输入数据
+ QueryData:/api/SystemSetting/Login
+ BodyData:{"encryStr":"2SbheYRuYcnp7wQV0FLCgY7B0M5VwVi0Fclz05B1ZkdvIfbUlEZ3pzBC3tVJTkFj"}
+
+2020-12-29 14:59:32,699 [16 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000009输入数据
+ QueryData:/api/hospital/getHospitalLevelList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 14:59:34,339 [8 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:0000000B输入数据
+ QueryData:/api/hospital/getHospitalList
+ BodyData:{"encryStr":"APGVztW+2uJWIX/s0Tx+/eGCm0zmdKOBgN6QByR9XFCjrZkIDPxgtH3evpAtUBLIJF9EyreF9RKvMW1F3Zx5UGjPn6cUdy4yq63Ij28rX14="}
+
+2020-12-29 14:59:34,675 [16 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000009输出数据
+{"success":true,"returnMsg":"","returnData":[{"key":0,"label":"公立三甲"},{"key":1,"label":"专业机构"},{"key":2,"label":"公立医院"},{"key":3,"label":"民营医院"}],"pageSum":0,"countSum":0}
+
+2020-12-29 14:59:37,350 [4 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:0000000F输入数据
+ QueryData:/api/CodeItem/GetCodeItemList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 14:59:38,183 [6 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000003输出数据
+{"success":true,"returnMsg":"","returnData":{"id":1,"adminCode":"admin","adminName":"admin","adminPwd":null,"adminType":1,"createDate":"2020-03-10T09:03:55.717","createID":"1","updateDate":"2020-05-18T14:58:28.49","updateID":"12","loginDate":"2020-12-29T14:59:33.8079815+08:00","openId":null,"state":1,"token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IlhxSFVvcW9hdV9NNnB1TERqaTRHQWciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2MDkyMjUxNzIsImV4cCI6MTYwOTIzMjM3MiwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMSIsImF1ZCI6ImFwaTEiLCJjbGllbnRfaWQiOiJjbGllbnRhbmR1c2VyIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYwOTIyNTE3MCwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJhcGkxIl0sImFtciI6WyJwd2QiXX0.gGxthO45YEaP_kF4xr1ckW8WQwXCg_iDhYYfrxtRffesSBuxJhHgf8EvbZSWJGIaAvfbdPkAB9Q-kOaJEMHcgnz0QXZ64eux1rw3_IoQoHHvoVdFn-JrySrDgfgHRjd-vn6QgWLi_yEMc4DJag03bK3uR6Jj7fiOm8cZIRW1KiffDx85KVfz4wpYU0DfN40du_WOzMlqCDfH40ZVlvd562t4WAgB4xKTzltQTLZmksI2eoW_kJElCFwXsECR-a2Cw7PwD4B2uYUhMIXMaoZIBlzPCttwIBxJs88aNKoFyLFwi0WMgbCZXYaqBonf9V28yt4-ZXJFb7UP-n-h2oz9Bw","menudata":[{"id":5,"name":"hospitalManger","path":"hospitalManger","metaTitle":"医院管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":6,"name":"hospital","path":"hospitalManger/hospital","metaTitle":"医院列表","metaTicon":null,"sortIndex":1,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":7,"name":"tag","path":"hospitalManger/tag","metaTitle":"医院标签","metaTicon":null,"sortIndex":2,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":8,"name":"memberManger","path":"memberManger","metaTitle":"会员管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":9,"name":"member","path":"memberManger/member","metaTitle":"会员列表","metaTicon":null,"sortIndex":1,"parentId":8,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":10,"name":"itemClusterManagement","path":"itemClusterManagement","metaTitle":"项目套餐管理","metaTicon":"el-icon-office-building","sortIndex":4,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":11,"name":"itemManagement","path":"itemClusterManagement/itemManagement","metaTitle":"项目管理","metaTicon":"el-icon-office-building","sortIndex":1,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":12,"name":"combManagement","path":"itemClusterManagement/combManagement","metaTitle":"组合管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":13,"name":"clusterManagement","path":"itemClusterManagement/clusterManagement","metaTitle":"套餐管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null}]},"pageSum":0,"countSum":0}
+
+2020-12-29 14:59:38,238 [20 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:0000000D输入数据
+ QueryData:/api/tag/getTagList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 14:59:41,033 [4 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:0000000F输出数据
+{"success":true,"returnMsg":"","returnData":[{"itemCode":"0     ","itemName":"0                                                                                                                                                                                                       ","clsCode":"0     ","unit":"0","refLower":"0","refUpper":"0","sex":"0","price":0.0},{"itemCode":"3     ","itemName":"张三                                                                                                                                                                                                    ","clsCode":"3     ","unit":"string","refLower":"string","refUpper":"string","sex":"1","price":110.0}],"pageSum":0,"countSum":0}
+
+2020-12-29 14:59:41,472 [5 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:0000000B输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":4,"name":"广东省职业病防治院","imageUrls":["/ImgHub/1325333452899930685ad77c8892238.jpg"],"level":0,"appointmentTime":"周一至周五8:00-12:00，14:00-17:00（体检当天如需取消项目退费（抽血项目不予退费），需到接待室登记。如体检结束后7天内无反馈信息，后续将不处理退款事宜）","notification":"请提前1天预约，温馨提醒：本机构暂不支持社保报销，包含胃肠镜的项目均不包含药费，需到院自费，耳鼻喉科是打包项目不可退费，望悉知。","details":"广东省职业病防治院成立于1960年，是广东省卫生健康委员会直属公益一类事业单位，主要承担实施政府部门制定的职业病防治计划，承担职业病及职业相关疾病的防治、诊疗、康复、科研、培训、健康教育和基层指导工作，承担职业中毒、核辐射、化学物相关的评价、监测、检验、健康监护以及事故的应急救治和调查处理等工作。","province":"无","city":"无","district":"无","detailAddress":"广州市海珠区新港西路海康街68号","longitude":null,"dimensionality":null,"code":"0001","tags":[{"id":1,"name":"报告权威","hospitalCode":"0001"},{"id":2,"name":"专家团队","hospitalCode":"0001"},{"id":6,"name":"技术精湛","hospitalCode":"0001"},{"id":17,"name":"设备先进","hospitalCode":"0001"}]}],"pageSum":0,"countSum":1}
+
+2020-12-29 14:59:42,249 [18 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000011输入数据
+ QueryData:/api/tag/getTagList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 14:59:42,261 [20 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:0000000D输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":1,"name":"报告权威","hospitalCode":null},{"id":2,"name":"专家团队","hospitalCode":null},{"id":6,"name":"技术精湛","hospitalCode":null},{"id":17,"name":"设备先进","hospitalCode":null},{"id":18,"name":"100","hospitalCode":null}],"pageSum":0,"countSum":0}
+
+2020-12-29 14:59:43,598 [18 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000011输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":1,"name":"报告权威","hospitalCode":null},{"id":2,"name":"专家团队","hospitalCode":null},{"id":6,"name":"技术精湛","hospitalCode":null},{"id":17,"name":"设备先进","hospitalCode":null},{"id":18,"name":"100","hospitalCode":null}],"pageSum":0,"countSum":0}
+
+2020-12-29 14:59:45,692 [21 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000015输入数据
+ QueryData:/api/hospital/getHospitalList
+ BodyData:{"encryStr":"APGVztW+2uJWIX/s0Tx+/eGCm0zmdKOBgN6QByR9XFCjrZkIDPxgtH3evpAtUBLIJF9EyreF9RKvMW1F3Zx5UGjPn6cUdy4yq63Ij28rX14="}
+
+2020-12-29 14:59:46,064 [4 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000013输入数据
+ QueryData:/api/hospital/getHospitalLevelList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 14:59:47,974 [4 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000013输出数据
+{"success":true,"returnMsg":"","returnData":[{"key":0,"label":"公立三甲"},{"key":1,"label":"专业机构"},{"key":2,"label":"公立医院"},{"key":3,"label":"民营医院"}],"pageSum":0,"countSum":0}
+
+2020-12-29 14:59:49,931 [14 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000015输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":4,"name":"广东省职业病防治院","imageUrls":["/ImgHub/1325333452899930685ad77c8892238.jpg"],"level":0,"appointmentTime":"周一至周五8:00-12:00，14:00-17:00（体检当天如需取消项目退费（抽血项目不予退费），需到接待室登记。如体检结束后7天内无反馈信息，后续将不处理退款事宜）","notification":"请提前1天预约，温馨提醒：本机构暂不支持社保报销，包含胃肠镜的项目均不包含药费，需到院自费，耳鼻喉科是打包项目不可退费，望悉知。","details":"广东省职业病防治院成立于1960年，是广东省卫生健康委员会直属公益一类事业单位，主要承担实施政府部门制定的职业病防治计划，承担职业病及职业相关疾病的防治、诊疗、康复、科研、培训、健康教育和基层指导工作，承担职业中毒、核辐射、化学物相关的评价、监测、检验、健康监护以及事故的应急救治和调查处理等工作。","province":"无","city":"无","district":"无","detailAddress":"广州市海珠区新港西路海康街68号","longitude":null,"dimensionality":null,"code":"0001","tags":[{"id":1,"name":"报告权威","hospitalCode":"0001"},{"id":2,"name":"专家团队","hospitalCode":"0001"},{"id":6,"name":"技术精湛","hospitalCode":"0001"},{"id":17,"name":"设备先进","hospitalCode":"0001"}]}],"pageSum":0,"countSum":1}
+
+2020-12-29 14:59:50,502 [6 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000005输出数据
+{"success":true,"returnMsg":"","returnData":{"id":1,"adminCode":"admin","adminName":"admin","adminPwd":null,"adminType":1,"createDate":"2020-03-10T09:03:55.717","createID":"1","updateDate":"2020-05-18T14:58:28.49","updateID":"12","loginDate":"2020-12-29T14:59:44.6671488+08:00","openId":null,"state":1,"token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IlhxSFVvcW9hdV9NNnB1TERqaTRHQWciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2MDkyMjUxODQsImV4cCI6MTYwOTIzMjM4NCwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMSIsImF1ZCI6ImFwaTEiLCJjbGllbnRfaWQiOiJjbGllbnRhbmR1c2VyIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYwOTIyNTE4NCwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJhcGkxIl0sImFtciI6WyJwd2QiXX0.Uksp8r1jn4IphsXQlsh7gBCqG6y8xESdHBaa9tC0jKSxt_pqjy_12ujQgGfx2-87BH1agYR0XTifAG6E93ZodpypcncDR0juUMwQimWrKG8RS2BkdkiyJmUF7mO_QIZS1mf-gCbOnaQeLGYueZYktGi-4rIJpPT4qAvH1VWLOnlylZOr2EJepTbSFFLxu6luqzEC9wrS4Ey9VUFmxDez0zOJw9bsepUC5CFIxysnRTmJ6cF1Ouj7KJNZZWFf85KbRwpLaoh546okOlj0pnpf42IxC-2lEbKG4RSQBho9xuHbVro8pARPNBkraEvbSWktWzt4q7FmV9H4LAeEX3N5tQ","menudata":[{"id":5,"name":"hospitalManger","path":"hospitalManger","metaTitle":"医院管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":6,"name":"hospital","path":"hospitalManger/hospital","metaTitle":"医院列表","metaTicon":null,"sortIndex":1,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":7,"name":"tag","path":"hospitalManger/tag","metaTitle":"医院标签","metaTicon":null,"sortIndex":2,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":8,"name":"memberManger","path":"memberManger","metaTitle":"会员管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":9,"name":"member","path":"memberManger/member","metaTitle":"会员列表","metaTicon":null,"sortIndex":1,"parentId":8,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":10,"name":"itemClusterManagement","path":"itemClusterManagement","metaTitle":"项目套餐管理","metaTicon":"el-icon-office-building","sortIndex":4,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":11,"name":"itemManagement","path":"itemClusterManagement/itemManagement","metaTitle":"项目管理","metaTicon":"el-icon-office-building","sortIndex":1,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":12,"name":"combManagement","path":"itemClusterManagement/combManagement","metaTitle":"组合管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":13,"name":"clusterManagement","path":"itemClusterManagement/clusterManagement","metaTitle":"套餐管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null}]},"pageSum":0,"countSum":0}
+
+2020-12-29 14:59:51,781 [17 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000007输出数据
+{"success":true,"returnMsg":"","returnData":{"id":1,"adminCode":"admin","adminName":"admin","adminPwd":null,"adminType":1,"createDate":"2020-03-10T09:03:55.717","createID":"1","updateDate":"2020-05-18T14:58:28.49","updateID":"12","loginDate":"2020-12-29T14:59:45.4767697+08:00","openId":null,"state":1,"token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IlhxSFVvcW9hdV9NNnB1TERqaTRHQWciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2MDkyMjUxODUsImV4cCI6MTYwOTIzMjM4NSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMSIsImF1ZCI6ImFwaTEiLCJjbGllbnRfaWQiOiJjbGllbnRhbmR1c2VyIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYwOTIyNTE4NCwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJhcGkxIl0sImFtciI6WyJwd2QiXX0.ZK0Vxf91zMvEjyXeMHe5ICpnZsIdujcDF8J_yJI70bOmYVwLNrSZJ77dR-kTwHGAeT_Ws5ySHo2ipTg-xQSG4V5kN-vboSaRhLgL6JcidbLAT24nx6-1RJZJO33_nG5XeE9m4Ry1CgGYjLLjLUwYlYawfrf2zoi1T3_C8xlOlnr_cgLomXmTflor_qo9fW_umVbtpUTNWD9vmOtd9BrtYKqit27ICoHXyw7QwepGwO50QbcqjDeFnbYB7P-UjbN_kDaOB9-2_76NRJAPWeO0RlnOpB0C70tqbN9iYn-F-h3OTW8IbUlLYmb1qOrGU552mJ7HQC8YOMGR5rNekF6mIQ","menudata":[{"id":5,"name":"hospitalManger","path":"hospitalManger","metaTitle":"医院管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":6,"name":"hospital","path":"hospitalManger/hospital","metaTitle":"医院列表","metaTicon":null,"sortIndex":1,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":7,"name":"tag","path":"hospitalManger/tag","metaTitle":"医院标签","metaTicon":null,"sortIndex":2,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":8,"name":"memberManger","path":"memberManger","metaTitle":"会员管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":9,"name":"member","path":"memberManger/member","metaTitle":"会员列表","metaTicon":null,"sortIndex":1,"parentId":8,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":10,"name":"itemClusterManagement","path":"itemClusterManagement","metaTitle":"项目套餐管理","metaTicon":"el-icon-office-building","sortIndex":4,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":11,"name":"itemManagement","path":"itemClusterManagement/itemManagement","metaTitle":"项目管理","metaTicon":"el-icon-office-building","sortIndex":1,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":12,"name":"combManagement","path":"itemClusterManagement/combManagement","metaTitle":"组合管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":13,"name":"clusterManagement","path":"itemClusterManagement/clusterManagement","metaTitle":"套餐管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null}]},"pageSum":0,"countSum":0}
+
+2020-12-29 14:59:52,092 [21 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000017输入数据
+ QueryData:/api/CodeItem/GetCodeItemList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 14:59:52,464 [21 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000019输入数据
+ QueryData:/api/hospital/getHospitalLevelList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 14:59:52,474 [8 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:0000001D输入数据
+ QueryData:/api/hospital/getHospitalList
+ BodyData:{"encryStr":"APGVztW+2uJWIX/s0Tx+/eGCm0zmdKOBgN6QByR9XFCjrZkIDPxgtH3evpAtUBLIJF9EyreF9RKvMW1F3Zx5UGjPn6cUdy4yq63Ij28rX14="}
+
+2020-12-29 14:59:52,769 [23 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:0000001B输入数据
+ QueryData:/api/tag/getTagList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 14:59:52,997 [4 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000017输出数据
+{"success":true,"returnMsg":"","returnData":[{"itemCode":"0     ","itemName":"0                                                                                                                                                                                                       ","clsCode":"0     ","unit":"0","refLower":"0","refUpper":"0","sex":"0","price":0.0},{"itemCode":"3     ","itemName":"张三                                                                                                                                                                                                    ","clsCode":"3     ","unit":"string","refLower":"string","refUpper":"string","sex":"1","price":110.0}],"pageSum":0,"countSum":0}
+
+2020-12-29 14:59:53,215 [21 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000019输出数据
+{"success":true,"returnMsg":"","returnData":[{"key":0,"label":"公立三甲"},{"key":1,"label":"专业机构"},{"key":2,"label":"公立医院"},{"key":3,"label":"民营医院"}],"pageSum":0,"countSum":0}
+
+2020-12-29 14:59:53,586 [8 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:0000001D输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":4,"name":"广东省职业病防治院","imageUrls":["/ImgHub/1325333452899930685ad77c8892238.jpg"],"level":0,"appointmentTime":"周一至周五8:00-12:00，14:00-17:00（体检当天如需取消项目退费（抽血项目不予退费），需到接待室登记。如体检结束后7天内无反馈信息，后续将不处理退款事宜）","notification":"请提前1天预约，温馨提醒：本机构暂不支持社保报销，包含胃肠镜的项目均不包含药费，需到院自费，耳鼻喉科是打包项目不可退费，望悉知。","details":"广东省职业病防治院成立于1960年，是广东省卫生健康委员会直属公益一类事业单位，主要承担实施政府部门制定的职业病防治计划，承担职业病及职业相关疾病的防治、诊疗、康复、科研、培训、健康教育和基层指导工作，承担职业中毒、核辐射、化学物相关的评价、监测、检验、健康监护以及事故的应急救治和调查处理等工作。","province":"无","city":"无","district":"无","detailAddress":"广州市海珠区新港西路海康街68号","longitude":null,"dimensionality":null,"code":"0001","tags":[{"id":1,"name":"报告权威","hospitalCode":"0001"},{"id":2,"name":"专家团队","hospitalCode":"0001"},{"id":6,"name":"技术精湛","hospitalCode":"0001"},{"id":17,"name":"设备先进","hospitalCode":"0001"}]}],"pageSum":0,"countSum":1}
+
+2020-12-29 14:59:54,347 [23 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:0000001B输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":1,"name":"报告权威","hospitalCode":null},{"id":2,"name":"专家团队","hospitalCode":null},{"id":6,"name":"技术精湛","hospitalCode":null},{"id":17,"name":"设备先进","hospitalCode":null},{"id":18,"name":"100","hospitalCode":null}],"pageSum":0,"countSum":0}
+
+2020-12-29 14:59:57,139 [21 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:0000001F输入数据
+ QueryData:/api/CodeItem/GetCodeItemList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 14:59:57,528 [21 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:0000001F输出数据
+{"success":true,"returnMsg":"","returnData":[{"itemCode":"0     ","itemName":"0                                                                                                                                                                                                       ","clsCode":"0     ","unit":"0","refLower":"0","refUpper":"0","sex":"0","price":0.0},{"itemCode":"3     ","itemName":"张三                                                                                                                                                                                                    ","clsCode":"3     ","unit":"string","refLower":"string","refUpper":"string","sex":"1","price":110.0}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:00:52,882 [27 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000021输入数据
+ QueryData:/api/CodeItem/CodeItemAdd
+ BodyData:{"encryStr":"H4YZOtrYuqvuczoXBGpobJ700HGYl6d2IWHS5Q/suCGdpr6W/Zo/U3W8RkVboVCuxBeXi1o5EAkKOvhIBoVIUuD47j47Ho5MW29cxoHjhKtXxHwOpYixZsEUwRs36qIBH7Iyil6wmaKBE1wDQgy9o4hMwCF6+1zOKAEJVOjY6vo="}
+
+2020-12-29 15:01:10,670 [27 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000023输入数据
+ QueryData:/api/CodeItem/CodeItemAdd
+ BodyData:{"encryStr":"H4YZOtrYuqvuczoXBGpobJ700HGYl6d2IWHS5Q/suCGdpr6W/Zo/U3W8RkVboVCuxBeXi1o5EAkKOvhIBoVIUuD47j47Ho5MW29cxoHjhKtXxHwOpYixZsEUwRs36qIBH7Iyil6wmaKBE1wDQgy9o4hMwCF6+1zOKAEJVOjY6vo="}
+
+2020-12-29 15:02:45,660 [32 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000025输入数据
+ QueryData:/api/CodeItem/CodeItemAdd
+ BodyData:{"encryStr":"H4YZOtrYuqvuczoXBGpobJ700HGYl6d2IWHS5Q/suCGdpr6W/Zo/U3W8RkVboVCuxBeXi1o5EAkKOvhIBoVIUuD47j47Ho5MW29cxoHjhKtXxHwOpYixZsEUwRs36qIBhHeWBHOjEG0YaHArVs+aRUMxLIjQhMCVq1b+CS5PEsg="}
+
+2020-12-29 15:02:48,586 [32 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000025输出数据
+{"success":true,"returnMsg":"项目添加成功!","returnData":{"itemCode":"004","itemName":"test4","clsCode":"004","unit":"康软","refLower":"1","refUpper":"100","sex":"1","price":100.0},"pageSum":0,"countSum":0}
+
+2020-12-29 15:03:29,586 [21 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000027输入数据
+ QueryData:/api/CodeItem/CodeItemUpdate
+ BodyData:{"encryStr":"e88DPqVsh+JcxYQRgfZF5VJcmq9IqZpOt5oxe8YyoeiJ6odnwE33bY+7MVTto6D4RrvBuQYYZXSZVFsd/fNwEOASeZTAaIzT/PiHlBW6sLxuLbDRNuThw/Idt7naUMbMSygj87cfTHMvPlDbDy2C8Y3AO4s4yTqU9ulbTreLQ0cEsBjZsc3xrjRxlzplv5Rk9DE/PAuaPQBj5ROkq5BnQSRJSIjJ42zmexnkEVkhxEamWir8LzrOWV6xIhD1iqfY0ToH7+Le2tegctCpG+l5pk7zRhtEDfMD1jIJoSucThbXHsKSG2oEPhfqayPjb1tne+gZZcFKBOzcXjVOQyTeFG1QG4c8bLd4mEiajNAXI5ebJexIK0TTEKh9a8nkVwF1CCkAJNqQNxSi5T/kVwoNsQ=="}
+
+2020-12-29 15:03:29,845 [21 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000027输出数据
+{"success":false,"returnMsg":"项目修改失败!","returnData":null,"pageSum":0,"countSum":0}
+
+2020-12-29 15:03:57,578 [35 INFO ] 
+ -- ASK-0HM5BOSAVSS0K:00000029输入数据
+ QueryData:/api/CodeItem/CodeItemUpdate
+ BodyData:{"encryStr":"e88DPqVsh+JcxYQRgfZF5VJcmq9IqZpOt5oxe8YyoeiJ6odnwE33bY+7MVTto6D4RrvBuQYYZXSZVFsd/fNwEOASeZTAaIzT/PiHlBW6sLxuLbDRNuThw/Idt7naUMbMSygj87cfTHMvPlDbDy2C8Y3AO4s4yTqU9ulbTreLQ0cEsBjZsc3xrjRxlzplv5Rk9DE/PAuaPQBj5ROkq5BnQSRJSIjJ42zmexnkEVkhxEamWir8LzrOWV6xIhD1iqfY0ToH7+Le2tegctCpG+l5pmIYGN9Fkxo/84g9EJNmnw67odMCpqMnV4gLnbaQo6/IvpyTi3hzNTOR7jw1aVyd8p4JwWoqMSwifKgtCP+4DQBYm/4ZMiuq+HoLNdYDDud4jhTP0HrGH2UpVEAGWSHtZw=="}
+
+2020-12-29 15:16:29,486 [4 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:00000001输入数据
+ QueryData:/api/tag/getTagList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:16:31,110 [4 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:00000001输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":1,"name":"报告权威","hospitalCode":null},{"id":2,"name":"专家团队","hospitalCode":null},{"id":6,"name":"技术精湛","hospitalCode":null},{"id":17,"name":"设备先进","hospitalCode":null},{"id":18,"name":"100","hospitalCode":null}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:16:42,404 [5 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:00000003输入数据
+ QueryData:/api/tag/updateTag
+ BodyData:{"encryStr":"+VGMFTUbm2LHSs7NkyOg1/0c+yNb8I3cFFC569Js25Gv39BBRKpVuHMFtSo/gepn"}
+
+2020-12-29 15:17:18,725 [5 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:00000003输出数据
+{"success":true,"returnMsg":"修改标签成功!","returnData":null,"pageSum":0,"countSum":0}
+
+2020-12-29 15:17:23,067 [16 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:00000005输入数据
+ QueryData:/api/CodeItem/GetCodeItemList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:17:24,573 [12 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:00000005输出数据
+{"success":true,"returnMsg":"","returnData":[{"itemCode":"0     ","itemName":"0                                                                                                                                                                                                       ","clsCode":"0     ","unit":"0","refLower":"0","refUpper":"0","sex":"0","price":0.0},{"itemCode":"004   ","itemName":"test4                                                                                                                                                                                                   ","clsCode":"004   ","unit":"康软","refLower":"1","refUpper":"100","sex":"1","price":100.0},{"itemCode":"3     ","itemName":"张三                                                                                                                                                                                                    ","clsCode":"3     ","unit":"string","refLower":"string","refUpper":"string","sex":"1","price":110.0}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:17:35,523 [16 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:00000007输入数据
+ QueryData:/api/CodeItem/CodeItemUpdate
+ BodyData:{"encryStr":"GB8WQ+qDpsqT+jCrfl7mDCDQ1vPS/4E3kmv7RusRm74RiK+XU6Dn9prpo8bTiF8YvDDdd9DSkNYTTCOxPtLZ8AsPQY2uRCIpd3LC5h1WZ5US+P/ZAeKzQuuqNM4rGvjUhGH86uQhK1cGnpE+j8tmomQLIPmTX7xQOLr0stuSbAsbbh8hxE8x4fCmxckw7n3Mqy8DuD1JG2fTCe2DYBmWCxnFCbrfLl7FA44JVFj5FtO5dsQn/SV8VQ53h0Ndrbyv7AO4y1G0w9mwFeaPIOllSUNrWdCyQILPh2+mftPhFQsQMy3eURS+CWMk3cQ1Y5OoxH7+OY6lzPu3v+nZpN/akZ23bhYG/NaPm3ce3mZSip+E//HRfAezlIhM8vmQtejQFvjo7Ye6uPFW2ayhBpXO5A=="}
+
+2020-12-29 15:17:42,680 [16 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:00000007输出数据
+{"success":true,"returnMsg":"项目修改成功!","returnData":null,"pageSum":0,"countSum":0}
+
+2020-12-29 15:17:58,675 [12 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:00000009输入数据
+ QueryData:/api/tag/getTagList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:17:59,026 [12 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:00000009输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":1,"name":"报告权威","hospitalCode":null},{"id":2,"name":"专家团队","hospitalCode":null},{"id":6,"name":"技术精湛","hospitalCode":null},{"id":17,"name":"设备先进","hospitalCode":null},{"id":18,"name":"102","hospitalCode":null}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:21:03,138 [18 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:0000000B输入数据
+ QueryData:/api/SystemSetting/Login
+ BodyData:{"encryStr":"2SbheYRuYcnp7wQV0FLCgY7B0M5VwVi0Fclz05B1ZkdvIfbUlEZ3pzBC3tVJTkFj"}
+
+2020-12-29 15:21:06,388 [15 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:0000000B输出数据
+{"success":true,"returnMsg":"","returnData":{"id":1,"adminCode":"admin","adminName":"admin","adminPwd":null,"adminType":1,"createDate":"2020-03-10T09:03:55.717","createID":"1","updateDate":"2020-05-18T14:58:28.49","updateID":"12","loginDate":"2020-12-29T15:21:04.7452312+08:00","openId":null,"state":1,"token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IlhxSFVvcW9hdV9NNnB1TERqaTRHQWciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2MDkyMjY0NjQsImV4cCI6MTYwOTIzMzY2NCwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMSIsImF1ZCI6ImFwaTEiLCJjbGllbnRfaWQiOiJjbGllbnRhbmR1c2VyIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYwOTIyNjQ2NCwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJhcGkxIl0sImFtciI6WyJwd2QiXX0.efiLdsN9SSTkX3xicmzGMLbqGAl1LYDtwWC1WorYlDQiVGV8rWlAy0OJyry4_e30IiE6uKAwuyFWNG6aBpnD-qr5keQ1qSWKjQYQu7UfL2V_sFTX_1osCumZW0bZD4Bg8F6jfQnaqeWxL5rdpzeKwH30Flg6ewdNBq9WGIJhH0KfKsaNF3IlgO6zXKUs0pdrVmblAFZE5v-excdSClajlK6d6bK3Qz4FT70KNoDJ446T0yznlwWPYdpV00FIZR15bKH1xzkuH9z8QHsu1k2Yy32qhQ9E7xznMYT34-2CbycectNrJecCKJFBS4EoW2kirXeFzpWcTqUf8i8BWf1Efg","menudata":[{"id":5,"name":"hospitalManger","path":"hospitalManger","metaTitle":"医院管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":6,"name":"hospital","path":"hospitalManger/hospital","metaTitle":"医院列表","metaTicon":null,"sortIndex":1,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":7,"name":"tag","path":"hospitalManger/tag","metaTitle":"医院标签","metaTicon":null,"sortIndex":2,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":8,"name":"memberManger","path":"memberManger","metaTitle":"会员管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":9,"name":"member","path":"memberManger/member","metaTitle":"会员列表","metaTicon":null,"sortIndex":1,"parentId":8,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":10,"name":"itemClusterManagement","path":"itemClusterManagement","metaTitle":"项目套餐管理","metaTicon":"el-icon-office-building","sortIndex":4,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":11,"name":"itemManagement","path":"itemClusterManagement/itemManagement","metaTitle":"项目管理","metaTicon":"el-icon-office-building","sortIndex":1,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":12,"name":"combManagement","path":"itemClusterManagement/combManagement","metaTitle":"组合管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":13,"name":"clusterManagement","path":"itemClusterManagement/clusterManagement","metaTitle":"套餐管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null}]},"pageSum":0,"countSum":0}
+
+2020-12-29 15:21:07,800 [7 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:0000000D输入数据
+ QueryData:/api/hospital/getHospitalList
+ BodyData:{"encryStr":"APGVztW+2uJWIX/s0Tx+/eGCm0zmdKOBgN6QByR9XFCjrZkIDPxgtH3evpAtUBLIJF9EyreF9RKvMW1F3Zx5UGjPn6cUdy4yq63Ij28rX14="}
+
+2020-12-29 15:21:07,806 [12 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:00000011输入数据
+ QueryData:/api/hospital/getHospitalLevelList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:21:08,364 [23 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:0000000F输入数据
+ QueryData:/api/tag/getTagList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:21:08,414 [12 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:00000011输出数据
+{"success":true,"returnMsg":"","returnData":[{"key":0,"label":"公立三甲"},{"key":1,"label":"专业机构"},{"key":2,"label":"公立医院"},{"key":3,"label":"民营医院"}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:21:11,956 [19 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:00000013输入数据
+ QueryData:/api/CodeItem/GetCodeItemList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:21:11,998 [23 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:0000000F输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":1,"name":"报告权威","hospitalCode":null},{"id":2,"name":"专家团队","hospitalCode":null},{"id":6,"name":"技术精湛","hospitalCode":null},{"id":17,"name":"设备先进","hospitalCode":null},{"id":18,"name":"102","hospitalCode":null}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:21:12,374 [12 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:0000000D输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":4,"name":"广东省职业病防治院","imageUrls":["/ImgHub/1325333452899930685ad77c8892238.jpg"],"level":0,"appointmentTime":"周一至周五8:00-12:00，14:00-17:00（体检当天如需取消项目退费（抽血项目不予退费），需到接待室登记。如体检结束后7天内无反馈信息，后续将不处理退款事宜）","notification":"请提前1天预约，温馨提醒：本机构暂不支持社保报销，包含胃肠镜的项目均不包含药费，需到院自费，耳鼻喉科是打包项目不可退费，望悉知。","details":"广东省职业病防治院成立于1960年，是广东省卫生健康委员会直属公益一类事业单位，主要承担实施政府部门制定的职业病防治计划，承担职业病及职业相关疾病的防治、诊疗、康复、科研、培训、健康教育和基层指导工作，承担职业中毒、核辐射、化学物相关的评价、监测、检验、健康监护以及事故的应急救治和调查处理等工作。","province":"无","city":"无","district":"无","detailAddress":"广州市海珠区新港西路海康街68号","longitude":null,"dimensionality":null,"code":"0001","tags":[{"id":1,"name":"报告权威","hospitalCode":"0001"},{"id":2,"name":"专家团队","hospitalCode":"0001"},{"id":6,"name":"技术精湛","hospitalCode":"0001"},{"id":17,"name":"设备先进","hospitalCode":"0001"}]}],"pageSum":0,"countSum":1}
+
+2020-12-29 15:21:14,090 [19 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:00000013输出数据
+{"success":true,"returnMsg":"","returnData":[{"itemCode":"0     ","itemName":"1                                                                                                                                                                                                       ","clsCode":"1     ","unit":"0","refLower":"0","refUpper":"0","sex":"0","price":0.0},{"itemCode":"004   ","itemName":"test4                                                                                                                                                                                                   ","clsCode":"004   ","unit":"康软","refLower":"1","refUpper":"100","sex":"1","price":100.0},{"itemCode":"3     ","itemName":"张三                                                                                                                                                                                                    ","clsCode":"3     ","unit":"string","refLower":"string","refUpper":"string","sex":"1","price":110.0}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:21:41,161 [7 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:00000015输入数据
+ QueryData:/api/CodeItem/CodeItemUpdate
+ BodyData:{"encryStr":"GB8WQ+qDpsqT+jCrfl7mDCDQ1vPS/4E3kmv7RusRm77jwwIMTkxVjKT6IqSF2ndm5EN2env4zlA9eqSIIc4GDGTlRIikPreGaAubyUzPNuKXUGnAXlon1uojnb9HZGzodx9WZgNl1hd8NVGRNbaP9A0K9i39UlpJTAqmwVx2P9LVJoANQK4mNP2DFXWG+L6G2EUSuAu4ep1XgpsBK0WalWC4ZbXznRNPsAF5FoA3e0+Be+qYycCiv2+hdgSJ18DL5uQPs8Hj9eqlrh4TOL4RFrdiaP2L6TUHSnHzKbIXOcNCe+EvqGZcnylVfMuAfQYyFJMybaNzxu2Rl/D88SIn6prvF837ETTji1yVxmhA/SO3276H0t+65GOm91kzkzr5"}
+
+2020-12-29 15:21:44,167 [7 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:00000015输出数据
+{"success":true,"returnMsg":"项目修改成功!","returnData":null,"pageSum":0,"countSum":0}
+
+2020-12-29 15:21:55,109 [12 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:00000017输入数据
+ QueryData:/api/CodeItem/CodeItemDel
+ BodyData:{"encryStr":"GB8WQ+qDpsqT+jCrfl7mDCDQ1vPS/4E3kmv7RusRm77jwwIMTkxVjKT6IqSF2ndm5EN2env4zlA9eqSIIc4GDGTlRIikPreGaAubyUzPNuKXUGnAXlon1uojnb9HZGzodx9WZgNl1hd8NVGRNbaP9A0K9i39UlpJTAqmwVx2P9LVJoANQK4mNP2DFXWG+L6G2EUSuAu4ep1XgpsBK0WalWC4ZbXznRNPsAF5FoA3e0+Be+qYycCiv2+hdgSJ18DL5uQPs8Hj9eqlrh4TOL4RFrdiaP2L6TUHSnHzKbIXOcNCe+EvqGZcnylVfMuAfQYyFJMybaNzxu2Rl/D88SIn6prvF837ETTji1yVxmhA/SO3276H0t+65GOm91kzkzr5"}
+
+2020-12-29 15:22:41,169 [12 INFO ] 
+ -- ASK-0HM5BP6E3FK3H:00000019输入数据
+ QueryData:/api/CodeItem/CodeItemDel
+ BodyData:{"encryStr":"GB8WQ+qDpsqT+jCrfl7mDCDQ1vPS/4E3kmv7RusRm77jwwIMTkxVjKT6IqSF2ndm5EN2env4zlA9eqSIIc4GDGTlRIikPreGaAubyUzPNuKXUGnAXlon1uojnb9HZGzodx9WZgNl1hd8NVGRNbaP9A0K9i39UlpJTAqmwVx2P9LVJoANQK4mNP2DFXWG+L6G2EUSuAu4ep1XgpsBK0WalWC4ZbXznRNPsAF5FoA3e0+Be+qYycCiv2+hdgSJ18DL5uQPs8Hj9eqlrh4TOL4RFrdiaP2L6TUHSnHzKbIXOcNCe+EvqGZcnylVfMuAfQYyFJMybaNzxu2Rl/D88SIn6prvF837ETTji1yVxmhA/SO3276H0t+65GOm91kzkzr5"}
+
+2020-12-29 15:31:22,103 [5 INFO ] 
+ -- ASK-0HM5BPEJL2PK2:00000001输入数据
+ QueryData:/api/SystemSetting/Login
+ BodyData:{"encryStr":"2SbheYRuYcnp7wQV0FLCgY7B0M5VwVi0Fclz05B1ZkdvIfbUlEZ3pzBC3tVJTkFj"}
+
+2020-12-29 15:31:27,541 [7 INFO ] 
+ -- ASK-0HM5BPEJL2PK2:00000001输出数据
+{"success":true,"returnMsg":"","returnData":{"id":1,"adminCode":"admin","adminName":"admin","adminPwd":null,"adminType":1,"createDate":"2020-03-10T09:03:55.717","createID":"1","updateDate":"2020-05-18T14:58:28.49","updateID":"12","loginDate":"2020-12-29T15:31:25.6806716+08:00","openId":null,"state":1,"token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IlhxSFVvcW9hdV9NNnB1TERqaTRHQWciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2MDkyMjcwODUsImV4cCI6MTYwOTIzNDI4NSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMSIsImF1ZCI6ImFwaTEiLCJjbGllbnRfaWQiOiJjbGllbnRhbmR1c2VyIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYwOTIyNzA4NSwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJhcGkxIl0sImFtciI6WyJwd2QiXX0.jRxaUyJ9hJjGGXm-YgRRHI2Xqb_AmMHuVWSOfxldDErlSldjd-m6wjQI7FyhhJdVpeJoEutkj1hVP0_ndC_9qNL8nkIpuNmbCyxYEYk7koaMpG28lRF0026b0csPMD_E1ZokwVOg6xQBd17aMSgREYUzzSOKLSy_n6jkSuAPFJu7nIUbHigL3DHTx44VBwogdYtcNg-o_hRRDDJNDEQBerTrgqT72KHoWxxM97Jn8Q6-nxKtwouHMAOzVVOr3UFJQ1yF5W14LqzJUSDzp0jDJPa6QX-wuKhQFU8pmA6mbnRQMCWaRZlVJu6DGZluG0GhwtqWNqtIFx7DkchQutFWWg","menudata":[{"id":5,"name":"hospitalManger","path":"hospitalManger","metaTitle":"医院管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":6,"name":"hospital","path":"hospitalManger/hospital","metaTitle":"医院列表","metaTicon":null,"sortIndex":1,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":7,"name":"tag","path":"hospitalManger/tag","metaTitle":"医院标签","metaTicon":null,"sortIndex":2,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":8,"name":"memberManger","path":"memberManger","metaTitle":"会员管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":9,"name":"member","path":"memberManger/member","metaTitle":"会员列表","metaTicon":null,"sortIndex":1,"parentId":8,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":10,"name":"itemClusterManagement","path":"itemClusterManagement","metaTitle":"项目套餐管理","metaTicon":"el-icon-office-building","sortIndex":4,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":11,"name":"itemManagement","path":"itemClusterManagement/itemManagement","metaTitle":"项目管理","metaTicon":"el-icon-office-building","sortIndex":1,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":12,"name":"combManagement","path":"itemClusterManagement/combManagement","metaTitle":"组合管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":13,"name":"clusterManagement","path":"itemClusterManagement/clusterManagement","metaTitle":"套餐管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null}]},"pageSum":0,"countSum":0}
+
+2020-12-29 15:31:28,764 [5 INFO ] 
+ -- ASK-0HM5BPEJL2PK2:00000007输入数据
+ QueryData:/api/hospital/getHospitalList
+ BodyData:{"encryStr":"APGVztW+2uJWIX/s0Tx+/eGCm0zmdKOBgN6QByR9XFCjrZkIDPxgtH3evpAtUBLIJF9EyreF9RKvMW1F3Zx5UGjPn6cUdy4yq63Ij28rX14="}
+
+2020-12-29 15:31:28,770 [8 INFO ] 
+ -- ASK-0HM5BPEJL2PK2:00000005输入数据
+ QueryData:/api/tag/getTagList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:31:28,878 [12 INFO ] 
+ -- ASK-0HM5BPEJL2PK2:00000003输入数据
+ QueryData:/api/hospital/getHospitalLevelList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:31:31,430 [8 INFO ] 
+ -- ASK-0HM5BPEJL2PK2:00000005输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":1,"name":"报告权威","hospitalCode":null},{"id":2,"name":"专家团队","hospitalCode":null},{"id":6,"name":"技术精湛","hospitalCode":null},{"id":17,"name":"设备先进","hospitalCode":null},{"id":18,"name":"102","hospitalCode":null}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:31:31,857 [12 INFO ] 
+ -- ASK-0HM5BPEJL2PK2:00000003输出数据
+{"success":true,"returnMsg":"","returnData":[{"key":0,"label":"公立三甲"},{"key":1,"label":"专业机构"},{"key":2,"label":"公立医院"},{"key":3,"label":"民营医院"}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:31:32,277 [8 INFO ] 
+ -- ASK-0HM5BPEJL2PK2:00000007输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":4,"name":"广东省职业病防治院","imageUrls":["/ImgHub/1325333452899930685ad77c8892238.jpg"],"level":0,"appointmentTime":"周一至周五8:00-12:00，14:00-17:00（体检当天如需取消项目退费（抽血项目不予退费），需到接待室登记。如体检结束后7天内无反馈信息，后续将不处理退款事宜）","notification":"请提前1天预约，温馨提醒：本机构暂不支持社保报销，包含胃肠镜的项目均不包含药费，需到院自费，耳鼻喉科是打包项目不可退费，望悉知。","details":"广东省职业病防治院成立于1960年，是广东省卫生健康委员会直属公益一类事业单位，主要承担实施政府部门制定的职业病防治计划，承担职业病及职业相关疾病的防治、诊疗、康复、科研、培训、健康教育和基层指导工作，承担职业中毒、核辐射、化学物相关的评价、监测、检验、健康监护以及事故的应急救治和调查处理等工作。","province":"无","city":"无","district":"无","detailAddress":"广州市海珠区新港西路海康街68号","longitude":null,"dimensionality":null,"code":"0001","tags":[{"id":1,"name":"报告权威","hospitalCode":"0001"},{"id":2,"name":"专家团队","hospitalCode":"0001"},{"id":6,"name":"技术精湛","hospitalCode":"0001"},{"id":17,"name":"设备先进","hospitalCode":"0001"}]}],"pageSum":0,"countSum":1}
+
+2020-12-29 15:31:32,349 [12 INFO ] 
+ -- ASK-0HM5BPEJL2PK2:00000009输入数据
+ QueryData:/api/CodeItem/GetCodeItemList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:31:32,908 [12 INFO ] 
+ -- ASK-0HM5BPEJL2PK2:00000009输出数据
+{"success":true,"returnMsg":"","returnData":[{"itemCode":"0     ","itemName":"1   hello                                                                                                                                                                                               ","clsCode":"1     ","unit":"0","refLower":"0","refUpper":"0","sex":"0","price":0.0},{"itemCode":"004   ","itemName":"test4                                                                                                                                                                                                   ","clsCode":"004   ","unit":"康软","refLower":"1","refUpper":"100","sex":"1","price":100.0},{"itemCode":"3     ","itemName":"张三                                                                                                                                                                                                    ","clsCode":"3     ","unit":"string","refLower":"string","refUpper":"string","sex":"1","price":110.0}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:31:36,872 [8 INFO ] 
+ -- ASK-0HM5BPEJL2PK2:0000000B输入数据
+ QueryData:/api/CodeItem/CodeItemDel
+ BodyData:{"encryStr":"GB8WQ+qDpsqT+jCrfl7mDCDQ1vPS/4E3kmv7RusRm77jwwIMTkxVjKT6IqSF2ndm5EN2env4zlA9eqSIIc4GDGTlRIikPreGaAubyUzPNuKXUGnAXlon1uojnb9HZGzodx9WZgNl1hd8NVGRNbaP9A0K9i39UlpJTAqmwVx2P9LVJoANQK4mNP2DFXWG+L6G2EUSuAu4ep1XgpsBK0WalWC4ZbXznRNPsAF5FoA3e0+Be+qYycCiv2+hdgSJ18DLvlpNsmFqYD1RMxZ+1u93m71fLYcNctxePG1VsOO02/MYYBnuNknsT5Uxn0nqZBOpGZZdrp6qv9vg2jUJbM5HdnuSTGJDMWmL7M5hWrK58SvhWWCa//aSCIAeiM0cSuiFRgrK9fCbjak9k/Aa+nDMdE05UObQgPSRmO2ir/+anDk="}
+
+2020-12-29 15:36:57,663 [13 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000001输入数据
+ QueryData:/api/SystemSetting/Login
+ BodyData:{"encryStr":"2SbheYRuYcnp7wQV0FLCgY7B0M5VwVi0Fclz05B1ZkdvIfbUlEZ3pzBC3tVJTkFj"}
+
+2020-12-29 15:37:02,830 [7 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000001输出数据
+{"success":true,"returnMsg":"","returnData":{"id":1,"adminCode":"admin","adminName":"admin","adminPwd":null,"adminType":1,"createDate":"2020-03-10T09:03:55.717","createID":"1","updateDate":"2020-05-18T14:58:28.49","updateID":"12","loginDate":"2020-12-29T15:37:00.5837487+08:00","openId":null,"state":1,"token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IlhxSFVvcW9hdV9NNnB1TERqaTRHQWciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2MDkyMjc0MjAsImV4cCI6MTYwOTIzNDYyMCwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMSIsImF1ZCI6ImFwaTEiLCJjbGllbnRfaWQiOiJjbGllbnRhbmR1c2VyIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYwOTIyNzQyMCwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJhcGkxIl0sImFtciI6WyJwd2QiXX0.G4d1qFqm5K_7-0_gN020v0DBAH9MilkNm7X9PqvKAnvm0HG6SntX0K5frLj64vgbRvXiPmW7mT7G9lNTNZ0RL_kNlsXcz1zWN7QF_3noQ80i6MnVEIZw6o3G2I3kXYK0LJLWHuX9x3AhsMClxZDCyz2_LezRRn7JjpvaAEZMmmdwlnXwS1fQ4M1BOB6IX40IWHCit_h0yjbPVedzHFinlCzBrljhvCV7dBmGJD0WPd7RFtuTnNy5hHQxcmsgeYVfEeqlDoavM1meMl84tPZYHq3w9k8Xmq7lPThFdHuCg0JNkS3wXz4Mm-w8ngiFNBjnLQy0l0WB7-d3fRmLbN16rA","menudata":[{"id":5,"name":"hospitalManger","path":"hospitalManger","metaTitle":"医院管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":6,"name":"hospital","path":"hospitalManger/hospital","metaTitle":"医院列表","metaTicon":null,"sortIndex":1,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":7,"name":"tag","path":"hospitalManger/tag","metaTitle":"医院标签","metaTicon":null,"sortIndex":2,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":8,"name":"memberManger","path":"memberManger","metaTitle":"会员管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":9,"name":"member","path":"memberManger/member","metaTitle":"会员列表","metaTicon":null,"sortIndex":1,"parentId":8,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":10,"name":"itemClusterManagement","path":"itemClusterManagement","metaTitle":"项目套餐管理","metaTicon":"el-icon-office-building","sortIndex":4,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":11,"name":"itemManagement","path":"itemClusterManagement/itemManagement","metaTitle":"项目管理","metaTicon":"el-icon-office-building","sortIndex":1,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":12,"name":"combManagement","path":"itemClusterManagement/combManagement","metaTitle":"组合管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":13,"name":"clusterManagement","path":"itemClusterManagement/clusterManagement","metaTitle":"套餐管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null}]},"pageSum":0,"countSum":0}
+
+2020-12-29 15:37:03,742 [6 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000003输入数据
+ QueryData:/api/hospital/getHospitalLevelList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:37:03,781 [5 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000005输入数据
+ QueryData:/api/hospital/getHospitalList
+ BodyData:{"encryStr":"APGVztW+2uJWIX/s0Tx+/eGCm0zmdKOBgN6QByR9XFCjrZkIDPxgtH3evpAtUBLIJF9EyreF9RKvMW1F3Zx5UGjPn6cUdy4yq63Ij28rX14="}
+
+2020-12-29 15:37:05,844 [13 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000007输入数据
+ QueryData:/api/tag/getTagList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:37:06,261 [6 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000003输出数据
+{"success":true,"returnMsg":"","returnData":[{"key":0,"label":"公立三甲"},{"key":1,"label":"专业机构"},{"key":2,"label":"公立医院"},{"key":3,"label":"民营医院"}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:37:07,577 [13 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000007输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":1,"name":"报告权威","hospitalCode":null},{"id":2,"name":"专家团队","hospitalCode":null},{"id":6,"name":"技术精湛","hospitalCode":null},{"id":17,"name":"设备先进","hospitalCode":null},{"id":18,"name":"102","hospitalCode":null}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:37:07,708 [12 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000009输入数据
+ QueryData:/api/CodeItem/GetCodeItemList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:37:08,141 [4 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000005输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":4,"name":"广东省职业病防治院","imageUrls":["/ImgHub/1325333452899930685ad77c8892238.jpg"],"level":0,"appointmentTime":"周一至周五8:00-12:00，14:00-17:00（体检当天如需取消项目退费（抽血项目不予退费），需到接待室登记。如体检结束后7天内无反馈信息，后续将不处理退款事宜）","notification":"请提前1天预约，温馨提醒：本机构暂不支持社保报销，包含胃肠镜的项目均不包含药费，需到院自费，耳鼻喉科是打包项目不可退费，望悉知。","details":"广东省职业病防治院成立于1960年，是广东省卫生健康委员会直属公益一类事业单位，主要承担实施政府部门制定的职业病防治计划，承担职业病及职业相关疾病的防治、诊疗、康复、科研、培训、健康教育和基层指导工作，承担职业中毒、核辐射、化学物相关的评价、监测、检验、健康监护以及事故的应急救治和调查处理等工作。","province":"无","city":"无","district":"无","detailAddress":"广州市海珠区新港西路海康街68号","longitude":null,"dimensionality":null,"code":"0001","tags":[{"id":1,"name":"报告权威","hospitalCode":"0001"},{"id":2,"name":"专家团队","hospitalCode":"0001"},{"id":6,"name":"技术精湛","hospitalCode":"0001"},{"id":17,"name":"设备先进","hospitalCode":"0001"}]}],"pageSum":0,"countSum":1}
+
+2020-12-29 15:37:08,654 [13 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000009输出数据
+{"success":true,"returnMsg":"","returnData":[{"itemCode":"0     ","itemName":"1   hello                                                                                                                                                                                               ","clsCode":"1     ","unit":"0","refLower":"0","refUpper":"0","sex":"0","price":0.0},{"itemCode":"004   ","itemName":"test4                                                                                                                                                                                                   ","clsCode":"004   ","unit":"康软","refLower":"1","refUpper":"100","sex":"1","price":100.0},{"itemCode":"3     ","itemName":"张三                                                                                                                                                                                                    ","clsCode":"3     ","unit":"string","refLower":"string","refUpper":"string","sex":"1","price":110.0}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:37:11,840 [6 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:0000000B输入数据
+ QueryData:/api/CodeItem/CodeItemDel
+ BodyData:{"encryStr":"GB8WQ+qDpsqT+jCrfl7mDCDQ1vPS/4E3kmv7RusRm77jwwIMTkxVjKT6IqSF2ndm5EN2env4zlA9eqSIIc4GDGTlRIikPreGaAubyUzPNuKXUGnAXlon1uojnb9HZGzodx9WZgNl1hd8NVGRNbaP9A0K9i39UlpJTAqmwVx2P9LVJoANQK4mNP2DFXWG+L6G2EUSuAu4ep1XgpsBK0WalWC4ZbXznRNPsAF5FoA3e0+Be+qYycCiv2+hdgSJ18DLvlpNsmFqYD1RMxZ+1u93m71fLYcNctxePG1VsOO02/MYYBnuNknsT5Uxn0nqZBOpGZZdrp6qv9vg2jUJbM5HdnuSTGJDMWmL7M5hWrK58SvhWWCa//aSCIAeiM0cSuiFRgrK9fCbjak9k/Aa+nDMdE05UObQgPSRmO2ir/+anDk="}
+
+2020-12-29 15:43:33,398 [8 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:0000000D输入数据
+ QueryData:/api/tag/getTagList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:43:33,832 [8 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:0000000D输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":1,"name":"报告权威","hospitalCode":null},{"id":2,"name":"专家团队","hospitalCode":null},{"id":6,"name":"技术精湛","hospitalCode":null},{"id":17,"name":"设备先进","hospitalCode":null},{"id":18,"name":"102","hospitalCode":null}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:43:37,863 [23 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:0000000F输入数据
+ QueryData:/api/CodeItem/GetCodeItemList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:43:38,731 [23 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:0000000F输出数据
+{"success":true,"returnMsg":"","returnData":[{"itemCode":"0     ","itemName":"1   hello                                                                                                                                                                                               ","clsCode":"1     ","unit":"0","refLower":"0","refUpper":"0","sex":"0","price":0.0},{"itemCode":"004   ","itemName":"test4                                                                                                                                                                                                   ","clsCode":"004   ","unit":"康软","refLower":"1","refUpper":"100","sex":"1","price":100.0},{"itemCode":"3     ","itemName":"张三                                                                                                                                                                                                    ","clsCode":"3     ","unit":"string","refLower":"string","refUpper":"string","sex":"1","price":110.0}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:43:47,151 [23 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000011输入数据
+ QueryData:/api/tag/getTagList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:43:47,705 [23 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000011输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":1,"name":"报告权威","hospitalCode":null},{"id":2,"name":"专家团队","hospitalCode":null},{"id":6,"name":"技术精湛","hospitalCode":null},{"id":17,"name":"设备先进","hospitalCode":null},{"id":18,"name":"102","hospitalCode":null}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:49:53,672 [23 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000013输入数据
+ QueryData:/api/CodeItem/GetCodeItemList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:49:53,941 [23 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000013输出数据
+{"success":true,"returnMsg":"","returnData":[{"itemCode":"0     ","itemName":"1   hello                                                                                                                                                                                               ","clsCode":"1     ","unit":"0","refLower":"0","refUpper":"0","sex":"0","price":0.0},{"itemCode":"004   ","itemName":"test4                                                                                                                                                                                                   ","clsCode":"004   ","unit":"康软","refLower":"1","refUpper":"100","sex":"1","price":100.0},{"itemCode":"3     ","itemName":"张三                                                                                                                                                                                                    ","clsCode":"3     ","unit":"string","refLower":"string","refUpper":"string","sex":"1","price":110.0}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:51:38,770 [26 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000015输入数据
+ QueryData:/api/CodeItem/GetCodeItemList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:51:39,345 [26 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000015输出数据
+{"success":true,"returnMsg":"","returnData":[{"itemCode":"0     ","itemName":"1   hello                                                                                                                                                                                               ","clsCode":"1     ","unit":"0","refLower":"0","refUpper":"0","sex":"0","price":0.0},{"itemCode":"004   ","itemName":"test4                                                                                                                                                                                                   ","clsCode":"004   ","unit":"康软","refLower":"1","refUpper":"100","sex":"1","price":100.0},{"itemCode":"3     ","itemName":"张三                                                                                                                                                                                                    ","clsCode":"3     ","unit":"string","refLower":"string","refUpper":"string","sex":"1","price":110.0}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:51:54,724 [30 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000017输入数据
+ QueryData:/api/tag/getTagList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:51:55,079 [30 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000017输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":1,"name":"报告权威","hospitalCode":null},{"id":2,"name":"专家团队","hospitalCode":null},{"id":6,"name":"技术精湛","hospitalCode":null},{"id":17,"name":"设备先进","hospitalCode":null},{"id":18,"name":"102","hospitalCode":null}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:54:13,311 [31 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000019输入数据
+ QueryData:/api/CodeItem/GetCodeItemList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:54:13,840 [31 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000019输出数据
+{"success":true,"returnMsg":"","returnData":[{"itemCode":"0     ","itemName":"1   hello                                                                                                                                                                                               ","clsCode":"1     ","unit":"0","refLower":"0","refUpper":"0","sex":"0","price":0.0},{"itemCode":"004   ","itemName":"test4                                                                                                                                                                                                   ","clsCode":"004   ","unit":"康软","refLower":"1","refUpper":"100","sex":"1","price":100.0},{"itemCode":"3     ","itemName":"张三                                                                                                                                                                                                    ","clsCode":"3     ","unit":"string","refLower":"string","refUpper":"string","sex":"1","price":110.0}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:54:31,313 [31 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:0000001B输入数据
+ QueryData:/api/tag/getTagList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:54:32,021 [31 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:0000001B输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":1,"name":"报告权威","hospitalCode":null},{"id":2,"name":"专家团队","hospitalCode":null},{"id":6,"name":"技术精湛","hospitalCode":null},{"id":17,"name":"设备先进","hospitalCode":null},{"id":18,"name":"102","hospitalCode":null}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:54:35,528 [32 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:0000001D输入数据
+ QueryData:/api/CodeItem/GetCodeItemList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:54:36,281 [32 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:0000001D输出数据
+{"success":true,"returnMsg":"","returnData":[{"itemCode":"0     ","itemName":"1   hello                                                                                                                                                                                               ","clsCode":"1     ","unit":"0","refLower":"0","refUpper":"0","sex":"0","price":0.0},{"itemCode":"004   ","itemName":"test4                                                                                                                                                                                                   ","clsCode":"004   ","unit":"康软","refLower":"1","refUpper":"100","sex":"1","price":100.0},{"itemCode":"3     ","itemName":"张三                                                                                                                                                                                                    ","clsCode":"3     ","unit":"string","refLower":"string","refUpper":"string","sex":"1","price":110.0}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:54:50,309 [34 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:0000001F输入数据
+ QueryData:/api/tag/getTagList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:54:50,804 [34 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:0000001F输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":1,"name":"报告权威","hospitalCode":null},{"id":2,"name":"专家团队","hospitalCode":null},{"id":6,"name":"技术精湛","hospitalCode":null},{"id":17,"name":"设备先进","hospitalCode":null},{"id":18,"name":"102","hospitalCode":null}],"pageSum":0,"countSum":0}
+
+2020-12-29 15:54:57,742 [31 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000021输入数据
+ QueryData:/api/CodeItem/GetCodeItemList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 15:54:58,068 [31 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000021输出数据
+{"success":true,"returnMsg":"","returnData":[{"itemCode":"0     ","itemName":"1   hello                                                                                                                                                                                               ","clsCode":"1     ","unit":"0","refLower":"0","refUpper":"0","sex":"0","price":0.0},{"itemCode":"004   ","itemName":"test4                                                                                                                                                                                                   ","clsCode":"004   ","unit":"康软","refLower":"1","refUpper":"100","sex":"1","price":100.0},{"itemCode":"3     ","itemName":"张三                                                                                                                                                                                                    ","clsCode":"3     ","unit":"string","refLower":"string","refUpper":"string","sex":"1","price":110.0}],"pageSum":0,"countSum":0}
+
+2020-12-29 16:07:15,055 [34 INFO ] 
+ -- ASK-0HM5BPHPO7VQI:00000023输入数据
+ QueryData:/api/CodeItem/CodeItemDel
+ BodyData:{"encryStr":"GB8WQ+qDpsqT+jCrfl7mDCDQ1vPS/4E3kmv7RusRm77jwwIMTkxVjKT6IqSF2ndm5EN2env4zlA9eqSIIc4GDGTlRIikPreGaAubyUzPNuKXUGnAXlon1uojnb9HZGzodx9WZgNl1hd8NVGRNbaP9A0K9i39UlpJTAqmwVx2P9LVJoANQK4mNP2DFXWG+L6G2EUSuAu4ep1XgpsBK0WalWC4ZbXznRNPsAF5FoA3e0+Be+qYycCiv2+hdgSJ18DLvlpNsmFqYD1RMxZ+1u93m71fLYcNctxePG1VsOO02/MYYBnuNknsT5Uxn0nqZBOpGZZdrp6qv9vg2jUJbM5HdnuSTGJDMWmL7M5hWrK58SvhWWCa//aSCIAeiM0cSuiFRgrK9fCbjak9k/Aa+nDMdE05UObQgPSRmO2ir/+anDk="}
+
+2020-12-29 16:12:03,355 [5 INFO ] 
+ -- ASK-0HM5BQ5GNSVGT:00000001输入数据
+ QueryData:/api/CodeItem/CodeItemDel
+ BodyData:{"encryStr":"GB8WQ+qDpsqT+jCrfl7mDCDQ1vPS/4E3kmv7RusRm77jwwIMTkxVjKT6IqSF2ndm5EN2env4zlA9eqSIIc4GDGTlRIikPreGaAubyUzPNuKXUGnAXlon1uojnb9HZGzodx9WZgNl1hd8NVGRNbaP9A0K9i39UlpJTAqmwVx2P9LVJoANQK4mNP2DFXWG+L6G2EUSuAu4ep1XgpsBK0WalWC4ZbXznRNPsAF5FoA3e0+Be+qYycCiv2+hdgSJ18DLvlpNsmFqYD1RMxZ+1u93m71fLYcNctxePG1VsOO02/MYYBnuNknsT5Uxn0nqZBOpGZZdrp6qv9vg2jUJbM5HdnuSTGJDMWmL7M5hWrK58SvhWWCa//aSCIAeiM0cSuiFRgrK9fCbjak9k/Aa+nDMdE05UObQgPSRmO2ir/+anDk="}
+
+2020-12-29 16:16:42,189 [8 INFO ] 
+ -- ASK-0HM5BQ5GNSVGT:00000003输入数据
+ QueryData:/api/CodeItem/CodeItemDel
+ BodyData:{"encryStr":"H4YZOtrYuqvuczoXBGpobK/kUdYfQHDT/o1BtADVBnQHSRdFVS1eNtvfuP63oSkCUf4Zvm8p+xqGf1jJPHpKoM72WGvgD1z4h8xafhRH33CL2XicRyh7O/dMf9iZuceg/1dnJ8af3rmWG+t1QgYA96ka1blhlcdVcvuT1K2qdH6lJpjVZkI7LpeARk/Iy1cU/E4asYYI8jKtAOnJm4LGfwQP8MwQ4/OIq17CtfhmsOVs1hm+3xHreG/dwTiP9MFBt7Nni/Y7zD1WT04Mgg5/JYVTbHWutmm/0YJd9d2XNe0TuQfSbPmf5R1i5N415ME8QxCMamqfLvWfxduV0bMc0sYc35FX7CtOJPed7ESO4CoROMosnhlIweIlzIJaxbUr+LMpj7wMeyxyhpzTlhJ/gudv4Yl+9DkthRjsqHdZrhBZnbKgJevV4hNmZUCZJ0dd"}
+
+2020-12-29 16:20:15,041 [5 INFO ] 
+ -- ASK-0HM5BQA51M1QV:00000001输入数据
+ QueryData:/api/CodeItem/CodeItemDel
+ BodyData:{"encryStr":"GB8WQ+qDpsqT+jCrfl7mDCDQ1vPS/4E3kmv7RusRm77jwwIMTkxVjKT6IqSF2ndm5EN2env4zlA9eqSIIc4GDGTlRIikPreGaAubyUzPNuKXUGnAXlon1uojnb9HZGzodx9WZgNl1hd8NVGRNbaP9A0K9i39UlpJTAqmwVx2P9LVJoANQK4mNP2DFXWG+L6G2EUSuAu4ep1XgpsBK0WalWC4ZbXznRNPsAF5FoA3e0+Be+qYycCiv2+hdgSJ18DLvlpNsmFqYD1RMxZ+1u93m71fLYcNctxePG1VsOO02/MYYBnuNknsT5Uxn0nqZBOpGZZdrp6qv9vg2jUJbM5HdnuSTGJDMWmL7M5hWrK58SvhWWCa//aSCIAeiM0cSuiFRgrK9fCbjak9k/Aa+nDMdE05UObQgPSRmO2ir/+anDk="}
+
+2020-12-29 16:20:41,395 [12 INFO ] 
+ -- ASK-0HM5BQA51M1R1:00000001输入数据
+ QueryData:/api/SystemSetting/Login
+ BodyData:{"encryStr":"2SbheYRuYcnp7wQV0FLCgY7B0M5VwVi0Fclz05B1ZkdvIfbUlEZ3pzBC3tVJTkFj"}
+
+2020-12-29 16:20:47,501 [6 INFO ] 
+ -- ASK-0HM5BQA51M1R1:00000001输出数据
+{"success":true,"returnMsg":"","returnData":{"id":1,"adminCode":"admin","adminName":"admin","adminPwd":null,"adminType":1,"createDate":"2020-03-10T09:03:55.717","createID":"1","updateDate":"2020-05-18T14:58:28.49","updateID":"12","loginDate":"2020-12-29T16:20:44.8267914+08:00","openId":null,"state":1,"token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IlhxSFVvcW9hdV9NNnB1TERqaTRHQWciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2MDkyMzAwNDQsImV4cCI6MTYwOTIzNzI0NCwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMSIsImF1ZCI6ImFwaTEiLCJjbGllbnRfaWQiOiJjbGllbnRhbmR1c2VyIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYwOTIzMDA0NCwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJhcGkxIl0sImFtciI6WyJwd2QiXX0.WtrrTnQNbI77b2f4o4E4pUI0XOeGrE5j7Xfnqy_H2qjd4yMdArvmbkr0QHmTMdZHmCWFnLfeJZ_b8VdF_YAC4lgJKrrrA_YwtrJ72IPttGbpOHbkuZeCS3HKQy_35Wq7z15uFU1hvD8k9xBSa7KyACO9ueMGPV3pg6pqPn_aA6AEiKQru52-BPJFY3JeEfCu1dJs6ORndSQpe93bnOYUrC7TGrIorU80Dk5aTfXOrjDO61MhjeV_qj0ZaCyTBjS_1RKiLWdBzzu46GGP_8PZQC9eB3wbWtR0k0XcEI-rCN9rly35pCQ0GgE3RdBXyPuaUoB6cfhcwiARLE4LH2SOuw","menudata":[{"id":5,"name":"hospitalManger","path":"hospitalManger","metaTitle":"医院管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":6,"name":"hospital","path":"hospitalManger/hospital","metaTitle":"医院列表","metaTicon":null,"sortIndex":1,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":7,"name":"tag","path":"hospitalManger/tag","metaTitle":"医院标签","metaTicon":null,"sortIndex":2,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":8,"name":"memberManger","path":"memberManger","metaTitle":"会员管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":9,"name":"member","path":"memberManger/member","metaTitle":"会员列表","metaTicon":null,"sortIndex":1,"parentId":8,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":10,"name":"itemClusterManagement","path":"itemClusterManagement","metaTitle":"项目套餐管理","metaTicon":"el-icon-office-building","sortIndex":4,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":11,"name":"itemManagement","path":"itemClusterManagement/itemManagement","metaTitle":"项目管理","metaTicon":"el-icon-office-building","sortIndex":1,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":12,"name":"combManagement","path":"itemClusterManagement/combManagement","metaTitle":"组合管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":13,"name":"clusterManagement","path":"itemClusterManagement/clusterManagement","metaTitle":"套餐管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null}]},"pageSum":0,"countSum":0}
+
+2020-12-29 16:20:49,788 [5 INFO ] 
+ -- ASK-0HM5BQA51M1R1:00000003输入数据
+ QueryData:/api/hospital/getHospitalLevelList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 16:20:49,813 [8 INFO ] 
+ -- ASK-0HM5BQA51M1R1:00000005输入数据
+ QueryData:/api/tag/getTagList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 16:20:50,210 [12 INFO ] 
+ -- ASK-0HM5BQA51M1R1:00000007输入数据
+ QueryData:/api/hospital/getHospitalList
+ BodyData:{"encryStr":"APGVztW+2uJWIX/s0Tx+/eGCm0zmdKOBgN6QByR9XFCjrZkIDPxgtH3evpAtUBLIJF9EyreF9RKvMW1F3Zx5UGjPn6cUdy4yq63Ij28rX14="}
+
+2020-12-29 16:20:50,745 [5 INFO ] 
+ -- ASK-0HM5BQA51M1R1:00000003输出数据
+{"success":true,"returnMsg":"","returnData":[{"key":0,"label":"公立三甲"},{"key":1,"label":"专业机构"},{"key":2,"label":"公立医院"},{"key":3,"label":"民营医院"}],"pageSum":0,"countSum":0}
+
+2020-12-29 16:20:50,988 [8 INFO ] 
+ -- ASK-0HM5BQA51M1R1:00000005输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":1,"name":"报告权威","hospitalCode":null},{"id":2,"name":"专家团队","hospitalCode":null},{"id":6,"name":"技术精湛","hospitalCode":null},{"id":17,"name":"设备先进","hospitalCode":null},{"id":18,"name":"102","hospitalCode":null}],"pageSum":0,"countSum":0}
+
+2020-12-29 16:20:52,613 [4 INFO ] 
+ -- ASK-0HM5BQA51M1R1:00000009输入数据
+ QueryData:/api/CodeItem/GetCodeItemList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 16:20:52,780 [8 INFO ] 
+ -- ASK-0HM5BQA51M1R1:00000007输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":4,"name":"广东省职业病防治院","imageUrls":["/ImgHub/1325333452899930685ad77c8892238.jpg"],"level":0,"appointmentTime":"周一至周五8:00-12:00，14:00-17:00（体检当天如需取消项目退费（抽血项目不予退费），需到接待室登记。如体检结束后7天内无反馈信息，后续将不处理退款事宜）","notification":"请提前1天预约，温馨提醒：本机构暂不支持社保报销，包含胃肠镜的项目均不包含药费，需到院自费，耳鼻喉科是打包项目不可退费，望悉知。","details":"广东省职业病防治院成立于1960年，是广东省卫生健康委员会直属公益一类事业单位，主要承担实施政府部门制定的职业病防治计划，承担职业病及职业相关疾病的防治、诊疗、康复、科研、培训、健康教育和基层指导工作，承担职业中毒、核辐射、化学物相关的评价、监测、检验、健康监护以及事故的应急救治和调查处理等工作。","province":"无","city":"无","district":"无","detailAddress":"广州市海珠区新港西路海康街68号","longitude":null,"dimensionality":null,"code":"0001","tags":[{"id":1,"name":"报告权威","hospitalCode":"0001"},{"id":2,"name":"专家团队","hospitalCode":"0001"},{"id":6,"name":"技术精湛","hospitalCode":"0001"},{"id":17,"name":"设备先进","hospitalCode":"0001"}]}],"pageSum":0,"countSum":1}
+
+2020-12-29 16:20:52,978 [4 INFO ] 
+ -- ASK-0HM5BQA51M1R1:00000009输出数据
+{"success":true,"returnMsg":"","returnData":[{"itemCode":"0     ","itemName":"1   hello                                                                                                                                                                                               ","clsCode":"1     ","unit":"0","refLower":"0","refUpper":"0","sex":"0","price":0.0},{"itemCode":"004   ","itemName":"test4                                                                                                                                                                                                   ","clsCode":"004   ","unit":"康软","refLower":"1","refUpper":"100","sex":"1","price":100.0},{"itemCode":"3     ","itemName":"张三                                                                                                                                                                                                    ","clsCode":"3     ","unit":"string","refLower":"string","refUpper":"string","sex":"1","price":110.0}],"pageSum":0,"countSum":0}
+
+2020-12-29 16:20:55,764 [4 INFO ] 
+ -- ASK-0HM5BQA51M1R1:0000000B输入数据
+ QueryData:/api/CodeItem/CodeItemDel
+ BodyData:{"encryStr":"GB8WQ+qDpsqT+jCrfl7mDCDQ1vPS/4E3kmv7RusRm77jwwIMTkxVjKT6IqSF2ndm5EN2env4zlA9eqSIIc4GDGTlRIikPreGaAubyUzPNuKXUGnAXlon1uojnb9HZGzodx9WZgNl1hd8NVGRNbaP9A0K9i39UlpJTAqmwVx2P9LVJoANQK4mNP2DFXWG+L6G2EUSuAu4ep1XgpsBK0WalWC4ZbXznRNPsAF5FoA3e0+Be+qYycCiv2+hdgSJ18DLvlpNsmFqYD1RMxZ+1u93m71fLYcNctxePG1VsOO02/MYYBnuNknsT5Uxn0nqZBOpGZZdrp6qv9vg2jUJbM5HdnuSTGJDMWmL7M5hWrK58SvhWWCa//aSCIAeiM0cSuiFRgrK9fCbjak9k/Aa+nDMdE05UObQgPSRmO2ir/+anDk="}
+
+2020-12-29 16:22:41,785 [12 INFO ] 
+ -- ASK-0HM5BQBHI1VH2:00000001输入数据
+ QueryData:/api/CodeItem/CodeItemDel
+ BodyData:{"encryStr":"GB8WQ+qDpsqT+jCrfl7mDCDQ1vPS/4E3kmv7RusRm77jwwIMTkxVjKT6IqSF2ndm5EN2env4zlA9eqSIIc4GDGTlRIikPreGaAubyUzPNuKXUGnAXlon1uojnb9HZGzodx9WZgNl1hd8NVGRNbaP9A0K9i39UlpJTAqmwVx2P9LVJoANQK4mNP2DFXWG+L6G2EUSuAu4ep1XgpsBK0WalWC4ZbXznRNPsAF5FoA3e0+Be+qYycCiv2+hdgSJ18DLvlpNsmFqYD1RMxZ+1u93m71fLYcNctxePG1VsOO02/MYYBnuNknsT5Uxn0nqZBOpGZZdrp6qv9vg2jUJbM5HdnuSTGJDMWmL7M5hWrK58SvhWWCa//aSCIAeiM0cSuiFRgrK9fCbjak9k/Aa+nDMdE05UObQgPSRmO2ir/+anDk="}
+
+2020-12-29 16:23:37,875 [15 INFO ] 
+ -- ASK-0HM5BQBHI1VH2:00000003输入数据
+ QueryData:/api/CodeItem/CodeItemDel
+ BodyData:{"encryStr":"H4YZOtrYuqvuczoXBGpobK/kUdYfQHDT/o1BtADVBnQHSRdFVS1eNtvfuP63oSkCUf4Zvm8p+xqGf1jJPHpKoM72WGvgD1z4h8xafhRH33CL2XicRyh7O/dMf9iZuceg/1dnJ8af3rmWG+t1QgYA96ka1blhlcdVcvuT1K2qdH6lJpjVZkI7LpeARk/Iy1cU/E4asYYI8jKtAOnJm4LGfwQP8MwQ4/OIq17CtfhmsOVs1hm+3xHreG/dwTiP9MFBt7Nni/Y7zD1WT04Mgg5/JYVTbHWutmm/0YJd9d2XNe0TuQfSbPmf5R1i5N415ME8QxCMamqfLvWfxduV0bMc0sYc35FX7CtOJPed7ESO4CoROMosnhlIweIlzIJaxbUr+LMpj7wMeyxyhpzTlhJ/gudv4Yl+9DkthRjsqHdZrhBZnbKgJevV4hNmZUCZJ0dd"}
+
+2020-12-29 16:23:50,844 [17 INFO ] 
+ -- ASK-0HM5BQBHI1VH2:00000005输入数据
+ QueryData:/api/CodeItem/CodeItemDel
+ BodyData:{"encryStr":"xierkauuZ1hGJHmM7sUpCjEAv4BAr2CvlZO2Fb9laoH61A4NmXS2R73/VfpRcH/fwtkGEsAuGZUxH6QWK4OyROPUs0n+mPD1xP8IaNajLNDMJqqgnSGGPISdmk1VpP7iWcbhQcJbb723YtvZGHqqoKrofeUWOEn58zN91Bw+CTjseWFpiAM1KRZq6wDL4wWdRA8ZKghLw37KJ2AYL9jnvJOTT6WGOqUKp3yRW8bMeUoxJit5Yi7D2ibLzX2Oc8b1BRQ8CiSz4TnGJ5UlwyYmrTuQ85yW0cOv69WauOvi53Pt6Wd1TDWuD2l1LJs6Jv+zYOtqwoVptlO4VRGF80enCge80/kmvpru4iD2BFPov+/MqjOLbB+9w6aI8CQHeltbLW+VpT2uYzRuFfWpWMAV6cRPS2muwCu7Ld0lkg7Yh1w2dd4dbZ62vcX0rzRgDdmh"}
+
+2020-12-29 16:24:55,644 [13 INFO ] 
+ -- ASK-0HM5BQBHI1VH2:0000000B输入数据
+ QueryData:/api/hospital/getHospitalList
+ BodyData:{"encryStr":"APGVztW+2uJWIX/s0Tx+/eGCm0zmdKOBgN6QByR9XFCjrZkIDPxgtH3evpAtUBLIJF9EyreF9RKvMW1F3Zx5UGjPn6cUdy4yq63Ij28rX14="}
+
+2020-12-29 16:24:55,812 [17 INFO ] 
+ -- ASK-0HM5BQBHI1VH2:00000007输入数据
+ QueryData:/api/hospital/getHospitalLevelList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 16:24:55,934 [4 INFO ] 
+ -- ASK-0HM5BQBHI1VH2:00000009输入数据
+ QueryData:/api/tag/getTagList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 16:24:58,539 [17 INFO ] 
+ -- ASK-0HM5BQBHI1VH2:00000007输出数据
+{"success":true,"returnMsg":"","returnData":[{"key":0,"label":"公立三甲"},{"key":1,"label":"专业机构"},{"key":2,"label":"公立医院"},{"key":3,"label":"民营医院"}],"pageSum":0,"countSum":0}
+
+2020-12-29 16:24:58,789 [15 INFO ] 
+ -- ASK-0HM5BQBHI1VH2:0000000D输入数据
+ QueryData:/api/CodeItem/GetCodeItemList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 16:25:00,060 [4 INFO ] 
+ -- ASK-0HM5BQBHI1VH2:00000009输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":1,"name":"报告权威","hospitalCode":null},{"id":2,"name":"专家团队","hospitalCode":null},{"id":6,"name":"技术精湛","hospitalCode":null},{"id":17,"name":"设备先进","hospitalCode":null},{"id":18,"name":"102","hospitalCode":null}],"pageSum":0,"countSum":0}
+
+2020-12-29 16:25:00,584 [19 INFO ] 
+ -- ASK-0HM5BQBHI1VH2:0000000D输出数据
+{"success":true,"returnMsg":"","returnData":[{"itemCode":"004   ","itemName":"test4                                                                                                                                                                                                   ","clsCode":"004   ","unit":"康软","refLower":"1","refUpper":"100","sex":"1","price":100.0},{"itemCode":"1     ","itemName":"1   hello                                                                                                                                                                                               ","clsCode":"1     ","unit":"0","refLower":"0","refUpper":"0","sex":"0","price":0.0},{"itemCode":"3     ","itemName":"张三                                                                                                                                                                                                    ","clsCode":"3     ","unit":"string","refLower":"string","refUpper":"string","sex":"1","price":110.0}],"pageSum":0,"countSum":0}
+
+2020-12-29 16:25:01,494 [4 INFO ] 
+ -- ASK-0HM5BQBHI1VH2:0000000B输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":4,"name":"广东省职业病防治院","imageUrls":["/ImgHub/1325333452899930685ad77c8892238.jpg"],"level":0,"appointmentTime":"周一至周五8:00-12:00，14:00-17:00（体检当天如需取消项目退费（抽血项目不予退费），需到接待室登记。如体检结束后7天内无反馈信息，后续将不处理退款事宜）","notification":"请提前1天预约，温馨提醒：本机构暂不支持社保报销，包含胃肠镜的项目均不包含药费，需到院自费，耳鼻喉科是打包项目不可退费，望悉知。","details":"广东省职业病防治院成立于1960年，是广东省卫生健康委员会直属公益一类事业单位，主要承担实施政府部门制定的职业病防治计划，承担职业病及职业相关疾病的防治、诊疗、康复、科研、培训、健康教育和基层指导工作，承担职业中毒、核辐射、化学物相关的评价、监测、检验、健康监护以及事故的应急救治和调查处理等工作。","province":"无","city":"无","district":"无","detailAddress":"广州市海珠区新港西路海康街68号","longitude":null,"dimensionality":null,"code":"0001","tags":[{"id":1,"name":"报告权威","hospitalCode":"0001"},{"id":2,"name":"专家团队","hospitalCode":"0001"},{"id":6,"name":"技术精湛","hospitalCode":"0001"},{"id":17,"name":"设备先进","hospitalCode":"0001"}]}],"pageSum":0,"countSum":1}
+
+2020-12-29 16:25:05,048 [17 INFO ] 
+ -- ASK-0HM5BQBHI1VH2:0000000F输入数据
+ QueryData:/api/CodeItem/CodeItemDel
+ BodyData:{"encryStr":"W3vCYfEMdX1x9H1BHQSnHEVO05G/jLzNy/TF0TUeATylielvSTZlNvhSmx64SjUHykiXeHVubcHX2NfExIR59/W/oOAOo4WUkuPgkcVsABrrxwCGDaJeoMZc0uyRDwv5gEqMQaiURrzKvAfdsFxrAxdn3XwAtlNScgZRbtKUePB32Yz4+IT8v6BeVJWGb6S+SH+wRUrIeBvl/JUjXJRg6bjU204OcRP20xeycDoykpEEg6I9IdmAmDG0C8GB0T9E70pFKoIZawrGPvCoIOpCD3KdmriR+S+OhblVyP9iSG+Tcy+tok2+XmtWvuPfJ3fbU6xUJOBej+aliStXNy5qBOmtJbDZkbyPMZX6u6UY8EMM0L0oaEiv5bKU5UepSEJGCsaKoJglqEjP5Fmic2eGXNr6MyUJJSuJ9kCj1GVFr1Y="}
+
+2020-12-29 16:28:58,038 [8 INFO ] 
+ -- ASK-0HM5BQEIE9HCI:00000001输入数据
+ QueryData:/api/CodeItem/CodeItemDel
+ BodyData:{"encryStr":"H4YZOtrYuqvuczoXBGpobK/kUdYfQHDT/o1BtADVBnQHSRdFVS1eNtvfuP63oSkCUf4Zvm8p+xqGf1jJPHpKoM72WGvgD1z4h8xafhRH33CL2XicRyh7O/dMf9iZuceg/1dnJ8af3rmWG+t1QgYA96ka1blhlcdVcvuT1K2qdH6lJpjVZkI7LpeARk/Iy1cU/E4asYYI8jKtAOnJm4LGfwQP8MwQ4/OIq17CtfhmsOVs1hm+3xHreG/dwTiP9MFBt7Nni/Y7zD1WT04Mgg5/JYVTbHWutmm/0YJd9d2XNe0TuQfSbPmf5R1i5N415ME8QxCMamqfLvWfxduV0bMc0sYc35FX7CtOJPed7ESO4CoROMosnhlIweIlzIJaxbUr+LMpj7wMeyxyhpzTlhJ/gudv4Yl+9DkthRjsqHdZrhBZnbKgJevV4hNmZUCZJ0dd"}
+
+2020-12-29 16:32:56,393 [15 INFO ] 
+ -- ASK-0HM5BQEIE9HCI:00000003输入数据
+ QueryData:/api/CodeItem/CodeItemDel
+ BodyData:{"encryStr":"H4YZOtrYuqvuczoXBGpobK/kUdYfQHDT/o1BtADVBnQHSRdFVS1eNtvfuP63oSkCUf4Zvm8p+xqGf1jJPHpKoM72WGvgD1z4h8xafhRH33CL2XicRyh7O/dMf9iZuceg/1dnJ8af3rmWG+t1QgYA96ka1blhlcdVcvuT1K2qdH6lJpjVZkI7LpeARk/Iy1cU/E4asYYI8jKtAOnJm4LGfwQP8MwQ4/OIq17CtfhmsOVs1hm+3xHreG/dwTiP9MFBt7Nni/Y7zD1WT04Mgg5/JYVTbHWutmm/0YJd9d2XNe0TuQfSbPmf5R1i5N415ME8QxCMamqfLvWfxduV0bMc0sYc35FX7CtOJPed7ESO4CoROMosnhlIweIlzIJaxbUr+LMpj7wMeyxyhpzTlhJ/gudv4Yl+9DkthRjsqHdZrhBZnbKgJevV4hNmZUCZJ0dd"}
+
+2020-12-29 16:33:13,452 [14 INFO ] 
+ -- ASK-0HM5BQEIE9HCI:00000005输入数据
+ QueryData:/api/CodeItem/CodeItemDel
+ BodyData:{"encryStr":"H4YZOtrYuqvuczoXBGpobK/kUdYfQHDT/o1BtADVBnQHSRdFVS1eNtvfuP63oSkCUf4Zvm8p+xqGf1jJPHpKoM72WGvgD1z4h8xafhRH33CL2XicRyh7O/dMf9iZuceg/1dnJ8af3rmWG+t1QgYA96ka1blhlcdVcvuT1K2qdH6lJpjVZkI7LpeARk/Iy1cU/E4asYYI8jKtAOnJm4LGfwQP8MwQ4/OIq17CtfhmsOVs1hm+3xHreG/dwTiP9MFBt7Nni/Y7zD1WT04Mgg5/JYVTbHWutmm/0YJd9d2XNe0TuQfSbPmf5R1i5N415ME8QxCMamqfLvWfxduV0bMc0sYc35FX7CtOJPed7ESO4CoROMosnhlIweIlzIJaxbUr+LMpj7wMeyxyhpzTlhJ/gudv4Yl+9DkthRjsqHdZrhBZnbKgJevV4hNmZUCZJ0dd"}
+
+2020-12-29 16:37:10,438 [15 INFO ] 
+ -- ASK-0HM5BQEIE9HD0:00000001输入数据
+ QueryData:/api/SystemSetting/Login
+ BodyData:{"encryStr":"2SbheYRuYcnp7wQV0FLCgY7B0M5VwVi0Fclz05B1ZkdvIfbUlEZ3pzBC3tVJTkFj"}
+
+2020-12-29 16:37:10,443 [14 INFO ] 
+ -- ASK-0HM5BQEIE9HD0:00000005输入数据
+ QueryData:/api/SystemSetting/Login
+ BodyData:{"encryStr":"2SbheYRuYcnp7wQV0FLCgY7B0M5VwVi0Fclz05B1ZkdvIfbUlEZ3pzBC3tVJTkFj"}
+
+2020-12-29 16:37:10,768 [17 INFO ] 
+ -- ASK-0HM5BQEIE9HD0:00000003输入数据
+ QueryData:/api/SystemSetting/Login
+ BodyData:{"encryStr":"2SbheYRuYcnp7wQV0FLCgY7B0M5VwVi0Fclz05B1ZkdvIfbUlEZ3pzBC3tVJTkFj"}
+
+2020-12-29 16:37:19,980 [24 INFO ] 
+ -- ASK-0HM5BQEIE9HD0:00000007输入数据
+ QueryData:/api/SystemSetting/Login
+ BodyData:{"encryStr":"2SbheYRuYcnp7wQV0FLCgY7B0M5VwVi0Fclz05B1ZkdvIfbUlEZ3pzBC3tVJTkFj"}
+
+2020-12-29 16:37:25,242 [16 INFO ] 
+ -- ASK-0HM5BQEIE9HD0:00000001输出数据
+{"success":true,"returnMsg":"","returnData":{"id":1,"adminCode":"admin","adminName":"admin","adminPwd":null,"adminType":1,"createDate":"2020-03-10T09:03:55.717","createID":"1","updateDate":"2020-05-18T14:58:28.49","updateID":"12","loginDate":"2020-12-29T16:37:19.8858843+08:00","openId":null,"state":1,"token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IlhxSFVvcW9hdV9NNnB1TERqaTRHQWciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2MDkyMzEwMzksImV4cCI6MTYwOTIzODIzOSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMSIsImF1ZCI6ImFwaTEiLCJjbGllbnRfaWQiOiJjbGllbnRhbmR1c2VyIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYwOTIzMTAzOCwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJhcGkxIl0sImFtciI6WyJwd2QiXX0.WyhV_evQIBmKqmZnaV_wEatHVFjmUOd-IkxHiiHnXbZeGHnpdu39l8rWwA6o5ajbXb4rKEU92ZzeNdkgVdDhig1OEx1_BkKzVw2sViz2Ox0SzGxiUrDTQMA7hh6R-6A9RFfqQT7uhlUOaPF7Duw8Tl-bta21hxUwnp7WYIipQUm74wa3K4XAxYS6GE-xBR7RHiaqoc7EMiXsjJKijA5-S4rkAtTuUcuzgRaOH0nDqzKSgZTR6PRkpJZV--w-XxDG0GDy2ji9BlaaAUHYANWs351Z0PRFw6-KFY_U3mFWEzTg2rW6z06_i7JGVAOJtj5erGdJNkhKZCsMZjI3L-5oOw","menudata":[{"id":5,"name":"hospitalManger","path":"hospitalManger","metaTitle":"医院管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":6,"name":"hospital","path":"hospitalManger/hospital","metaTitle":"医院列表","metaTicon":null,"sortIndex":1,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":7,"name":"tag","path":"hospitalManger/tag","metaTitle":"医院标签","metaTicon":null,"sortIndex":2,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":8,"name":"memberManger","path":"memberManger","metaTitle":"会员管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":9,"name":"member","path":"memberManger/member","metaTitle":"会员列表","metaTicon":null,"sortIndex":1,"parentId":8,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":10,"name":"itemClusterManagement","path":"itemClusterManagement","metaTitle":"项目套餐管理","metaTicon":"el-icon-office-building","sortIndex":4,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":11,"name":"itemManagement","path":"itemClusterManagement/itemManagement","metaTitle":"项目管理","metaTicon":"el-icon-office-building","sortIndex":1,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":12,"name":"combManagement","path":"itemClusterManagement/combManagement","metaTitle":"组合管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":13,"name":"clusterManagement","path":"itemClusterManagement/clusterManagement","metaTitle":"套餐管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null}]},"pageSum":0,"countSum":0}
+
+2020-12-29 16:37:27,353 [4 INFO ] 
+ -- ASK-0HM5BQEIE9HD0:00000009输入数据
+ QueryData:/api/SystemSetting/Login
+ BodyData:{"encryStr":"2SbheYRuYcnp7wQV0FLCgY7B0M5VwVi0Fclz05B1ZkdvIfbUlEZ3pzBC3tVJTkFj"}
+
+2020-12-29 16:37:29,526 [18 INFO ] 
+ -- ASK-0HM5BQEIE9HD0:00000005输出数据
+{"success":true,"returnMsg":"","returnData":{"id":1,"adminCode":"admin","adminName":"admin","adminPwd":null,"adminType":1,"createDate":"2020-03-10T09:03:55.717","createID":"1","updateDate":"2020-05-18T14:58:28.49","updateID":"12","loginDate":"2020-12-29T16:37:20.7046252+08:00","openId":null,"state":1,"token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IlhxSFVvcW9hdV9NNnB1TERqaTRHQWciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2MDkyMzEwMzksImV4cCI6MTYwOTIzODIzOSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMSIsImF1ZCI6ImFwaTEiLCJjbGllbnRfaWQiOiJjbGllbnRhbmR1c2VyIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYwOTIzMTAzOCwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJhcGkxIl0sImFtciI6WyJwd2QiXX0.WyhV_evQIBmKqmZnaV_wEatHVFjmUOd-IkxHiiHnXbZeGHnpdu39l8rWwA6o5ajbXb4rKEU92ZzeNdkgVdDhig1OEx1_BkKzVw2sViz2Ox0SzGxiUrDTQMA7hh6R-6A9RFfqQT7uhlUOaPF7Duw8Tl-bta21hxUwnp7WYIipQUm74wa3K4XAxYS6GE-xBR7RHiaqoc7EMiXsjJKijA5-S4rkAtTuUcuzgRaOH0nDqzKSgZTR6PRkpJZV--w-XxDG0GDy2ji9BlaaAUHYANWs351Z0PRFw6-KFY_U3mFWEzTg2rW6z06_i7JGVAOJtj5erGdJNkhKZCsMZjI3L-5oOw","menudata":[{"id":5,"name":"hospitalManger","path":"hospitalManger","metaTitle":"医院管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":6,"name":"hospital","path":"hospitalManger/hospital","metaTitle":"医院列表","metaTicon":null,"sortIndex":1,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":7,"name":"tag","path":"hospitalManger/tag","metaTitle":"医院标签","metaTicon":null,"sortIndex":2,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":8,"name":"memberManger","path":"memberManger","metaTitle":"会员管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":9,"name":"member","path":"memberManger/member","metaTitle":"会员列表","metaTicon":null,"sortIndex":1,"parentId":8,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":10,"name":"itemClusterManagement","path":"itemClusterManagement","metaTitle":"项目套餐管理","metaTicon":"el-icon-office-building","sortIndex":4,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":11,"name":"itemManagement","path":"itemClusterManagement/itemManagement","metaTitle":"项目管理","metaTicon":"el-icon-office-building","sortIndex":1,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":12,"name":"combManagement","path":"itemClusterManagement/combManagement","metaTitle":"组合管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":13,"name":"clusterManagement","path":"itemClusterManagement/clusterManagement","metaTitle":"套餐管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null}]},"pageSum":0,"countSum":0}
+
+2020-12-29 16:37:30,663 [19 INFO ] 
+ -- ASK-0HM5BQEIE9HD0:0000000B输入数据
+ QueryData:/api/hospital/getHospitalLevelList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 16:37:31,041 [14 INFO ] 
+ -- ASK-0HM5BQEIE9HD0:0000000D输入数据
+ QueryData:/api/hospital/getHospitalList
+ BodyData:{"encryStr":"APGVztW+2uJWIX/s0Tx+/eGCm0zmdKOBgN6QByR9XFCjrZkIDPxgtH3evpAtUBLIJF9EyreF9RKvMW1F3Zx5UGjPn6cUdy4yq63Ij28rX14="}
+
+2020-12-29 16:37:32,423 [19 INFO ] 
+ -- ASK-0HM5BQEIE9HD0:0000000B输出数据
+{"success":true,"returnMsg":"","returnData":[{"key":0,"label":"公立三甲"},{"key":1,"label":"专业机构"},{"key":2,"label":"公立医院"},{"key":3,"label":"民营医院"}],"pageSum":0,"countSum":0}
+
+2020-12-29 16:37:33,389 [23 INFO ] 
+ -- ASK-0HM5BQEIE9HD0:0000000F输入数据
+ QueryData:/api/tag/getTagList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 16:37:33,407 [15 INFO ] 
+ -- ASK-0HM5BQEIE9HD0:0000000D输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":4,"name":"广东省职业病防治院","imageUrls":["/ImgHub/1325333452899930685ad77c8892238.jpg"],"level":0,"appointmentTime":"周一至周五8:00-12:00，14:00-17:00（体检当天如需取消项目退费（抽血项目不予退费），需到接待室登记。如体检结束后7天内无反馈信息，后续将不处理退款事宜）","notification":"请提前1天预约，温馨提醒：本机构暂不支持社保报销，包含胃肠镜的项目均不包含药费，需到院自费，耳鼻喉科是打包项目不可退费，望悉知。","details":"广东省职业病防治院成立于1960年，是广东省卫生健康委员会直属公益一类事业单位，主要承担实施政府部门制定的职业病防治计划，承担职业病及职业相关疾病的防治、诊疗、康复、科研、培训、健康教育和基层指导工作，承担职业中毒、核辐射、化学物相关的评价、监测、检验、健康监护以及事故的应急救治和调查处理等工作。","province":"无","city":"无","district":"无","detailAddress":"广州市海珠区新港西路海康街68号","longitude":null,"dimensionality":null,"code":"0001","tags":[{"id":1,"name":"报告权威","hospitalCode":"0001"},{"id":2,"name":"专家团队","hospitalCode":"0001"},{"id":6,"name":"技术精湛","hospitalCode":"0001"},{"id":17,"name":"设备先进","hospitalCode":"0001"}]}],"pageSum":0,"countSum":1}
+
+2020-12-29 16:37:34,332 [23 INFO ] 
+ -- ASK-0HM5BQEIE9HD0:0000000F输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":1,"name":"报告权威","hospitalCode":null},{"id":2,"name":"专家团队","hospitalCode":null},{"id":6,"name":"技术精湛","hospitalCode":null},{"id":17,"name":"设备先进","hospitalCode":null},{"id":18,"name":"102","hospitalCode":null}],"pageSum":0,"countSum":0}
+
+2020-12-29 16:37:34,568 [16 INFO ] 
+ -- ASK-0HM5BQEIE9HD0:00000007输出数据
+{"success":true,"returnMsg":"","returnData":{"id":1,"adminCode":"admin","adminName":"admin","adminPwd":null,"adminType":1,"createDate":"2020-03-10T09:03:55.717","createID":"1","updateDate":"2020-05-18T14:58:28.49","updateID":"12","loginDate":"2020-12-29T16:37:31.5095535+08:00","openId":null,"state":1,"token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IlhxSFVvcW9hdV9NNnB1TERqaTRHQWciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2MDkyMzEwNTEsImV4cCI6MTYwOTIzODI1MSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMSIsImF1ZCI6ImFwaTEiLCJjbGllbnRfaWQiOiJjbGllbnRhbmR1c2VyIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYwOTIzMTA1MCwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJhcGkxIl0sImFtciI6WyJwd2QiXX0.G6XzWDF8TzmA4F5I8RfG6LQpsFAG2VXecfdKYxy-l3Kcrewf7SFd8c-EIJOFI2973lavCbFBrh3bq1gnqMs0iGShEHerTajNj0jzyMFYT3Pyil2Q9jOszGOBfdO6scYTRKG4F19FOxnHDrLaVKWnfGZYanef2q6xNdfOC2bOA8qWbP4o_bksRxW2VeCflPlAbERWd0ZdWUutyufFkqA0B2i7YxwdAJh6uXVsy89fD_uq7gbpvHDt131onP9UNaD7EOAYDQV_nieCxhsbGLZXkElyZlcWWbN7BJDy1LYm8O_4KAaDrtcNa8QSnQrYMh2uU-skq3SBH_YBKTVj62tHjg","menudata":[{"id":5,"name":"hospitalManger","path":"hospitalManger","metaTitle":"医院管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":6,"name":"hospital","path":"hospitalManger/hospital","metaTitle":"医院列表","metaTicon":null,"sortIndex":1,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":7,"name":"tag","path":"hospitalManger/tag","metaTitle":"医院标签","metaTicon":null,"sortIndex":2,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":8,"name":"memberManger","path":"memberManger","metaTitle":"会员管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":9,"name":"member","path":"memberManger/member","metaTitle":"会员列表","metaTicon":null,"sortIndex":1,"parentId":8,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":10,"name":"itemClusterManagement","path":"itemClusterManagement","metaTitle":"项目套餐管理","metaTicon":"el-icon-office-building","sortIndex":4,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":11,"name":"itemManagement","path":"itemClusterManagement/itemManagement","metaTitle":"项目管理","metaTicon":"el-icon-office-building","sortIndex":1,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":12,"name":"combManagement","path":"itemClusterManagement/combManagement","metaTitle":"组合管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":13,"name":"clusterManagement","path":"itemClusterManagement/clusterManagement","metaTitle":"套餐管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null}]},"pageSum":0,"countSum":0}
+
+2020-12-29 16:37:35,055 [27 INFO ] 
+ -- ASK-0HM5BQEIE9HD0:00000003输出数据
+{"success":true,"returnMsg":"","returnData":{"id":1,"adminCode":"admin","adminName":"admin","adminPwd":null,"adminType":1,"createDate":"2020-03-10T09:03:55.717","createID":"1","updateDate":"2020-05-18T14:58:28.49","updateID":"12","loginDate":"2020-12-29T16:37:24.405981+08:00","openId":null,"state":1,"token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IlhxSFVvcW9hdV9NNnB1TERqaTRHQWciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2MDkyMzEwNDIsImV4cCI6MTYwOTIzODI0MiwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMSIsImF1ZCI6ImFwaTEiLCJjbGllbnRfaWQiOiJjbGllbnRhbmR1c2VyIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYwOTIzMTA0MSwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJhcGkxIl0sImFtciI6WyJwd2QiXX0.gvFkEyRstkHNIclQ2e5FT2TjF1NtxR1q0fFJUS6vhwM4o9pam2CyTGRXURVIkig76ul8-DXf1DqUczGmvyEuMsjIcxmbXUMs7Fs2m4_g1ZmI3G3lW__EwAvXxsQUEkkq78UAL7E6SQ9QllJ4jI7M0EFHX_au9b8kQUI0lJAzo-0fCfmU56F4zonbNqbEbj8CyUSehxTmhVRZRf1ycnf5p6jTR79TxfXHALhzDnRhO1_gjETE0OrpM-JqWgJl1KhDU0P1VELPJyb9DAWnSnG-3Q24tdBzntdGmHJCvQUfKq7qQG3QdhoUW1LbyTZOqUwkTyXeDIiw1ClPm0d31LPfYQ","menudata":[{"id":5,"name":"hospitalManger","path":"hospitalManger","metaTitle":"医院管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":6,"name":"hospital","path":"hospitalManger/hospital","metaTitle":"医院列表","metaTicon":null,"sortIndex":1,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":7,"name":"tag","path":"hospitalManger/tag","metaTitle":"医院标签","metaTicon":null,"sortIndex":2,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":8,"name":"memberManger","path":"memberManger","metaTitle":"会员管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":9,"name":"member","path":"memberManger/member","metaTitle":"会员列表","metaTicon":null,"sortIndex":1,"parentId":8,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":10,"name":"itemClusterManagement","path":"itemClusterManagement","metaTitle":"项目套餐管理","metaTicon":"el-icon-office-building","sortIndex":4,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":11,"name":"itemManagement","path":"itemClusterManagement/itemManagement","metaTitle":"项目管理","metaTicon":"el-icon-office-building","sortIndex":1,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":12,"name":"combManagement","path":"itemClusterManagement/combManagement","metaTitle":"组合管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":13,"name":"clusterManagement","path":"itemClusterManagement/clusterManagement","metaTitle":"套餐管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null}]},"pageSum":0,"countSum":0}
+
+2020-12-29 16:37:39,117 [18 INFO ] 
+ -- ASK-0HM5BQEIE9HD0:00000009输出数据
+{"success":true,"returnMsg":"","returnData":{"id":1,"adminCode":"admin","adminName":"admin","adminPwd":null,"adminType":1,"createDate":"2020-03-10T09:03:55.717","createID":"1","updateDate":"2020-05-18T14:58:28.49","updateID":"12","loginDate":"2020-12-29T16:37:36.443946+08:00","openId":null,"state":1,"token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IlhxSFVvcW9hdV9NNnB1TERqaTRHQWciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2MDkyMzEwNTYsImV4cCI6MTYwOTIzODI1NiwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMSIsImF1ZCI6ImFwaTEiLCJjbGllbnRfaWQiOiJjbGllbnRhbmR1c2VyIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYwOTIzMTA1NCwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJhcGkxIl0sImFtciI6WyJwd2QiXX0.ZSXk2eaVzVV3RAaSvUJB2AyfPmsMV-IJvPDPVGOy2DmfNNj3JD0QFKlE7wOCBvLwtweCHODjGIY_gEI-n76a6KkPmyJic2I2v69hqZvU87533efmJXq8XxnzzAHPkSDAnpkiRkX9aUp2npuj3aESXacQRMUuLPsYfTUO2QlUTy56Qj-OcdfpfzK27KSTAg476ZnNXPWuD4bqo34SV-0zEN6Z1iX7hjQX3dbuItFgVXK2p9i4_x3MI_J3jzJaQZRWT8Xk15AJxM1O47gP0IDociH3nb1IUu6Tjz-Bkre8enSBT1y5P9SPrH-6zUm7YDutVlhobG3Wm5_s56ubfYuI_g","menudata":[{"id":5,"name":"hospitalManger","path":"hospitalManger","metaTitle":"医院管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":6,"name":"hospital","path":"hospitalManger/hospital","metaTitle":"医院列表","metaTicon":null,"sortIndex":1,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":7,"name":"tag","path":"hospitalManger/tag","metaTitle":"医院标签","metaTicon":null,"sortIndex":2,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":8,"name":"memberManger","path":"memberManger","metaTitle":"会员管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":9,"name":"member","path":"memberManger/member","metaTitle":"会员列表","metaTicon":null,"sortIndex":1,"parentId":8,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":10,"name":"itemClusterManagement","path":"itemClusterManagement","metaTitle":"项目套餐管理","metaTicon":"el-icon-office-building","sortIndex":4,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":11,"name":"itemManagement","path":"itemClusterManagement/itemManagement","metaTitle":"项目管理","metaTicon":"el-icon-office-building","sortIndex":1,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":12,"name":"combManagement","path":"itemClusterManagement/combManagement","metaTitle":"组合管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":13,"name":"clusterManagement","path":"itemClusterManagement/clusterManagement","metaTitle":"套餐管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null}]},"pageSum":0,"countSum":0}
+
+2020-12-29 16:38:34,687 [4 INFO ] 
+ -- ASK-0HM5BQEIE9HCR:00000019输入数据
+ QueryData:/api/CommonApi/FilePicSave
+ BodyData:------WebKitFormBoundaryFHjUIB2flsZUrDpW
+Content-Disposition: form-data; name="file"; filename="微信图片_20201229163823.png"
+Content-Type: image/png
+
+�PNG
+
+   IHDR  �  R   {QP   sRGB ���   gAMA  ���a   	pHYs  �  ��o�d  KhIDATx^�ݍu�:��ۏ[q'ną�����Ob`F28&����'�K��������>    ��K    ���D     p�4     �+M     �J    ���D     p�4     �+M     �J    ���D     p�4     �+M     �J    ���D     p�4     �+M�(.!mD�o!m�W�    ���
+��.-s4 �Ng���m��G�v�z[ڞ<��ئ����m�VNǾ�g��e��ݧ4��g�=����q�6tl����_��ٱ�M������x�=�ϓ9�������:�_����RϯS�w/e���T��.���W�Q�[���i��m>��>s=��R۵q    �f�DX/��X �Ӝ1�w�i����P���R�γ�:R>�T9+����}Y��i�[�,@�c����rv��X�}�:��y��l>Mb���:����jCl�.J�뛸����
+�u���+c,X_�.�o�]];�x��o�����Kik;�M@   �!�DJ�X �t0�n��UJ�@F���cb0ci֮�Z_�z�G̷qEVO�q���!6�gmZ=��w?V����w+gy��ٹ�buc��<��S=߷�<��i��������=߆������'�ۯ�����$������7q>��8z2���z2}�i��{�Q�.5m	��A���ۭ�ڴ���Wm�@~����[:    �d:P�a��-���Ă3d Y�d��΍Օ؞��յ6}����`�������*�|6��M���x����������[�2��<wo��_�.Fmڸ��c;�m_^���=*gk��lLֶ�)��L6�l���ڰk��q�Xm��NZ� �Z\�����r���, o/)_^�f���`~	�}����Jo��h|K0O@   �!Ӂ�|��41VNt� E�,8�2>��D���^0��ӸTV}X}Ϸ�']���T������F?�^VǾk��X��cc3q�Eum�,���4Oub��������1�<�[�O�A����z&K�l�T_s�zX�VWlMU��\\�D�[ �^�~4 o���< ��ڞ�����q{R�6U�^ꮧ���os_@~)k�(k�Q<ʚ\�k~�]    �L�xJ���/�͸�`��O3�4kCǽ`*�gԇ�c_�ݘӌ�l,Y�WD�x{����R*c�k�c_
+-p�y#q,�g�(��7*7Z�X~/?߆�Ks�~�XG�q6�i�.��>��-���uĠ��K�q@����_�����z���[���\�d�ջ�2-�_�@��^֮�]��Z�ʂ�{�O    �U�(舛j�,б@Hi:����Y��ӌA>���q/���T����`������f|��fmژ��<�aԾ����|߆��m��Ư�ʨ����S�qͬ�O�u�z������۴����O�����c�ڴuѱ���uԹ����߯�-pV�܂i{S��\g��������֎=!oe�A��'�    ޮ|�A���ю���n�>>�� �X:�S���)Me�7n��m����ѱ����t�Me�ű�r�oO�|��[����3֧�1���v4;ﭿgJ��{����hk��Y��L/0�1z>ϗU�~mF�c��{�c��؞F�4��me���-�^��߃/���r- ���z�!_�   P�     Ε&    �s��     �\i"     8W�     εN����*}�����8�m     ~;�|����n�_�.�     8��r{� |zB~�d�Y��     8�@���]�'.��{�;=Y�P�}��.������q���m�����Cy1    ����%�ϻ�;\����y�����x	�o�I�� z_@�6�^m��k5&r    ��N����ZН��{i��y����d��iO����    ���N��K]�@�`�缀��Sz     ~!}�|^�E9>�^�>���֗ϫ�F��K���Ox�:    ��k
+�k�[�;�훺�Kp�<�A\kSi��Oȥ�fE@    ���	�	yH     o�&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i��Gq	i#*i{�Z�������5�   �;Q�� ���h@���ۻ�T[�B�����=yby�M[]������}y����K�OiƗ��{|�c�m����?��׳cQ�~MՏձ��{6�'s�������u>����神_�|�^�,y����]�/����ޣ�����Ө��|~)}<�z6�ť�k�8�^�*�	   `7w� ��x
+^,��i��;۴���Sp�s��})O�Y`�h�����|߾���4ƭl ۱Տ�f|9��t��M���<Տy6�&1M�l�t��u�!6wK���M�Kp�X�:�A�͕1�/e��\��򮮝v�ڍڷ_
+�W�������~- ��8   �e�DJ�X �t0�n��UJ�@F�tk�č��Y��k}��Y1��Y=�yX���X��i�TN��XU.�O߭���{�g��Սy��|�1O�|ߞ�TƧiL���ˏ��|*os�w��o�.���:ds�����GV�������ɴ��$���������GɻԴ%�^՞�n�2jӞ��_���m�n�/n�x�ɞ���5�(k'�o   �L
+>lmA��)8���@4Y0�scu%�'*ou�M�/�z1�z��?���/��%kS�>=�����unsS9}�|kCT��c�g����ŨM��ylǷ�˫�X�G�lMԞ����8��c}����A�YvM26��Q�I�@_K��`��||_@nu[���%�����,�V��/A���\�-��o	��z:���Z�ȧ)`�	:   04(�ͳV�� �ʉ����m���O3>�3ֆ�{�TVO�RY�a�=��tQ��R��W�x{�Y��y�vb=ߏ���uյ5�4+��<Չy:�k�g��Ǭ�oy>��1�c�v��,M�9HLS}�A�a�[]�5U��rq--�n�p{��р��
+��܂k{�ނ��/��I��T9{�������������X�^�˞��Oɳ{   ����yC�>0�e�h�mn+�ӌA>���q/������ؗo7��4�<k'K֦ƥ�}�o�?�Q[�Oel}�|�K���1o$����c�Y�F�Fk�����۰qi��o�(0�� 1��������E�Y��T�@{)7�[���K֗�UV/�W~k�[�뗬�z�R��k��P�$���D   8�|�&:n�- �@�6�JӹUVς�f,�iֆ�{�T��rVGԏ�Ə5��4���X6k���`���5/_���6�gl3�7~�UFem̾���kf�}����Sյ�X~�ئ�ŷm|Z6F���Ԧ���ŏǯ��U����6�~% o����Lۛ���:�ߞƷw]�m�v�	y+���?!��5���%�ʳ�,.�   �F��c��+0$*�||�Q;1��6t��Vߋ�TNi*+�q[�o�G�����,ߧkl*��-�՗�|{���,����|��>-x��V/��1�yo��8cP���C��X4G[s_���Xez�����y����k3Z7+-�c�\��4���پn+�<�n��R��|yv�k�o��[���`@^�d�2t��n�s   `(M����q    /I`���q    ���     �\i"     8W�     εN����*}�����xs�G�T����-{�i     ��\>o��Ϗ���n�_�.?!     ��h�ۣ������O�	�    pځ���O\>o�Rwz��� �:�]n�����~�<_��χZ�_b�i��B�6��yhL�XJ��Ԗ�m|��_]���    p>;���?B�:v��:���u�/��z�@w	n/%�}��/���%8���^�y���?J�R�ʴ ��m�ۀ��a�     �Y'� {�S�̦�&�U�}�
+������Π�%�VZ+�? w�O�	�    �['\�%��*�}w@>�i��9    ��/��˵(����K�k�^>�%8�ӽ+ _^6��i���A��    �_�(�]����ߑ� 7��۽��S0��T�m���ݮ�߶[���I@    �e�	�	yH     o�&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i��Gq	i#*i{�Z�������5�y�޽��p;�o��?�7   ?�;�FWA𳍲�	ȿ�c{w�j�Q�ݸޖ�'O,/��c��s��ӱ/�Y�K�OiƗ��{|�c�m����?��׳cQ�~MՏձ��{6�'s�������u>����神_�|�^�,y����]�/����ޣ�����Ө��|~)}<�z6�ť�k�8�^�*������u:�   ?�;Q �F</?uS|���٦|֞�C�[��Ky:��Hm�@S嬬����eUƧY0ne� َ�~l7�����c}�m����~̳1�4�i�g�c����[�(ͯo�^���*��y�o���`})��
+��wu���u�nԾ�R�
+�/���X��k�w?r   �e܉�,�Q�� F�-plt�<m��7��f����5�g}�|Wd�t�ay~bcy֦�S9}�cU��?}�r��ﱞ�k,V7�y����<��}{�S��1�:�,?���m���]�m|����xJ���Ab��ZYy����'�
+�[��'ӷ��/ �%�RӖ`{T{z��ʨM{Z�~�F��i�0����'{�}+�𣬝<�b�KY�GI�����\W���, WP�r5���\en�f%�1�%1��m���]�   �mZm]6��`�lZ��L�:W �4��`H���JlOT��Z�>_z�Tǧy�|ߟ�`���ƒ��s��{�Y�:�����[��!*c�1ϳq��L���bԦ���<������n�ߣr�&j��dmk�b����d��� J���&�������
+��%�U��^>�/ ��-������e�k|�^� ��z
+���Ʒ��r�}ڵ��OS���ޥ��F���d�����s�?J��rle��o�T����   �o6(఍�6��(�lX�r�smfU�6�VƧVaS<��c}�}HVO�RY�a�=��tQ��R�����4?�^VǾk��X��cc3q�Eum�,���4Oub��������1�<�[�O�{��X��z&K�l�T_s�zX�VWlMU��\\�D�[ �^�~4 W`��< ��ڞ�����q{R�6U�^ꮧ���o�x@�`;֩�n䬞�ߞV�Z���|<�O�Ky|+Me������w��1   �c:(�����ėՆV�_� [�f,�iֆ��=�!Y=�>�������f�g�dc��ԸԿO�����2jK�������})��1�ıX�q̢<�ߨ�hmc���X|6.����c��$�ٺغ�<߷(?+��jh/��y�W@���Ҿ��e��om�cks���V�Zʴ�~��ʚ��W��6|T���u��R��   ��Eְ��2tlS�4�+]�VOi�oiƂ �fm�����멜��c���c��1��:j3��ڴ1�9�ylè}�������ی�_s�QY�����Yy�f�`�TGu-?��+�ic�m�������4�i�c����sշ1>��_	�[� ����n���:෧��]�}ۭ{B��n���O��f�������S�^�nǽz>�WP=᥮�e˻Ny�   ���/>(1��*ݎ˦���V�U^�V���4�v¦xnC��n��XO唦�����6�q�������}�Ʀ�
+��X}�ȷ�z>��-�����ӂǘn�b;����ߏ3�Y�=TϏEs�5��,ώU��=��˪M�6�uӱ��=�1�ulO����붲���l/�����w`W���v|��ߐ/�eM���ƿ�����^��|9V��9�vmY0M@  ��D� ���ϼZ   �˥� ����x׫�   ��_�     Ε&    �s��     �\������[\?���[���������߈��x�:����ؼ���<���'�����O;�o�w�˿r  �?�.���h����g9/h��z@>�?o]���#~<W'�r�����c�.*k��z���=����Q��˨�B�,Z���r�{���3��_����������yo���Z�c�/��G�^Z���q�W��s�c4������>��{��u8귎  ��ځ��� �l�����`�:�y'�O�u�K����7�]��0X��^�9�\���ĸ�����E��u�� qG�������ں�X���(ol4�~�{Ʋ�_��Y���S��\�i�v����������zm�s\?e����  ��vP7�. w��Fў�=�zr8m��������5{��L�~�z��`��S��G	 ���{2�n�����=��9��x]�6�'�a,���1�6��P'o��ŧ� /��}u$�J��/�s��r���iK�4�{�gi����������X,}��*�~���gb]^y�M���c��v���g���X�i�������v�l�����Z���K�ꍮ�z]�>=�ͽ*s\�-���{�q��t�鞳�0\�W�^����_  �c�m���^W����I�MV����i.��ݶ9m�Ve����$,/�|^B*7��q����6��&n�V)��%�9�{/��Y_Š�8�9���ٜ��u�!���6㦶]ӹ��o~������7��`�{t5V�wۚ/�i{���:��w�4ʳ���ͯ��ձ�{�]���Pv�?�%��K�Gv��,m�3�ϛ�	K_]�i,����eJ�C?��{�_����s��ףzK9�����.��>�������9� �^ץ���H��Ks�c9��+   �:�n��fhh�f����Q{��\oV�3	@Z;a�ƾ=iY<_�Q�I�J//��9�NU��M�Ѽ�ؗ��	�-ߌ�'�{�7I�����`���ʳ���k�Do~O%���g�����h~ݼ/�E�eס܃!8\��m�7Z��_�7��\����gkU�n�\b�ȏ}��/#���X��2��7�s/u�9t�a	������_��`,K��?��  �h��l�~��Iu�����?�ok�f���ˋ�u�(k�ݰ��v��؎���I�S��.�8��-;��^_��/���XFysZf4�A�Wǒ�K
+��?S��ֱݧ붖vҾW�Fyn�9����{9��k��F��������^��4�t]Fs�:�@@  p*}�|^�E9>��r�icv��>]������覲>�/���孾�j�X�7�v>�4��o��Ft4�^�җ�t}#.߇L�#�s�z����-��/�okd�f���}���ڇ��2~}ۺ���<w���ߨ^~�^��z��u�M�>G��}e,�{B�ۺ�6��*/��j𮼩^v��<��統Թ�O}��i��V����_
+�ڼW���ş�u�|��T�_n�f}��O�^�[�[~Z@>����Ǣ����+   P;X}�Ӂ�6��^��7�ٽqj}n^:�Ti/��S|Yt0i�z��{ӥަqG[���=ϛ6��<��N���j�q=�� �ư�>[����c�q�z>���Y���Aisy�6��zk�t~%�Ʋz�񓼚������y/��{�h���[������ϰ��:7�_�/2����?'��A���}?+�XJ���~���>�w���������K�x=_�wi<�U�ވm������  ��Y'�'�!m�<Z�D�:G��k��o��WV���hAc��������W  �?$M�I/?uO#�6�ыAF�i�<����{�7����+  ���&    �s��     �\i"     8W���(�_�����Y�����]ʳw	����kt�����p�   ?�t���$���m��ǉ���N;Տ��톾T�����c�~�������{]���/���!��    ���Y�$�sl��31�# '�?���U���m��]ڪe���*?3(��@������~�:�y   �I���=��i@�`�����}~i�p\�'�s��,O&�/�ԛ����Ǿ ���j`��5.����UK����َSAw�>��>���F�벴��K�1Bu���Bum�S^Y����t�~n��Qy{�sx��W�!���}��u����7�ju�����/T�)���~�2]��]    ��!���5XhA���8���:/��*��Z0�2z�Z���?�����g�Iù���u�/6��4�G��P5Hl��9��iO�������ya�u~�:(x�󖲗˔.{�s�\��Z���ﳌ�-���_o}�����&ן��f�̡���.eZ���W�]    ?�r %X^�1���B/���;�E����p�
+��*o3W��~�u��Y^o]�XZ���WG�Y��_��2���X�eL!o��;zsܻK�Vf@���   ��%����i��sf@^�jOM}��˂���:x�c�qo\��z��6׽�x���,Y���^�i麌�N@   `�|����:�r�=o�V����`�`�Q�U^c�|^���O�Դ�Mp��kr�?�6��%�˃��+o�g/C��g篼d��{~�k�+o	<���up���yڿ��J��p�[{�|��T�_n�f}���qټ���	ȧ񤿈{5   �Q�A�h�^jk��
+or)���Ͷ���� ��ݸ�X��a��O�Դ�����u���0�znk��~��Ǟ�y�7n[�Q��7�[�B��g뿍��{�������߮�n�����kT|�>ˌ�s�f}�����FlӸ	�  �V��c�������@�F!��4F��W�3�   �K(��=�\���o�   ��K    ���D     p�4     �+M����m޵�[��[��X3��    O���\�Ǻ�N~W��p��1~�u�g~wލ�|��}�)���   �����������H���֟��n�!��c��>�����������W(�#��K�vOL�������f�    �%��O�WW�(���S���(��乤�>M�N�?%(��O����Ǌx��f�[��c�Y^��87AS���9�]�'���p~6���׸M�N/����=���o^Ӷn6�m@:�F�<�'�]w����qN]wgu�ziZ�:�ym-6�9ju��m����F�{yt    �p�҂�ǣ!
+�����%(e����T��iAz)[p�s4�����\���70kc�S�q�1�<�Z������<E�ϯɂ�Q�-��EOmw�O�W�,�X�ǲ�6���ר�6��_����.1=yC����$�k;?�v=ڜ�qɛ���C�����:������gOV    �d���,����9��eZ�0�u�%X����o]n��^7H�3�q؍���^@�i3b�۟�_DM:��5jy����Z��>>�7̿�f�Eg]湗:���-�V��ߗ���u��   ���E���ڦ?F�ȿ���~�OU������2hs��i�#�K�T�s�]�Q�<��&leo,7��Ҟ�i�Z���ߗ���Z   ���E��8�� �8�@�5-�Ȃ��K���� Ȏj0� ozi�؛����8�}��z�Ғ���Ӝ��)hmO����x:�����7/K���m|���d}�.z7���um��oy��������Mu��Ck=�g	����_�`{+������}6\����   ��6�1`�J�ޤK��0 W���oTմ��������u_	4J{	re/���8�1�|��_�8PZխ�yu�G��ݸ�*cԛ���#����v��Lm=�Y2��5_�t]V3V��c^����,�9�>K~-�/'Z�^��
+�e�O׫cy�:�G�~�k4��k}p�    |�4?�>�m>��y��h~B<��	1>�7�~!    �4?�^:힄�'�oW_���&e�e��O�   |M�     Ε&    �s��     �\i"~%�#�?��%�]�{껔�h�d�����׻���������O��   ~�4�|��?��v�;����D`����>G��.���R������I}dف7��o�?*n�Qr��Y>�����������b�S��������   �ei�7������}l��X/�ӟ���O��{	�Ӏ�}���Ba�qq���g���d�}޳�Ǵ��??^;�֬��~:��6u������   �e��ͬ6��{�pק[�'Ye#�>r˞r� bz�\�t^��ن�l�z��}�>�_�S+nc��o�������m�:��o
+ �ǃ-�|m=[�
+��:�}�t�l=&�g��e���2����	j:k��7ϯ]���O���γ���^�gu�^rj�0�M��b���u@~-k��TmM7�{0-׫�6V���۬?CG׺gu����ܺ�?W�6�y���   �K_Zp𰗼*xpQ=˦U�����Zg�_ʴ������ �s�'�G���Lmko������֬��,�v�������5�OGyK�6(jc��:{���l,�o�}�5��L�ũ�6�ft�k�ms��e��q\�^z�fu{�%']�U ۮG�� o��A�_n�{��zsw}�|���>��T�y�˽ni_o3]����e,�����&��V/�y��o   �^�2m�7�z��{M��up�6�sZ' Y6��>��������n���o3~���&��տ.u�7|6��&������(#�q;�k;ZK+6��h]Z^���|�^���u�s�YZ)Ӟ���5+cT@Yۺ��5R��K����2���|>�R�-�-���=r����`���w   ���6��Mrۤn6�řy��kZ��'��q��/���빘�4����y�5�0N����9-q$�I�Tl�Ѻ<[�g��ً��r4�g�U�ִ�m����S��n|��w�~2\��X�llS�u{���=r�Ƴ�   p2}�F��I�\x�֍n����ic�m~�/O.j[� ;��w��;�7���y@^6�S������ym=�wVN}�s����:�7�S�ڞ&/רc�f�uq�8&��>�'�7�Ҟ5��`��d����[Z�^���'y����﹥�Lv�'e�־������̹��{������6���-�}ҙGf�n�|�wW�c<�
+�qx�M}�W   �>}y��W��oٌV
+~�F�l��k���"}c��m��M���\���q�c/���ﻕ��x~mc_��c��{q=�)U�1��|��଍���'�6���/;ҽ�m��[���8a�躏��^ڳf�P��,�9�>K�����e�K�vUf�9zF���M�e����]��z�ײ^�N�/�Y����S�i^��}�+ܻ�C����<ﳃ�
+   �C��������GS��
+b6A��OW��.	"��s�_�_�pL���on�1   ��D<�7�zٱ{�������1)��٫���jc����/_ܓ����3   �=i"     8W�     Ε&    �s�����n����o��ܓ��y���������������_w/�s�   �I���+@X>Fjc׻|m��\�C��E���`&y�����x��K��u��~�u�٤}\Y�������>��v����`����  �o�&~�6�Ϥ�}����y$ ��*��Np�~�`m�?6���}ޑy���9��D��lb���k<_|g�_aﺏ�~�o����  �o�/�d�`�?Z=*U��X��HO�[�S��SȲA��j��>�2���}J����Z�`)�of��'U����q֗��zۀ�X@>�ƹI��t��)@�4ʖ>�~x��Y?O�Q������][�M�����kY~���K��~�Z=��a.��C���,���bx�:���3��^�9���/   @��6�{��6�nù��`C�Ժ1�u���L�Kٺ��A�߄�N ����Զ�F��x�ᶴ��y)󞟞�  {�]�q���Ӻ����qɛ�g_՛�rMu~��R��5ڔ1_[Ϯl�
+�|����_��������fMV��U~���f���_��>s�Rq�>�?�s/����   �~�olm3�~�6�s�]˴����.�^�����^�m�_gោV�MzH<q`�sۥ���q��9�t�	b|�}��h�g=�:k6ģ j�w�`n�5��x��d������=m�����l���o�����m�   P�hc��`�sܝ��&�m_�m�;���䛴�:�Ɯ��D=�Fǂ���'�ٵ)߮���}ui�vFk�$���u� q�����ϢN��^�;���/   @���g��Ͱ�������R��yݴ� �o��f:ۈ����ԶJ�o|��v��t��o��m�`Z[�7���K�K�6���K����ɴ�-]�`{Jk���MezAԫ�ٕ��3��=��K5�|,.4���k��>?ٝ��;��Fk��'ׯ��}6���}s��/   �q�2$�Fս�R}��l��ƴm^��KZ�W6�ٛ���1�6}�ys�i����\^��f[���Z7�q���џ�Y���/��T����^��/��t7��9K�O�Qћ�W�3z�f����M�˴�i^굟#��k��?�o@_zm�������gO��{�z:���   �&������BS𕽫�Ѻ
+H���K;�   �4���QQ��ӿ�$w�$vE�A�����^�s�    ǥ�     �\i"     8W�     Ε&~����{߅|�j�w�v����tO9��'�>Y��~Z�}���o���������?+;�  ����m��:�QG��?���>���㣒�d��P��������s�ۡ7NK������ʹ��:��)�}o"Wګ��X�G���|7������^��>��}Y�����['�+�G�m��i�D�O��H��x�����6�:�����zj���e�7��  �~���������M�o�'6��ק�����i�q���lO�j 6�/���g՗����U?�W�i�f&� �?�;�?]�w=�/m��ڗ�5�C���%(�6�/N��_���X��_<��]c�{��z���fL�wι����/����o�t���Ǿ��ާ�  �/�/aS�
+$�l���������ꓜyC֩W7�V~�hC7�s�0�7��z+ͩ?*�ԝ�˘{7qe-z9�}�>���7��m�m�����z� fN3K��$/k�l�m���>�d�4��t=y��Z�h�5�ښn�e�����^��\|��_v���3�y�j��4(�kA���ϩ��jSk������km�{\ǥ^��5��j��x��}q�~y��V�V�KmC����o���[�s;���.���u�7���V��zu���}�+U   ����(PZoV֛km��[�&ly	���2��Y�mP��Ġ&nr{��X�%��Ӧ]yݤ�r��M�dm����_]��g6<���q���n4�񧿰)s�s�͛s������3��O��su\���cj�<�k��_��K��Y���K�Gy��Z���|�Y��?��}׾]�~��]����no��x,=���5H�ݳ���/��Y��Z�-�_p��K���}}=�?+���ߥ��X��K	��w���V���|�ziܵz��*  ����võX��e�����Q=+�m�֛���ao�7cӆ+l�6e{:V�7�6�f�I�K��o��/.y����`3�bx��,��iOȳ{���5;:N��:�Ӳ���m�)<�sJ�̦�/��h�m�y5�R�eü���	���V����-�5�K��k�ָ�o��R�xh���5^��u�xz�iSk�5hk�^�`i�ܫ멶��x��K�[�׍�������P�����:{��]  �2}Y6+5 �lx���Ky&���fI�n5{�i,��k����G6xO�bi_Y�g��]/�|�fr3�,͍��|��5-k�ƨ��~��܏�ӗ��B��]�9�?�����fg�6yq\�9l~����v����6A�������]*��5xv�F���v�Y�O���sI[ʽ�����w������X�����յR��8  �{��z��n���Y�p�_��J���AlQ7�����<e��F���*�͠=U
+�L��ΧMܴ�lo������5��Y��f��υ���*�� _ρd������s/cn�'y�ֶJ�l������8U���T��}������5�+B
+�u(h���6Wc����P����;��.�=�����6wk�{��jk��7�/|���9����{O�{����`=��˓6SeN��-K{e=;?+e�O�]:z_O��ʗ������q�γ9,c��M�ݝ�L�  ���KجL��e]��K˦��/;}5o�'݌7jY��K�Q�Tiz3#_vD��o��zn7kG������M��>�����লm�]��y�����j-;y��V�\��*�;P�=�����Sy�$x��'�:�����myS�4/c�[6�g�7�/�����G���K��=��5���l����{����.�|e�~���g�oxO�X��zv�gm�ʜ��O�Ua=;?+��]:z_������k,������;�F   o�&�u��wm����h~�5m�wأ��j��+%'��)xY����8���o�����V�� �?.M���%��w�n �;��'-I���B��S�C���'�_Ti��e4&��}�ݾ���}  �&    �s��     �\i"     8W�x2�����u|��=Z�o�;�J��y���g�����Km��{�/�{�   ���e@���g�k�O��������K�\?F(y��Gx���$zܖ���A޸)}'��8'��Foƥ1���z����5?��    p&}Y ����飺����{	�Ӡ�}��}��m�<{wj�-��5���U?�x��������=�z���g���ϸ?    �N_B �	�J �>6�?���V������^�{��'�KX����q.3Hͺ�i����ַ��sz��co���W��U����8?�[���՗jO��zmk-�>G���z!�ܤ� t��ȯ%p?X�@?�O�l�U�_�ԏ���L�/��ݫ/+���gݟ#�{cz��?   �Q�2m� \Dm���\��M�^ͻ,Ot\^<�Ā����x.Y�r%�(AW}��~�0�ky�O����X�b������O�n��������9�:n�M]�7��;�R��A��K��]O�{�u��.U6�B/q��t�eyb���0��}V�pk�:o��{~��	   ��җic?Y?I[��e��~�{� �oSP`�:A۞�է�O!{y\��$*��=�z�u1G���fW>���We�� ��YZ)Ӟ���{r]:���,�Қf���m>�;B�jǭCg�۽�k5�����u    �M�e��� x<{�6�9�ʆ��"X��Bu� -kk���9-1��g]��S�V>�������M���(���ڗ�kcT~�G��.�M��>�A�~i�jc�K3����}��>S��g�'   �?J_�{���t=/A��T��yѱޥ��r���58���6���)�^����q9��c�W?
+hۓ�8����η��������ƺ���z������L���l��լ���}ռr�j[s �y��3�uu�q:�y����Wo5�>�>:�Y͋�����bxN}�W    ������-���,	e_)h,y������oF����&���I���i�[�o��Fj��YW�7�tY=7N����o�듵��AV{5�ks2���S�����e����ʤ�8��>���q�p�+]���/�Y�~�ܟ�{77��4�ћ�Y��X���{   �)�Ŀ��?]��yd�'�+����0�B���<�2b����_L    @*M��\Z�gO
+��^�8���#O�7:OǿDO��S�A��'�    �K    ���D     p�4     �+M     �J    ���D     p�4     �+M     �J    ���D     p�4     �+M     �J    ���D     p�4     �+M     �J    ���ı���FT���x��oq)?��k�7�j�{�7�v����o   ~.w�����ge�9��3���6�֣P�q�-mO�X^lS�VW�6~+�c_޳|2�v�Ҍ/����:����б�#�3~~��gǢ6����c���l>O�x������|~���K=�N�޽�Y��S=���_>o�=\�G9oi7W�Q[���R�x��l,�Km��qܽ�Uls����t$    ~8w� ��x
+^~������M��=�:�|ߗ�t�֑�����YY_���˪�O�`��f�[��nƗ��M����Թ��S��gc�i�T��I��^Wbs�tQ�_�Ľ��U����\c��Rv	�x+���i��ݨ}���}l_J[۱�����~:.�   �˸(Y`�4�)]��[�"��Xy�l[;&n�-��U]�kT����6����8����8���M��r��ǪrY�n�,O�c=;�X�n�����y������2>Mc�u0��X~Կ��Py�����D}�u��!���4յ>��&Χ7GO�<� YO�o5m_@~/>Jޥ�-��:���t��Q���\����ov�~apKǳO���V��GY;y�}�z��Ώ�6���]��*o�Y@��^�j^I׹��t�J�cjKb�_�(is��?   �{Mڴ��lTW�Hٴ����u� Hi*k��΍Օ؞��յ6}��꩎O�z��?���/��%kS�>=�����unsS9}�|kCT��c�g����ŨM��ylǷ�˫�X�G�lMԞ����8��c}����A�YvM26��Q�I�@_K��`��||_@nu[���%�����,�V��/A���\�-��o	����kY#���7�Y�KY�y�Jy�6�7�5p/��������dmߒ1��Ս�   �l:P�aWmj- QZٰ��D��̪�m���O3
+�¦xnC������ƥ����{��=�t��2��gu5.��i~�����}�<|;�����f�:���Y���i���<�ǵ��3J�c�y̷<�n��ձ|;��L�&�$���������ؚ���U���T�@��T�h@����y@n��=Io����\m����]O���{���\�v�S� �Y=��=�6�LY��xR�n��>�V��	�痽��
+�7c   ��tP6�J���/��6���2>�X�Ӭ�{�C�zF}(?��ۍ�1�(���ƒ��q������OeԖ�S[_+�R0h�c��c�>�EyֿQ�����{���6l\����:
+��9HL�u�u�y�oQ~V�#�>�^ʍ򖯀�����}������h����%�޵�iA���;�5���(��m������8ȥ<9   �r�6�a#;d�ئVi:W�����,�ҌA>��б���%�S9�#�ǂU���c��u�f,��ic�s��؆Q������}�3����*��6f_O}�5��>���꩎�Z~,�Wl����6>-��ˏij��E�����Q�oc|b|����YAr��M�ns�u�oO�ۻ���[;������ǟ�+����%��K��4�ݎ{�| ��z�K]˖w���  �)_|Pb��U��Mk�ͭ����m�4+kiF�M�܆����{���)Me�7n��m����ѱ����t�Me�ű�r�oO�|��[����3֧�1���v4;ﭿgJ��{����hk��Y��L/0�1z>ϗU�~mF�c��{�c��؞F�4��me���-�^��߃/���r- ���z�!_�˚dO��S7���A�H[�r� Z�s��ڲ`��   �4 6zO��y�   �K`����W�   �4     �+M     �Jw���H�    �S�������     ��.���G��q��/�#     �e��r{� |zB~�d�Y�F@    ��ځ���]�     ���%���uU���    ������o�o�d    �������r�||��!/"     �e�r��\�rL@    ��hW��z	�d��;rr     ^�N�O�CZ9     /Kw!     �ei�.�     �,M܅�    ����     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �\i"     8W�     Ε&    �s��     �4�}�zw�]J��    IEND�B`�
+------WebKitFormBoundaryFHjUIB2flsZUrDpW--
+
+
+2020-12-29 16:38:37,861 [4 INFO ] 
+ -- ASK-0HM5BQEIE9HCR:00000019输出数据
+{"success":true,"returnMsg":"","returnData":"/ImgHub/132537047148380333微信图片_20201229163823.png","pageSum":0,"countSum":0}
+
+2020-12-29 16:38:47,699 [4 INFO ] 
+ -- ASK-0HM5BQEIE9HD0:00000011输入数据
+ QueryData:/api/hospital/createHospital
+ BodyData:{"encryStr":"Jy6ultNsXHvVhRMh3Db7JR+EKTMbJ3oCM748OwR2keNU5GpCj1wJLIhli91vfEfk1kZV6Gkh/Lih4vjTEweIFhwN3NL40109IVzLGnwMrAJSTp5Zs2UXpciXDqne5e8GJN2xx/5X4LbC32xhzMTIgM9r2oZC2uIveaw7VrEjzuJGED6Pib5OPvvRnijLrzQRxmkEkjbckCQs31G/X+K1KZpG3vVS+JW/tbWzC+rGzkgkOphhDpL8mLerYBXPeGZ1tlF3MVnKfWktVAgwrXMt3oh2Ug11LvjVZ7rEvBs9pcigXPWll5pKTpSIWaNKHxtznaqIi1Qo8cOyWJR1Ii1YfQ=="}
+
+2020-12-29 16:38:48,253 [4 INFO ] 
+ -- ASK-0HM5BQEIE9HD0:00000011输出数据
+{"success":true,"returnMsg":"创建医院成功!","returnData":{"id":5,"name":"1","imageUrls":["/ImgHub/132537047148380333微信图片_20201229163823.png"],"level":0,"appointmentTime":"12","notification":"12","details":"12","province":"无","city":"无","district":"无","detailAddress":"12","longitude":null,"dimensionality":null,"code":"1","tags":[{"id":1,"name":null,"hospitalCode":null}]},"pageSum":0,"countSum":0}
+
+2020-12-29 16:39:04,541 [24 INFO ] 
+ -- ASK-0HM5BQEIE9HD0:00000013输入数据
+ QueryData:/api/hospital/deleteHospitalByCode
+ BodyData:{"encryStr":"XaX82egvIWSdd2TSQh848RaPbJvEAFgAASllYIYaKAtOkEFwdyCF65ObrH0ajZA5Hx8ZASIqagy1M//LQJvDd/hM/8sS43UTv2auZgIMEJD09LKMQmDdnZzIno1Zc1xTrni+bZ0THJT7j9wKRzcCcmrWN9yg2bAWFWAFOecTdTQkvWK+J9Tw8q20xOGh22kpcTB05ecdQocgJszzUucW8OkBeKoMKbei9HV0u1BBJQfCB4je8NKb3JmnvqpBYnbfT3c0xFTDLECWgSTs9auCajL/k15HQcunYWWdqHSqER91ZSipSkIzgchMcz+ADXPXV08YMYZiwL+p+sAyscCHhp5D5k2GzpATDA607Xsgo2Ects7+7BbwL6QA8wxJh1vFMN1wPSukoLdCS+K7FkNHTqi8fX9QD5nCsGr7haTGMSTFZz9FwQhIZThYUU5gOi4m"}
+
+2020-12-29 16:39:30,804 [24 INFO ] 
+ -- ASK-0HM5BQEIE9HD0:00000013输出数据
+{"success":true,"returnMsg":"删除医院成功!","returnData":null,"pageSum":0,"countSum":0}
+
+2020-12-29 16:42:11,100 [13 INFO ] 
+ -- ASK-0HM5BQMB0D50Q:00000001输入数据
+ QueryData:/api/CodeItem/GetCodeItemList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 16:42:12,403 [12 INFO ] 
+ -- ASK-0HM5BQMB0D50Q:00000001输出数据
+{"success":true,"returnMsg":"","returnData":[{"itemCode":"004   ","itemName":"test4                                                                                                                                                                                                   ","clsCode":"004   ","unit":"康软","refLower":"1","refUpper":"100","sex":"1","price":100.0},{"itemCode":"1     ","itemName":"1   hello                                                                                                                                                                                               ","clsCode":"1     ","unit":"0","refLower":"0","refUpper":"0","sex":"0","price":0.0},{"itemCode":"3     ","itemName":"张三                                                                                                                                                                                                    ","clsCode":"3     ","unit":"string","refLower":"string","refUpper":"string","sex":"1","price":110.0}],"pageSum":0,"countSum":0}
+
+2020-12-29 16:42:23,829 [12 INFO ] 
+ -- ASK-0HM5BQMB0D50Q:00000003输入数据
+ QueryData:/api/CodeItem/CodeItemDel
+ BodyData:{"encryStr":"H4YZOtrYuqvuczoXBGpobK/kUdYfQHDT/o1BtADVBnQHSRdFVS1eNtvfuP63oSkCUf4Zvm8p+xqGf1jJPHpKoM72WGvgD1z4h8xafhRH33CL2XicRyh7O/dMf9iZuceg/1dnJ8af3rmWG+t1QgYA96ka1blhlcdVcvuT1K2qdH6lJpjVZkI7LpeARk/Iy1cU/E4asYYI8jKtAOnJm4LGfwQP8MwQ4/OIq17CtfhmsOVs1hm+3xHreG/dwTiP9MFBt7Nni/Y7zD1WT04Mgg5/JYVTbHWutmm/0YJd9d2XNe0TuQfSbPmf5R1i5N415ME8QxCMamqfLvWfxduV0bMc0sYc35FX7CtOJPed7ESO4CoROMosnhlIweIlzIJaxbUr+LMpj7wMeyxyhpzTlhJ/gudv4Yl+9DkthRjsqHdZrhBZnbKgJevV4hNmZUCZJ0dd"}
+
+2020-12-29 16:52:44,622 [16 INFO ] 
+ -- ASK-0HM5BQMB0D50O:00000005输入数据
+ QueryData:/api/CodeItem/CodeItemDel
+ BodyData:{"encryStr":"H4YZOtrYuqvuczoXBGpobK/kUdYfQHDT/o1BtADVBnQHSRdFVS1eNtvfuP63oSkCUf4Zvm8p+xqGf1jJPHpKoM72WGvgD1z4h8xafhRH33CL2XicRyh7O/dMf9iZuceg/1dnJ8af3rmWG+t1QgYA96ka1blhlcdVcvuT1K2qdH6lJpjVZkI7LpeARk/Iy1cU/E4asYYI8jKtAOnJm4LGfwQP8MwQ4/OIq17CtfhmsOVs1hm+3xHreG/dwTiP9MFBt7Nni/Y7zD1WT04Mgg5/JYVTbHWutmm/0YJd9d2XNe0TuQfSbPmf5R1i5N415ME8QxCMamqfLvWfxduV0bMc0sYc35FX7CtOJPed7ESO4CoROMosnhlIweIlzIJaxbUr+LMpj7wMeyxyhpzTlhJ/gudv4Yl+9DkthRjsqHdZrhBZnbKgJevV4hNmZUCZJ0dd"}
+
+2020-12-29 16:56:03,078 [20 INFO ] 
+ -- ASK-0HM5BQMB0D50U:00000001输入数据
+ QueryData:/api/hospital/getHospitalLevelList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 16:56:03,081 [19 INFO ] 
+ -- ASK-0HM5BQMB0D50U:00000005输入数据
+ QueryData:/api/hospital/getHospitalList
+ BodyData:{"encryStr":"APGVztW+2uJWIX/s0Tx+/eGCm0zmdKOBgN6QByR9XFCjrZkIDPxgtH3evpAtUBLIJF9EyreF9RKvMW1F3Zx5UGjPn6cUdy4yq63Ij28rX14="}
+
+2020-12-29 16:56:03,569 [27 INFO ] 
+ -- ASK-0HM5BQMB0D50U:00000003输入数据
+ QueryData:/api/tag/getTagList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 16:56:03,877 [20 INFO ] 
+ -- ASK-0HM5BQMB0D50U:00000001输出数据
+{"success":true,"returnMsg":"","returnData":[{"key":0,"label":"公立三甲"},{"key":1,"label":"专业机构"},{"key":2,"label":"公立医院"},{"key":3,"label":"民营医院"}],"pageSum":0,"countSum":0}
+
+2020-12-29 16:56:04,477 [27 INFO ] 
+ -- ASK-0HM5BQMB0D50U:00000003输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":1,"name":"报告权威","hospitalCode":null},{"id":2,"name":"专家团队","hospitalCode":null},{"id":6,"name":"技术精湛","hospitalCode":null},{"id":17,"name":"设备先进","hospitalCode":null},{"id":18,"name":"102","hospitalCode":null}],"pageSum":0,"countSum":0}
+
+2020-12-29 16:56:05,192 [12 INFO ] 
+ -- ASK-0HM5BQMB0D50U:00000005输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":4,"name":"广东省职业病防治院","imageUrls":["/ImgHub/1325333452899930685ad77c8892238.jpg"],"level":0,"appointmentTime":"周一至周五8:00-12:00，14:00-17:00（体检当天如需取消项目退费（抽血项目不予退费），需到接待室登记。如体检结束后7天内无反馈信息，后续将不处理退款事宜）","notification":"请提前1天预约，温馨提醒：本机构暂不支持社保报销，包含胃肠镜的项目均不包含药费，需到院自费，耳鼻喉科是打包项目不可退费，望悉知。","details":"广东省职业病防治院成立于1960年，是广东省卫生健康委员会直属公益一类事业单位，主要承担实施政府部门制定的职业病防治计划，承担职业病及职业相关疾病的防治、诊疗、康复、科研、培训、健康教育和基层指导工作，承担职业中毒、核辐射、化学物相关的评价、监测、检验、健康监护以及事故的应急救治和调查处理等工作。","province":"无","city":"无","district":"无","detailAddress":"广州市海珠区新港西路海康街68号","longitude":null,"dimensionality":null,"code":"0001","tags":[{"id":1,"name":"报告权威","hospitalCode":"0001"},{"id":2,"name":"专家团队","hospitalCode":"0001"},{"id":6,"name":"技术精湛","hospitalCode":"0001"},{"id":17,"name":"设备先进","hospitalCode":"0001"}]}],"pageSum":0,"countSum":1}
+
+2020-12-29 16:56:23,862 [27 INFO ] 
+ -- ASK-0HM5BQMB0D50U:00000007输入数据
+ QueryData:/api/CodeItem/GetCodeItemList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 16:56:24,085 [27 INFO ] 
+ -- ASK-0HM5BQMB0D50U:00000007输出数据
+{"success":true,"returnMsg":"","returnData":[{"itemCode":"004   ","itemName":"test4                                                                                                                                                                                                   ","clsCode":"004   ","unit":"康软","refLower":"1","refUpper":"100","sex":"1","price":100.0},{"itemCode":"1     ","itemName":"1   hello                                                                                                                                                                                               ","clsCode":"1     ","unit":"0","refLower":"0","refUpper":"0","sex":"0","price":0.0},{"itemCode":"2     ","itemName":"2                                                                                                                                                                                                       ","clsCode":"2     ","unit":"2","refLower":"2","refUpper":"2","sex":"2","price":2.0},{"itemCode":"3     ","itemName":"张三                                                                                                                                                                                                    ","clsCode":"3     ","unit":"string","refLower":"string","refUpper":"string","sex":"1","price":110.0}],"pageSum":0,"countSum":0}
+
+2020-12-29 16:56:28,392 [27 INFO ] 
+ -- ASK-0HM5BQMB0D50U:00000009输入数据
+ QueryData:/api/CodeItem/CodeItemDel
+ BodyData:{"encryStr":"1uFp08Q3bWfT96xW9MTIyWvlu3Jt5vTrO3OoVpdvi33Sm2hrny7bf8N9JcRmq5kILoiFGjrdu542AvfHhcISy2oJRhE1iSrk2sYy80P+X0v/l/mqc3SbZALl//pTR5Dztb9OVwSkJFq330kQWFdsBKD2PY+NI5qNv3U8mVXRwV5OioR8WXL3sxBhhJIr1TAG/UPP+nmW+3DLBMzMEFw59CYlH1tmNi/SAqtwG4hQrd9nx3eCa54bjez6k6lyZOh6SQYnTfRpfpLs2lnvERoZsxYPnyT4PM7wjbu52vNidLlXSjg430pKXnSVRC4+MuvLldqvpxgnNggcGyOQBhYt4juXB+C9cyGTNndts56uRWoYwkxcHxjqWs4g51ytLzBKwtUbR4KkWex7InXXDK8E+Ugx0y2INeEV/ckVhRdW1y0="}
+
+2020-12-29 17:40:03,926 [12 INFO ] 
+ -- ASK-0HM5BRMM2GEOB:00000001输入数据
+ QueryData:/api/SystemSetting/Login
+ BodyData:{"encryStr":"2SbheYRuYcnp7wQV0FLCgY7B0M5VwVi0Fclz05B1ZkdvIfbUlEZ3pzBC3tVJTkFj"}
+
+2020-12-29 17:40:10,466 [14 INFO ] 
+ -- ASK-0HM5BRMM2GEOB:00000001输出数据
+{"success":true,"returnMsg":"","returnData":{"id":1,"adminCode":"admin","adminName":"admin","adminPwd":null,"adminType":1,"createDate":"2020-03-10T09:03:55.717","createID":"1","updateDate":"2020-05-18T14:58:28.49","updateID":"12","loginDate":"2020-12-29T17:40:07.9007924+08:00","openId":null,"state":1,"token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IlhxSFVvcW9hdV9NNnB1TERqaTRHQWciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2MDkyMzQ4MDcsImV4cCI6MTYwOTI0MjAwNywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMSIsImF1ZCI6ImFwaTEiLCJjbGllbnRfaWQiOiJjbGllbnRhbmR1c2VyIiwic3ViIjoiMSIsImF1dGhfdGltZSI6MTYwOTIzNDgwNywiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJhcGkxIl0sImFtciI6WyJwd2QiXX0.sjYvsTOfkb1xYG1RTfWAk3Rjvf11zwyOicvvrkv4YBKpS8LJHsjstOa91m2tazZXxy6wpreNUZsBNBGFCdQZy-vsyVp4gb3Wf3SWtd80tgEpOx4eemf6nu_EaGUKhdWl2_jDJctdd3NALNfQOOyhQ7uGcREkE_x3ytFkDf1ionUxMiO5XxL5ior6yx5TDWpLvmiwposBI-5Uz70cHNJT2eFUdRyYt9ABrxZnRg2KtQIADNkqkPWnVAilgmOyRwKbMYuNK_7t9rQ9u5f8k-L7kTCatFDB7PHjkoUJK9CBKQplzFVv37tUnjK3-onpCuT1S6yeygkprfPyTq04SZnWwg","menudata":[{"id":5,"name":"hospitalManger","path":"hospitalManger","metaTitle":"医院管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":6,"name":"hospital","path":"hospitalManger/hospital","metaTitle":"医院列表","metaTicon":null,"sortIndex":1,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":7,"name":"tag","path":"hospitalManger/tag","metaTitle":"医院标签","metaTicon":null,"sortIndex":2,"parentId":5,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":8,"name":"memberManger","path":"memberManger","metaTitle":"会员管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":9,"name":"member","path":"memberManger/member","metaTitle":"会员列表","metaTicon":null,"sortIndex":1,"parentId":8,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null},{"id":10,"name":"itemClusterManagement","path":"itemClusterManagement","metaTitle":"项目套餐管理","metaTicon":"el-icon-office-building","sortIndex":4,"parentId":0,"viewPowerID":0,"state":1,"children":[{"id":11,"name":"itemManagement","path":"itemClusterManagement/itemManagement","metaTitle":"项目管理","metaTicon":"el-icon-office-building","sortIndex":1,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":12,"name":"combManagement","path":"itemClusterManagement/combManagement","metaTitle":"组合管理","metaTicon":"el-icon-office-building","sortIndex":2,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null},{"id":13,"name":"clusterManagement","path":"itemClusterManagement/clusterManagement","metaTitle":"套餐管理","metaTicon":"el-icon-office-building","sortIndex":3,"parentId":10,"viewPowerID":0,"state":1,"children":null,"meta":null}],"meta":null}]},"pageSum":0,"countSum":0}
+
+2020-12-29 17:40:11,633 [5 INFO ] 
+ -- ASK-0HM5BRMM2GEOB:00000007输入数据
+ QueryData:/api/hospital/getHospitalList
+ BodyData:{"encryStr":"APGVztW+2uJWIX/s0Tx+/eGCm0zmdKOBgN6QByR9XFCjrZkIDPxgtH3evpAtUBLIJF9EyreF9RKvMW1F3Zx5UGjPn6cUdy4yq63Ij28rX14="}
+
+2020-12-29 17:40:11,650 [12 INFO ] 
+ -- ASK-0HM5BRMM2GEOB:00000005输入数据
+ QueryData:/api/tag/getTagList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 17:40:11,979 [13 INFO ] 
+ -- ASK-0HM5BRMM2GEOB:00000003输入数据
+ QueryData:/api/hospital/getHospitalLevelList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 17:40:12,894 [12 INFO ] 
+ -- ASK-0HM5BRMM2GEOB:00000005输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":1,"name":"报告权威","hospitalCode":null},{"id":2,"name":"专家团队","hospitalCode":null},{"id":6,"name":"技术精湛","hospitalCode":null},{"id":17,"name":"设备先进","hospitalCode":null},{"id":18,"name":"102","hospitalCode":null}],"pageSum":0,"countSum":0}
+
+2020-12-29 17:40:13,502 [13 INFO ] 
+ -- ASK-0HM5BRMM2GEOB:00000003输出数据
+{"success":true,"returnMsg":"","returnData":[{"key":0,"label":"公立三甲"},{"key":1,"label":"专业机构"},{"key":2,"label":"公立医院"},{"key":3,"label":"民营医院"}],"pageSum":0,"countSum":0}
+
+2020-12-29 17:40:13,952 [5 INFO ] 
+ -- ASK-0HM5BRMM2GEOB:00000007输出数据
+{"success":true,"returnMsg":"","returnData":[{"id":4,"name":"广东省职业病防治院","imageUrls":["/ImgHub/1325333452899930685ad77c8892238.jpg"],"level":0,"appointmentTime":"周一至周五8:00-12:00，14:00-17:00（体检当天如需取消项目退费（抽血项目不予退费），需到接待室登记。如体检结束后7天内无反馈信息，后续将不处理退款事宜）","notification":"请提前1天预约，温馨提醒：本机构暂不支持社保报销，包含胃肠镜的项目均不包含药费，需到院自费，耳鼻喉科是打包项目不可退费，望悉知。","details":"广东省职业病防治院成立于1960年，是广东省卫生健康委员会直属公益一类事业单位，主要承担实施政府部门制定的职业病防治计划，承担职业病及职业相关疾病的防治、诊疗、康复、科研、培训、健康教育和基层指导工作，承担职业中毒、核辐射、化学物相关的评价、监测、检验、健康监护以及事故的应急救治和调查处理等工作。","province":"无","city":"无","district":"无","detailAddress":"广州市海珠区新港西路海康街68号","longitude":null,"dimensionality":null,"code":"0001","tags":[{"id":1,"name":"报告权威","hospitalCode":"0001"},{"id":2,"name":"专家团队","hospitalCode":"0001"},{"id":6,"name":"技术精湛","hospitalCode":"0001"},{"id":17,"name":"设备先进","hospitalCode":"0001"}]}],"pageSum":0,"countSum":1}
+
+2020-12-29 17:40:18,695 [8 INFO ] 
+ -- ASK-0HM5BRMM2GEOB:00000009输入数据
+ QueryData:/api/CodeItem/GetCodeItemList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 17:40:19,011 [8 INFO ] 
+ -- ASK-0HM5BRMM2GEOB:00000009输出数据
+{"success":true,"returnMsg":"","returnData":[{"itemCode":"004   ","itemName":"test4                                                                                                                                                                                                   ","clsCode":"004   ","unit":"康软","refLower":"1","refUpper":"100","sex":"1","price":100.0},{"itemCode":"1     ","itemName":"1   hello                                                                                                                                                                                               ","clsCode":"1     ","unit":"0","refLower":"0","refUpper":"0","sex":"0","price":0.0},{"itemCode":"2     ","itemName":"2                                                                                                                                                                                                       ","clsCode":"2     ","unit":"2","refLower":"2","refUpper":"2","sex":"2","price":2.0},{"itemCode":"3     ","itemName":"张三                                                                                                                                                                                                    ","clsCode":"3     ","unit":"string","refLower":"string","refUpper":"string","sex":"1","price":110.0}],"pageSum":0,"countSum":0}
+
+2020-12-29 17:40:20,639 [4 INFO ] 
+ -- ASK-0HM5BRMM2GEOB:0000000B输入数据
+ QueryData:/api/CodeItemComb/GetCodeItemCombList
+ BodyData:{"encryStr":"vZxBtlTAFy/RLfJT7w9+iQ=="}
+
+2020-12-29 17:40:21,001 [4 INFO ] 
+ -- ASK-0HM5BRMM2GEOB:0000000B输出数据
+{"success":true,"returnMsg":"","returnData":[{"combCode":"1     ","combName":"2","clsCode":"3     ","price":4.00,"deptCode":"5     ","hospitalCode":"6"},{"combCode":"3     ","combName":"组合3","clsCode":"3     ","price":0.00,"deptCode":"3     ","hospitalCode":"3"}],"pageSum":0,"countSum":0}
+
+2020-12-29 17:40:34,093 [8 INFO ] 
+ -- ASK-0HM5BRMM2GEOB:0000000D输入数据
+ QueryData:/api/CodeItemComb/CodeItemCombAdd
+ BodyData:{"encryStr":"2dWsi4wAvTkEWADWCo8+il8en6BGn5vCdPXFbS41yYpMtb1TT+MAh1FsOOzOSbLPglGldrK9BpXxO86lJgiTL8rBIhDk1zXcji76KnkSPRA="}
+
+2020-12-29 17:41:08,125 [17 INFO ] 
+ -- ASK-0HM5BRMM2GEOB:0000000F输入数据
+ QueryData:/api/CodeItemComb/CodeItemCombAdd
+ BodyData:{"encryStr":"2dWsi4wAvTkEWADWCo8+il8en6BGn5vCdPXFbS41yYpMtb1TT+MAh1FsOOzOSbLPglGldrK9BpXxO86lJgiTL8rBIhDk1zXcji76KnkSPRA="}

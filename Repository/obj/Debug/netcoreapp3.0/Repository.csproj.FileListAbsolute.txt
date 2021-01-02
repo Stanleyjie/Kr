@@ -1,0 +1,14 @@
+E:\康软\职检之家项目\OccupationHubCoreAPI\Repository\bin\Debug\netcoreapp3.0\Repository.deps.json
+E:\康软\职检之家项目\OccupationHubCoreAPI\Repository\bin\Debug\netcoreapp3.0\Repository.dll
+E:\康软\职检之家项目\OccupationHubCoreAPI\Repository\bin\Debug\netcoreapp3.0\Repository.pdb
+E:\康软\职检之家项目\OccupationHubCoreAPI\Repository\bin\Debug\netcoreapp3.0\DataModel.dll
+E:\康软\职检之家项目\OccupationHubCoreAPI\Repository\bin\Debug\netcoreapp3.0\ServiceExt.dll
+E:\康软\职检之家项目\OccupationHubCoreAPI\Repository\bin\Debug\netcoreapp3.0\DataModel.pdb
+E:\康软\职检之家项目\OccupationHubCoreAPI\Repository\bin\Debug\netcoreapp3.0\ServiceExt.pdb
+E:\康软\职检之家项目\OccupationHubCoreAPI\Repository\obj\Debug\netcoreapp3.0\Repository.csprojAssemblyReference.cache
+E:\康软\职检之家项目\OccupationHubCoreAPI\Repository\obj\Debug\netcoreapp3.0\Repository.AssemblyInfoInputs.cache
+E:\康软\职检之家项目\OccupationHubCoreAPI\Repository\obj\Debug\netcoreapp3.0\Repository.AssemblyInfo.cs
+E:\康软\职检之家项目\OccupationHubCoreAPI\Repository\obj\Debug\netcoreapp3.0\Repository.csproj.CoreCompileInputs.cache
+E:\康软\职检之家项目\OccupationHubCoreAPI\Repository\obj\Debug\netcoreapp3.0\Repository.csproj.CopyComplete
+E:\康软\职检之家项目\OccupationHubCoreAPI\Repository\obj\Debug\netcoreapp3.0\Repository.dll
+E:\康软\职检之家项目\OccupationHubCoreAPI\Repository\obj\Debug\netcoreapp3.0\Repository.pdb

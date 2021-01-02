@@ -1,0 +1,251 @@
+﻿<html>
+<head></head>
+<body>
+    <div class="jumbotron">
+        <h1>接口测试</h1>
+        <p class="lead">This is the interface of the app in the michole</p>
+    </div>
+    <div>
+        <input type="text" id="username" value="m1" placeholder="m1" /><br />
+        <input type="text" id="password" value="password" placeholder="micExternal" /><br />
+        <br />
+        <input type="button" value="获取token" onclick="GetToken()" />
+
+        <input type="button" value="测试token的方法" onclick="test()" />
+        <input type="button" value="测试不token的方法" onclick="test1()" />
+        <input type="button" value="普通没有设认证的方法" onclick="Test2()" />
+
+        <input class="file" type="file" id="fafafa" name="fileupload" />
+
+        <input type="button" value="jQuery ajax提交" onclick="wx_hub_pay()" />
+
+
+        <script type="text/javascript">
+            function jqSubmit() {
+
+                var file_obj = document.getElementById('fafafa').files[0];
+
+                var fd = new FormData();
+                fd.append('username', 'root')
+                fd.append('fafafa', file_obj);
+
+                $.ajax({
+                    url: uri + '/home/test',
+                    type: 'POST',
+                    data: fd,
+                    processData: false,  //tell jQuery not to process the data
+                    contentType: false,  //tell jQuery not to set contentType
+                    //这儿的三个参数其实就是XMLHttpRequest里面带的信息。
+                    success: function (arg, a1, a2) {
+                        console.log(arg);
+                        console.log(a1);
+                        console.log(a2);
+                    }
+
+                })
+            }
+        </script>
+
+
+    </div>
+
+    <script src="https://libs.baidu.com/jquery/1.7.0/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        var acctoken = JSON.parse(sessionStorage.getItem("token"));
+        var uri = 'https://localhost:5001';
+        //var uri = 'http://localhost:5000';
+
+        function Base64_Encode(str) {
+            var c1, c2, c3;
+            var base64EncodeChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+            var i = 0, len = str.length, string = '';
+
+            while (i < len) {
+                c1 = str.charCodeAt(i++) & 0xff;
+                if (i === len) {
+                    string += base64EncodeChars.charAt(c1 >> 2);
+                    string += base64EncodeChars.charAt((c1 & 0x3) << 4);
+                    string += "==";
+                    break;
+                }
+                c2 = str.charCodeAt(i++);
+                if (i === len) {
+                    string += base64EncodeChars.charAt(c1 >> 2);
+                    string += base64EncodeChars.charAt(((c1 & 0x3) << 4) | ((c2 & 0xF0) >> 4));
+                    string += base64EncodeChars.charAt((c2 & 0xF) << 2);
+                    string += "=";
+                    break;
+                }
+                c3 = str.charCodeAt(i++);
+                string += base64EncodeChars.charAt(c1 >> 2);
+                string += base64EncodeChars.charAt(((c1 & 0x3) << 4) | ((c2 & 0xF0) >> 4));
+                string += base64EncodeChars.charAt(((c2 & 0xF) << 2) | ((c3 & 0xC0) >> 6));
+                string += base64EncodeChars.charAt(c3 & 0x3F);
+            }
+            return string;
+        }
+
+        function GetToken() {
+ 
+            var data = {
+                //认证类型 
+                grant_type: 'password',
+                client_id: 'clientanduser',
+                client_secret:'secret',
+                username: $("#username").val(),
+                //password: Base64_Encode($("#password").val())
+                password: $("#password").val(),
+                scope:"api1"
+            }
+
+            //var data = {
+            //    //认证类型 
+            //    grant_type: 'client_credentials',
+            //    client_id: 'client',
+            //    client_secret:'secret',
+            //    scope:"api1"
+            //}
+
+             
+
+            $.ajax({
+                type: "POST",
+                url:uri + '/connect/token',
+                data: data,
+                //headers: headers,
+                success: function (data) {
+                    console.log(data);
+                    sessionStorage.setItem("token", JSON.stringify(data));
+                    acctoken = data;
+                    console.log('Bearer ' + acctoken.access_token);
+                }
+            });
+        }
+
+
+        function test() {
+
+            var headers = {
+                'Authorization': 'Bearer ' + acctoken.access_token,
+            };
+            var data = {
+                encryStr:"vUvh7AGbD9H5rM5MEh2YyLOBu3Oa8UmFH7l/mOAv1tc="
+            };
+ 
+            $.ajax({
+                type: "POST",
+                url: uri + '/api/test/t001',
+                //url: 'http://localhost:5001/api/test/t001',
+                contentType: "application/json",
+                data:JSON.stringify(data),
+                headers: headers,
+                success: function (data) {
+                    console.log(data);
+                },
+                error: function (e) {
+                    console.log(e);
+                }
+
+            })
+        }
+
+        function wx_hub_pay() {
+            var data = {
+                encryStr: "vUvh7AGbD9H5rM5MEh2YyLOBu3Oa8UmFH7l/mOAv1tc="
+            };
+
+            $.ajax({
+                type: "POST",
+                url: uri + 'api/HealthCard/getPatientCardList',
+                //url: 'http://localhost:5001/api/test/t001',
+                data: JSON.stringify(data),
+                success: function (data) {
+                    console.log(data);
+                },
+                error: function (e) {
+                    console.log(e);
+                }
+
+            })
+        }
+        function test1() {
+            var param = {
+                regType: '1',
+            }
+            $.ajax({
+                type: "GET",
+                    url: uri + '/api/test/t001',
+                //url: 'http://localhost:5001/api/test/t001',
+ 
+                success: function (data) {
+                    console.log(data);
+                },
+                error: function (e) {
+                    console.log(e);
+                }
+
+            })
+        }
+
+        function Test2() {
+
+            // saassddasfffxxfvvvnnkkajzksfmmcokoloilhlgonomovoco
+            // var headers = {
+            //     'Authorization': 'Bearer ' + acctoken.access_token
+            // };
+            // var param = {
+            //         sqlStr: ' SELECT TOP 1000 *  FROM  H_Admin WHERE Admin_Code=@code OR Admin_Name=@name ',
+            //         paraData:JSON.stringify({name:'name',code:'code'}),
+            //         name:'getHAdmin'
+            //     }
+            var param = {
+                name: '100',
+                code: '300'
+            }
+            $.ajax({
+                type: "POST",
+                // url: uri+'DAPI/getData/getHAdmin',
+                url: uri + 'DAPI/GetAPI',
+
+                // url: uri+'DAPI/AddDynamicAPI',
+                data: param,
+                // headers: headers,
+                //beforeSend: function (xhr) {
+                //    xhr.setRequestHeader('Authorization', "Basic YWRtaW46");
+                //},
+                success: function (data) {
+                    console.log(data.returnData);
+                    //alert("查看F12的Console：" + JSON.stringify(data));
+                }
+            });
+        }
+
+        function getfile() {
+            console.log($("#fileinp").val());
+        }
+
+        function test3() {
+            var param = {
+                input: '221',
+            }
+            $.ajax({
+                type: "POST",
+ 
+       contentType:"text/html",
+                url: 'http://192.168.1.101:5000/api/Account/login',
+                data: param,
+                success: function (data) {
+                    console.log(data);
+                },
+                error: function (e) {
+                    console.log(e);
+                }
+
+            })
+        }
+
+    </script>
+</body>
+
+</html>

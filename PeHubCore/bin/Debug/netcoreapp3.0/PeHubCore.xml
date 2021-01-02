@@ -1,0 +1,539 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PeHubCore</name>
+    </assembly>
+    <members>
+        <member name="M:PeHubCore.Config.IdsConfig.GetUsers">
+            <summary>
+            注册的账号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Config.IdsConfig.GetIdentityResources">
+            <summary>
+            获取标识资源
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Config.IdsConfig.GetApis">
+            <summary>
+            作用域（可以控制不同的方向）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Config.IdsConfig.GetClients">
+            <summary>
+            客户端接入的模式
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:PeHubCore.WxConfig">
+            <summary>
+            配置文件配置管理
+            </summary>
+        </member>
+        <member name="F:PeHubCore.WxConfig.appId">
+            <summary>
+            应用ID
+            </summary>
+        </member>
+        <member name="F:PeHubCore.WxConfig.appSecret">
+            <summary>
+            应用密钥
+            </summary>
+        </member>
+        <member name="F:PeHubCore.WxConfig.mchId">
+            <summary>
+            商户号
+            </summary>
+        </member>
+        <member name="F:PeHubCore.WxConfig.signType">
+            <summary>
+            签名方式
+            </summary>
+        </member>
+        <member name="F:PeHubCore.WxConfig.domain">
+            <summary>
+            域名
+            </summary>
+        </member>
+        <member name="F:PeHubCore.WxConfig.notifyUrl">
+            <summary>
+            微信支付结果通知的回调地址
+            </summary>
+        </member>
+        <member name="F:PeHubCore.WxConfig.regPayNotifyUrl">
+            <summary>
+            支付回调
+            </summary>
+        </member>
+        <member name="F:PeHubCore.WxConfig.redirectUrl">
+            <summary>
+            授权回调地址
+            </summary>
+        </member>
+        <member name="F:PeHubCore.WxConfig.NgUrl">
+            <summary>
+            授权回调到前端授权地址
+            </summary>
+        </member>
+        <member name="F:PeHubCore.WxConfig.key">
+            <summary>
+            API密钥
+            </summary>
+        </member>
+        <member name="F:PeHubCore.WxConfig.payTest">
+            <summary>
+            是否测试支付(商品描述:test,金额:0.01)
+            </summary>
+        </member>
+        <member name="F:PeHubCore.WxConfig.certPath">
+            <summary>
+            证书路径
+            </summary>
+        </member>
+        <member name="F:PeHubCore.WxConfig.TimeOutMin">
+            <summary>
+            订单超时时间间隔 单位：分钟
+            </summary>
+        </member>
+        <member name="M:PeHubCore.Controllers.BaseApiController.setSession(System.String,System.Object)">
+            <summary>
+            设置session(使用前先注入sessionService)
+            </summary>
+            <param name="key"></param>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.BaseApiController.getSession``1(System.String)">
+            <summary>
+            获取session (使用前先注入sessionService)
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.BaseApiController.PeAdminLogin">
+            <summary>
+            访问后台管理
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeClusterController.GetCodeClusterList">
+            <summary>
+            获取套餐列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeClusterController.CodeClusterAdd(DataModel.Other.encryData)">
+            <summary>
+            套餐添加
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeClusterController.CodeClusterUpdate(DataModel.Other.encryData)">
+            <summary>
+            套餐修改
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeClusterController.CodeClusterDel(DataModel.Other.encryData)">
+            <summary>
+            套餐删除
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeClusterController.GetCodeClusterEntryList">
+            <summary>
+            获取组合-套餐关系列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeClusterController.GetCodeClusterEntryDetail(System.String)">
+            <summary>
+            获取组合-套餐关系详情
+            </summary>
+            <param name="clusCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeClusterController.CodeClusterEntryAdd(DataModel.codeClusterEntry)">
+            <summary>
+            添加组合-套餐关系
+            </summary>
+            <param name="cce"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeClusterController.CodeClusterEntryDel(System.String)">
+            <summary>
+            删除组合-套餐关系
+            </summary>
+            <param name="clusCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeItemCombController.GetCodeItemCombList">
+            <summary>
+            获取组合列表
+            </summary>
+            <param name="combCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeItemCombController.CodeItemCombAdd(DataModel.Other.encryData)">
+            <summary>
+            组合添加
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeItemCombController.CodeItemCombUpdate(DataModel.Other.encryData)">
+            <summary>
+            组合修改
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeItemCombController.CodeItemCombDel(DataModel.Other.encryData)">
+            <summary>
+            删除组合
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeItemCombController.GetCodeItemCombEntryList">
+            <summary>
+            获取项目-组合关联表列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeItemCombController.GetCodeItemCombEntryDetail(System.String)">
+            <summary>
+            获取项目-组合关联表详情
+            </summary>
+            <param name="combCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeItemCombController.CodeItemCombEntryAdd(DataModel.codeItemCombEntry)">
+            <summary>
+            添加项目-组合关系
+            </summary>
+            <param name="cice"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeItemCombController.CodeItemCombEntryDel(System.String)">
+            <summary>
+            删除项目-组合关系
+            </summary>
+            <param name="combCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeItemCombController.GetCodeItemCombEntryHospList">
+            <summary>
+            获取医院-组合列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeItemCombController.GetCodeItemCombEntryHospDetail(System.String)">
+            <summary>
+            获取医院-组合详情
+            </summary>
+            <param name="hospCombCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeItemCombController.CodeItemCombEntryHospAdd(DataModel.CodeItemCombEntryHosp)">
+            <summary>
+            添加医院-组合关系
+            </summary>
+            <param name="cceh"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeItemCombController.CodeItemCombEntryHospDel(System.String)">
+            <summary>
+            删除医院-组合关系
+            </summary>
+            <param name="hospCombCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeItemController.GetCodeItemList">
+            <summary>
+            获取项目列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeItemController.CodeItemAdd(DataModel.Other.encryData)">
+            <summary>
+            项目添加
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeItemController.CodeItemUpdate(DataModel.Other.encryData)">
+            <summary>
+            项目修改
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CodeItemController.CodeItemDel(DataModel.Other.encryData)">
+            <summary>
+            删除项目
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:PeHubCore.Controllers.CommonApiController">
+             <summary>
+            通用
+             </summary>
+        </member>
+        <member name="M:PeHubCore.Controllers.CommonApiController.FilePicSave">
+            <summary>
+            上传文件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.CommonApiController.getApiVersion">
+            <summary>
+            获取最新版本发布更新前端缓存使用
+            </summary>
+            <param name="pData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.HospitalController.GetHospitalListAsync(DataModel.Other.encryData)">
+            <summary>
+            获取医院列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.HospitalController.GetHospitalLevelList">
+            <summary>
+            获取医院等级列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.HospitalController.GetHospitalByCodeAsync(DataModel.Other.encryData)">
+            <summary>
+            根据医院代码获取医院信息
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.HospitalController.CreateHospitalAsync(DataModel.Other.encryData)">
+            <summary>
+            创建医院
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.HospitalController.UpdateHospitalByCodeAsync(DataModel.Other.encryData)">
+            <summary>
+            根据医院代码修改医院信息
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.HospitalController.DeleteHospitalByCodeAsync(DataModel.Other.encryData)">
+            <summary>
+            根据医院代码删除医院
+            </summary>
+            <param name="hospitalCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.MemberController.GetMemberListAsync(DataModel.Other.encryData)">
+            <summary>
+            获取会员列表
+            </summary>
+            <param name="page"></param>
+            <param name="row"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.MemberController.GetMemberSexList">
+            <summary>
+            获取会员性别列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.MemberController.UpdateMemberByOpenIdAsync(DataModel.Other.encryData)">
+            <summary>
+            修改会员信息
+            </summary>
+            <param name="member"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.OAuthController.OAuth(System.String)">
+            <summary>
+            获取openId
+            </summary>
+            <param name="targetUrl">跳转的类型，放回到前端自己处理（是类型key，不是url）</param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.OAuthController.OAuthCallback(System.String,System.String)">
+            <summary>
+            处理授权回调
+            </summary>
+            <param name="code"></param>
+            <param name="state"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.OAuthController.DZOauth(System.String)">
+            <summary>
+            导诊授权
+            </summary>
+            <param name="type">type和_和key组合，比如'DZ_19022221221'</param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.OAuthController.setSession(System.String,System.Object)">
+            <summary>
+            设置session(使用前先注入sessionService)
+            </summary>
+            <param name="key"></param>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.OAuthController.getSession``1(System.String)">
+            <summary>
+            获取session (使用前先注入sessionService)
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.SystemSettingController.Login(DataModel.Other.encryData)">
+            <summary>
+            前端登录
+            </summary>
+            <param name="pdata"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.SystemSettingController.GetMenuListById(DataModel.Other.encryData)">
+            <summary>
+            根据前端传的用户获取动态路由
+            </summary>
+            <param name="pData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.SystemSettingController.GetAdminList(DataModel.Other.encryData)">
+            <summary>
+            获取管理员列表
+            </summary>
+            <param name="pData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.SystemSettingController.AddAdmin(DataModel.Other.encryData)">
+            <summary>
+            添加管理员信息
+            </summary>
+            <param name="pData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.SystemSettingController.UpdateAdmin(DataModel.Other.encryData)">
+            <summary>
+            修改管理员信息
+            </summary>
+            <param name="pData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.SystemSettingController.DeleteAdminByIds(DataModel.Other.encryData)">
+            <summary>
+            根据id集合批量删除管理员信息
+            </summary>
+            <param name="pData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.SystemSettingController.GetRoleList(DataModel.Other.encryData)">
+            <summary>
+            获取角色列表
+            </summary>
+            <param name="pData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.SystemSettingController.AddRole(DataModel.Other.encryData)">
+            <summary>
+            添加角色信息
+            </summary>
+            <param name="pData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.SystemSettingController.UpdateRole(DataModel.Other.encryData)">
+            <summary>
+            修改角色信息
+            </summary>
+            <param name="pData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.SystemSettingController.DeleteRoleByIds(DataModel.Other.encryData)">
+            <summary>
+            根据id集合批量删除角色信息
+            </summary>
+            <param name="pData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.SystemSettingController.GetMenuIdsByRoleId(DataModel.Other.encryData)">
+            <summary>
+            根据角色id获取菜单id列表
+            </summary>
+            <param name="pData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.SystemSettingController.SetPower(DataModel.Other.encryData)">
+            <summary>
+            设置权限
+            </summary>
+            <param name="pData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.TagController.GetTagListAsync">
+            <summary>
+            获取标签列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.TagController.CreateTagAsync(DataModel.Other.encryData)">
+            <summary>
+            创建标签
+            </summary>
+            <param name="tag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.TagController.UpdateTagAsync(DataModel.Other.encryData)">
+            <summary>
+            修改标签信息
+            </summary>
+            <param name="tag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PeHubCore.Controllers.TagController.DeleteTagAsync(DataModel.Other.encryData)">
+            <summary>
+            删除标签
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PeHubCore.Middleware.AskMiddleWare">
+            <summary>
+            中间件 记录请求和响应数据
+            </summary>
+        </member>
+        <member name="F:PeHubCore.Middleware.AskMiddleWare._next">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:PeHubCore.Middleware.AskMiddleWare.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            </summary>
+            <param name="next"></param>
+        </member>
+        <member name="M:PeHubCore.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:PeHubCore.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.Extensions.Options.IOptions{Senparc.CO2NET.SenparcSetting},Microsoft.Extensions.Options.IOptions{Senparc.Weixin.Entities.SenparcWeixinSetting})">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

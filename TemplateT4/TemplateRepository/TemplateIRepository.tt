@@ -1,0 +1,73 @@
+﻿<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ output extension=".cs" #>
+<#@ assembly name="System.Core.dll" #>
+<#@ assembly name="System.Data.dll" #>
+<#@ assembly name="System.Data.DataSetExtensions.dll" #>
+<#@ assembly name="System.Xml.dll" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.Xml" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Data" #>
+<#@ import namespace="System.Data.SqlClient" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.IO" #>
+<#@ include file="$(ProjectDir)DbHelper.ttinclude"  #>
+<#@ include file="$(ProjectDir)ModelAuto.ttinclude"	#>
+<# var manager = new Manager(Host, GenerationEnvironment, true); #>
+
+
+<# 
+	var OutputPath1 =Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(Host.TemplateFile+"..")+"..")+"..");
+	OutputPath1=Path.Combine(OutputPath1,"Repository","IRepository");
+	if (!Directory.Exists(OutputPath1))
+	{
+	    Directory.CreateDirectory(OutputPath1);
+	}
+#>
+
+
+<# 
+    SqlConnection conn = new SqlConnection(config.ConnectionString); 
+    conn.Open(); 
+    System.Data.DataTable schema = conn.GetSchema("TABLES"); 
+ #>
+
+<# 
+    foreach(System.Data.DataRow row in schema.Rows) 
+    { 
+	    if (File.Exists(Path.Combine(OutputPath1, "I" + row["TABLE_NAME"].ToString() + "Repository" + ".cs")))
+        {
+            continue;
+        }
+
+		manager.StartBlock("I"+row["TABLE_NAME"].ToString()+"Repository"+".cs",OutputPath1);//文件名
+	 #>
+using DataModel;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Repository.IRepository
+{	
+	/// <summary>
+	/// I<#=row["TABLE_NAME"].ToString()#>Repository
+	/// </summary>	
+	public interface I<#=row["TABLE_NAME"].ToString()#>Repository : IBaseRepository<<#=row["TABLE_NAME"].ToString()#>>
+    {
+
+       
+    }
+}
+
+	<# 
+		manager.EndBlock(); 
+
+		manager.Process(true);
+	}
+	#> 
+
+	
+
+
+

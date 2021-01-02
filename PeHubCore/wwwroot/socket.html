@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>socket例子</title>
+    <script src="https://www.jq22.com/jquery/jquery-2.1.1.js"></script>
+</head>
+<body>
+    <script>
+        function SocketHelper(params) {
+            var options = $.extend({}, {
+                uri: (window.location.protocol=="https:"?"wss://":"ws//") + window.location.host + "/socket",
+                Received: function (result) { },//接收事件
+                ReceiverId: "" //接收人
+            }, params);
+            var socket;//对象
+            var SenderId = "";//发送人
+            Connect = function () {
+                SenderId = $("#cid").val();
+                // this.uri = uri;
+                this.socket = new WebSocket(options.uri);
+                this.socket.onopen = function (e) { _self.Open(e) };
+                var _self = this;
+                this.socket.onmessage = function (e) { _self.Received(e); };
+                this.socket.onerror = function (e) { _self.Error(e); };
+            };
+            Send = function (ReceiverId, message) {
+                var sendData = { "SenderId": SenderId, "ReceiverId": ReceiverId, "MessageType": "text", "Content": message };
+                try {
+                    this.socket.send(JSON.stringify(sendData));
+                } catch (e) {
+                    this.Connect();
+
+                }
+                console.log(sendData);
+            };
+            Open = function (e) {
+                this.Send("Service", "连接");
+                //this.Send($("#cid").val(), "连接");
+                console.log("socket opened", e);
+            };
+            Close = function (e) {
+                this.socket.close();
+                console.log("socket closed", e);
+            };
+            Received = function (e) {
+                var result = JSON.parse(e.data);
+                if (options.Received) {
+                    options.Received(result);
+                }
+                if (result.SenderId == "Service" && result.Content == "open") {
+                    SenderId = result.ReceiverId;
+                }
+
+                console.log("Sender: " + result.SenderId);
+                console.log("data: " + e.data);
+            };
+            Error = function (e) {
+                console.log("Error: " + e.data);
+            }
+            return this;
+        }
+
+        var soc = SocketHelper(null);
+
+        function sendsoc() {
+            soc.Send($("#sid").val(), $("#msg").val());
+        }
+    </script>
+    <input type="text" id="cid" value="" placeholder="自己的名" />
+    <input type="text" id="sid" value="" placeholder="对方的名" />
+    <input type="text" id="msg" value="" placeholder="发送的信息" />
+    <button onclick="soc.Connect()">连接</button>
+    <!--<button onclick="soc.Open()">打开</button>-->
+    <button onclick="soc.sendsoc()">发送</button>
+</body>
+</html>

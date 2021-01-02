@@ -1,0 +1,12 @@
+E:\康软\职检之家项目\OccupationHubCoreAPI\DataModel\bin\Debug\netcoreapp3.0\DataModel.deps.json
+E:\康软\职检之家项目\OccupationHubCoreAPI\DataModel\bin\Debug\netcoreapp3.0\DataModel.dll
+E:\康软\职检之家项目\OccupationHubCoreAPI\DataModel\bin\Debug\netcoreapp3.0\DataModel.pdb
+E:\康软\职检之家项目\OccupationHubCoreAPI\DataModel\bin\Debug\netcoreapp3.0\ServiceExt.dll
+E:\康软\职检之家项目\OccupationHubCoreAPI\DataModel\bin\Debug\netcoreapp3.0\ServiceExt.pdb
+E:\康软\职检之家项目\OccupationHubCoreAPI\DataModel\obj\Debug\netcoreapp3.0\DataModel.csprojAssemblyReference.cache
+E:\康软\职检之家项目\OccupationHubCoreAPI\DataModel\obj\Debug\netcoreapp3.0\DataModel.AssemblyInfoInputs.cache
+E:\康软\职检之家项目\OccupationHubCoreAPI\DataModel\obj\Debug\netcoreapp3.0\DataModel.AssemblyInfo.cs
+E:\康软\职检之家项目\OccupationHubCoreAPI\DataModel\obj\Debug\netcoreapp3.0\DataModel.csproj.CoreCompileInputs.cache
+E:\康软\职检之家项目\OccupationHubCoreAPI\DataModel\obj\Debug\netcoreapp3.0\DataModel.csproj.CopyComplete
+E:\康软\职检之家项目\OccupationHubCoreAPI\DataModel\obj\Debug\netcoreapp3.0\DataModel.dll
+E:\康软\职检之家项目\OccupationHubCoreAPI\DataModel\obj\Debug\netcoreapp3.0\DataModel.pdb

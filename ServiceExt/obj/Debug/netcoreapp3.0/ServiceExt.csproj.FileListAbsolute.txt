@@ -1,0 +1,9 @@
+E:\康软\职检之家项目\OccupationHubCoreAPI\ServiceExt\bin\Debug\netcoreapp3.0\ServiceExt.deps.json
+E:\康软\职检之家项目\OccupationHubCoreAPI\ServiceExt\bin\Debug\netcoreapp3.0\ServiceExt.dll
+E:\康软\职检之家项目\OccupationHubCoreAPI\ServiceExt\bin\Debug\netcoreapp3.0\ServiceExt.pdb
+E:\康软\职检之家项目\OccupationHubCoreAPI\ServiceExt\obj\Debug\netcoreapp3.0\ServiceExt.csprojAssemblyReference.cache
+E:\康软\职检之家项目\OccupationHubCoreAPI\ServiceExt\obj\Debug\netcoreapp3.0\ServiceExt.AssemblyInfoInputs.cache
+E:\康软\职检之家项目\OccupationHubCoreAPI\ServiceExt\obj\Debug\netcoreapp3.0\ServiceExt.AssemblyInfo.cs
+E:\康软\职检之家项目\OccupationHubCoreAPI\ServiceExt\obj\Debug\netcoreapp3.0\ServiceExt.csproj.CoreCompileInputs.cache
+E:\康软\职检之家项目\OccupationHubCoreAPI\ServiceExt\obj\Debug\netcoreapp3.0\ServiceExt.dll
+E:\康软\职检之家项目\OccupationHubCoreAPI\ServiceExt\obj\Debug\netcoreapp3.0\ServiceExt.pdb
